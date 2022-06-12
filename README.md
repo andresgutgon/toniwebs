@@ -19,6 +19,7 @@ Some landing pages generated with Astro and React
 - [x] SEO metatags
 - [ ] Review copies / translations on SEO metatags
 - [ ] Robots.txt
+- [ ] Favicon (maybe the same as tonifiguera.com)
 - [ ] Make a /404.htm page
 - [ ] Make sitemap.xml
 
