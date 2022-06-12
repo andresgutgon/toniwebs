@@ -3,6 +3,6 @@ import Layout from '@layouts/Default.astro'
 import Home from '@components/MaestroCeremonias/Home'
 import { sites, getPage } from '@sites/index'
 
-const site = getPage(sites.maestroCeremoniasCat, 'page', 'ca')
+const site = getPage(sites.maestroCeremoniasCat, 'home', 'ca')
 ---
 <Layout site={site}><Home site={site} /></Layout>

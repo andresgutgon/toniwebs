@@ -1,8 +1,8 @@
 ---
 import Layout from '@layouts/Default.astro'
 import Home from '@components/MaestroCeremonias/Home'
-import { sites } from '@sites/index'
+import { sites, getPage } from '@sites/index'
 
-const site = getPage(sites.maestroCeremoniasCat.home, 'es')
+const site = getPage(sites.maestroCeremoniasCat, 'home', 'es')
 ---
 <Layout site={site}><Home site={site} /></Layout>

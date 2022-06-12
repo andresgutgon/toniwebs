@@ -1,8 +1,18 @@
 import type { Locale } from '@types'
-import type { SitePage, Page, LocaleOption, Domain, Site } from './types'
+import type {
+  SitePage,
+  Page,
+  OpenGraph,
+  LocaleOption,
+  Domain,
+  Site
+} from './types'
 import { DOMAINS } from './domains'
 
 type PageLocale = { locale: Locale; localeLabel: string }
+const OG_TYPE = 'website'
+const OG_IMAGE_URL = '/og-image.jpg'
+const OG_IMAGE_DIMENSIONS = { width: 880, height: 495 }
 const PAGE_LOCALE: Record<Locale, PageLocale> = {
   es: { locale: 'es', localeLabel: 'Castellano' },
   ca: { locale: 'ca', localeLabel: 'Catalá' }
@@ -18,6 +28,18 @@ export const sites: Record<string, Site> = {
           meta: {
             title: 'Mestro de ceremonias',
             description: 'Maestro bla bla bla'
+          },
+          openGraph: {
+            basic: {
+              title: 'TO BE DEFINED',
+              type: OG_TYPE,
+              image: OG_IMAGE_URL
+            },
+            image: {
+              alt: 'TO BE DEFINED',
+              url: OG_IMAGE_URL,
+              ...OG_IMAGE_DIMENSIONS
+            }
           }
         },
         ca: {
@@ -26,6 +48,18 @@ export const sites: Record<string, Site> = {
           meta: {
             title: 'Mestre de ceremonias',
             description: 'Mestre bla bla bla'
+          },
+          openGraph: {
+            basic: {
+              title: 'TO BE DEFINED',
+              type: OG_TYPE,
+              image: OG_IMAGE_URL
+            },
+            image: {
+              alt: 'TO BE DEFINED',
+              url: OG_IMAGE_URL,
+              ...OG_IMAGE_DIMENSIONS
+            }
           }
         }
       }
@@ -47,7 +81,7 @@ export const getPage = (
   pageKey: string,
   currentLocale: Locale
 ): SitePage => {
-  const i18nPage = site[pageKey]
+  const i18nPage = site.pages[pageKey]
   const domain = site.domain
   const page = i18nPage[currentLocale]
   const localeOptions = Object.keys(i18nPage).reduce(
@@ -78,7 +112,7 @@ export const getPage = (
   const localeAlternate = nonCurrentPages.map((p) => p.locale)
 
   return {
-    domain,
+    site,
     page,
     localeOptions,
     canonicalUrl,

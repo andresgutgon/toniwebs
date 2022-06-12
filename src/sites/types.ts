@@ -4,11 +4,25 @@ import { DOMAINS } from './domains'
 export type DomainKeys = keyof typeof DOMAINS
 export type Domain = typeof DOMAINS[DomainKeys]
 
+export type OpenGraph = {
+  basic: {
+    title: string
+    type: string
+    image: string
+  }
+  image: {
+    alt: string
+    url: string
+    width: number
+    height: number
+  }
+}
 export type Page = {
   meta: {
     title: string
     description: string
   }
+  openGraph: OpenGraph
   locale: Locale
   localeLabel: string
   path?: string // Home no path
@@ -18,13 +32,14 @@ export type Page = {
 export type I18nPage = Record<Locale, Page>
 export type Site = {
   domain: Domain
+  openGraph: Record<Locale, OpenGraph>
   pages: Record<string, I18nPage>
 }
 
 export type LocaleOption = { label: string; value: Locale }
 type CanonicalUrl = { url: string; locale: Locale }
 export type SitePage = {
-  domain: Domain
+  site: Site
   page: Page
   localeOptions: LocaleOption[]
   currentUrl: string

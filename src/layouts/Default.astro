@@ -1,35 +1,53 @@
 ---
-import { SEO } from "astro-seo"
+import { SEO } from 'astro-seo'
+
 import type { SitePage } from '@sites/types'
 import { buildCanonicalAndAlternate } from '@sites/index'
 
-export interface Props = { page: SitePage }
+export interface Props { page: SitePage }
 
-const { site } = Astro.props
-const { locale, page, currentUrl, canonicalUrl } = site
-const page = site.page
+const { site: config } = Astro.props
+const {
+  locale,
+  page,
+  currentUrl,
+  canonicalUrl,
+  localeAlternate,
+  alternateUrls,
+} = config
 const { title, description } = page.meta
+const og = page.openGraph
 const openGraph = {
   basic: {
-    title,
-    type: 'website',
-    url: currentUrl,
-    image: '/public/og-image.jpg'
+    ...og.basic,
+    url: currentUrl
   },
-  optional: { description }
+  image: page.openGraph.image,
+  optional: { description, localeAlternate }
 }
 ---
 <html lang={locale}>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <Seo
+    <SEO
       title={title}
       description={description}
       canonical={canonicalUrl.url}
       openGraph={openGraph}
+      extend={{
+        meta: [
+          { charset: 'utf-8' },
+          { name: 'viewport', content: 'width=device-width' },
+        ],
+        link: [
+          { rel: "icon", href: "/favicon.ico" },
+          ...alternateUrls.map(alternate => ({
+            href: alternate.url,
+            rel: 'alternate',
+            hrefLang: alternate.locale
+          }))
+        ]
+      }}
     />
-    <title>{title}</title>
   </head>
   <body>
     <slot />
