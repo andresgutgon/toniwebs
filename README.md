@@ -2,9 +2,11 @@
 Some landing pages generated with React
 
 ## TODO
-- [] Investigate renderToString
+- [x] Investigate renderToString
+- [] Typescript in Astro
+- [] Layout common in Astro (pass locale)
+- [] Internationalize. React-intl for locales
 - [] Investigate deploy to ghpages each domain
-- [] Internationalize
 - [] Make a /404.htm page
 
 ## List of domains
