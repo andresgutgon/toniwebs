@@ -1,13 +1,19 @@
-import type { Locale } from '../../types'
+import { FormattedMessage } from 'react-intl'
+
+import DefaultLayout from "@layouts/Default"
+import type { MetaTags } from "@layouts/Default"
+
 
 type Props = {
-  locale: Locale
-  title: string
+  meta: MetaTags
 }
-
-const MaestroCeremonias = ({ title }: Props) => {
+const MaestroCeremonias = ({ meta }: Props) => {
   return (
-    <h2 className='text-red-600 text-8xl'>{title}</h2>
+    <DefaultLayout meta={meta}>
+      <h2 className='text-red-600 text-8xl'>{meta.title}</h2>
+      <p><FormattedMessage id='n+D0mx' defaultMessage='Adios' /></p>
+
+    </DefaultLayout>
   )
 }
 
