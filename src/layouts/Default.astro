@@ -1,10 +1,34 @@
 ---
-const { locale, title } = Astro.props
+import { SEO } from "astro-seo"
+import type { SitePage } from '@sites/types'
+import { buildCanonicalAndAlternate } from '@sites/index'
+
+export interface Props = { page: SitePage }
+
+const { site } = Astro.props
+const { locale, page, currentUrl, canonicalUrl } = site
+const page = site.page
+const { title, description } = page.meta
+const openGraph = {
+  basic: {
+    title,
+    type: 'website',
+    url: currentUrl,
+    image: '/public/og-image.jpg'
+  },
+  optional: { description }
+}
 ---
 <html lang={locale}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <Seo
+      title={title}
+      description={description}
+      canonical={canonicalUrl.url}
+      openGraph={openGraph}
+    />
     <title>{title}</title>
   </head>
   <body>

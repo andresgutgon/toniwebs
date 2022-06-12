@@ -1,17 +1,8 @@
 ---
 import Layout from '@layouts/Default.astro'
-import MaestroCeremonias from '@components/MaestroCeremonias'
+import Home from '@components/MaestroCeremonias/Home'
+import { sites } from '@sites/index'
 
-const meta = {
-  locale: 'ca',
-  title: 'Maestro de ceremonias',
-  description: '',
-  keywords: ''
-}
+const site = getPage(sites.maestroCeremoniasCat.home, 'es')
 ---
-<Layout
-  locale={meta.locale}
-  title={meta.title}
->
-  <MaestroCeremonias meta={meta} />
-</Layout>
+<Layout site={site}><Home site={site} /></Layout>

@@ -1,0 +1,90 @@
+import type { Locale } from '@types'
+import type { SitePage, Page, LocaleOption, Domain, Site } from './types'
+import { DOMAINS } from './domains'
+
+type PageLocale = { locale: Locale; localeLabel: string }
+const PAGE_LOCALE: Record<Locale, PageLocale> = {
+  es: { locale: 'es', localeLabel: 'Castellano' },
+  ca: { locale: 'ca', localeLabel: 'Catalá' }
+}
+export const sites: Record<string, Site> = {
+  maestroCeremoniasCat: {
+    domain: DOMAINS.maestroCeremonias,
+    pages: {
+      home: {
+        es: {
+          ...PAGE_LOCALE.es,
+          canonical: true,
+          meta: {
+            title: 'Mestro de ceremonias',
+            description: 'Maestro bla bla bla'
+          }
+        },
+        ca: {
+          ...PAGE_LOCALE.ca,
+          path: 'ca',
+          meta: {
+            title: 'Mestre de ceremonias',
+            description: 'Mestre bla bla bla'
+          }
+        }
+      }
+    }
+  }
+}
+
+export const buildUrl = (domain: Domain, path: string | null): string => {
+  const base = 'https://'
+  const domainWithBase = `${base}${domain}`
+
+  if (!path) return domainWithBase
+
+  return `${domainWithBase}/${path}`
+}
+
+export const getPage = (
+  site: Site,
+  pageKey: string,
+  currentLocale: Locale
+): SitePage => {
+  const i18nPage = site[pageKey]
+  const domain = site.domain
+  const page = i18nPage[currentLocale]
+  const localeOptions = Object.keys(i18nPage).reduce(
+    (memo: LocaleOption[], locale: Locale) => {
+      const page = i18nPage[locale]
+      memo.push({
+        label: page.localeLabel,
+        value: page.locale
+      })
+      return memo
+    },
+    []
+  )
+  const pages = Object.values(i18nPage) as Page[]
+  const nonCurrentPages = pages.filter((p) => p.locale !== currentLocale)
+  const canonicalPage: Page = pages.find((p: Page) => p.canonical)
+  const nonCanonicalPages: Page[] = pages.filter((p: Page) => !p.canonical)
+  const alternateUrls = nonCanonicalPages.map((page: Page) => ({
+    url: buildUrl(domain, page.path),
+    locale: page.locale
+  }))
+  const path = canonicalPage.path
+  const currentUrl = buildUrl(domain, page.path)
+  const canonicalUrl = {
+    url: buildUrl(domain, path),
+    locale: canonicalPage.locale
+  }
+  const localeAlternate = nonCurrentPages.map((p) => p.locale)
+
+  return {
+    domain,
+    page,
+    localeOptions,
+    canonicalUrl,
+    alternateUrls,
+    currentUrl,
+    locale: currentLocale,
+    localeAlternate
+  }
+}

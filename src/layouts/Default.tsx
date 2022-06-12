@@ -1,24 +1,20 @@
 import { useMemo } from 'react'
 import type { ReactNode } from 'react'
-import { Locale } from '@types'
 import { IntlProvider } from 'react-intl'
+
+import type { SitePage } from '@sites/types'
 
 import ES_LOCALE from '../locales/compiled/es.json'
 import CA_LOCALE from '../locales/compiled/ca.json'
 
-export type MetaTags = {
-  locale: Locale
-  title: string
-  description: string
-  keywords: string
-}
 type Props = {
   children: ReactNode
-  meta: MetaTags
+  site: SitePage
 }
-const DefaultLayout = ({ meta, children }: Props) => {
+const DefaultLayout = ({ site, children }: Props) => {
+  const locale = site.page.locale
   const messages = useMemo(() => {
-    switch (meta.locale) {
+    switch (locale) {
       case 'es':
         return ES_LOCALE
       case 'ca':
@@ -26,10 +22,11 @@ const DefaultLayout = ({ meta, children }: Props) => {
       default:
         return ES_LOCALE
     }
-  }, [meta.locale])
+  }, [locale])
 
+  // TODO: Do provider to page sitePage
   return (
-    <IntlProvider locale={meta.locale} messages={messages}>
+    <IntlProvider locale={locale} messages={messages}>
       {children}
     </IntlProvider>
   )

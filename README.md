@@ -19,6 +19,7 @@ Some landing pages generated with Astro and React
 
 - [ ] Href langs (join between locales)
 - [ ] SEO metatags
+- [ ] Robots.txt
 - [ ] Make a /404.htm page
 - [ ] Make sitemap.xml
 
