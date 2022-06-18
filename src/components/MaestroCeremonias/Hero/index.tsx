@@ -23,6 +23,13 @@ export default function Hero() {
   })
   const menuItems = [
     {
+      url: '#presentador',
+      text: intl.formatMessage({
+        id: 'FILuxH',
+        defaultMessage: 'Presentador'
+      })
+    },
+    {
       url: '#ejemplos-de-boda',
       text: intl.formatMessage({
         id: '9u7E3s',

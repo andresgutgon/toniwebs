@@ -26,7 +26,7 @@ const Planning = () => {
             <h3 className='font-serif text-3xl tracking-tight font-extrabold sm:text-3xl md:text-4xl text-slate-900'>
               {intl.formatMessage({
                 id: '3xDpCF',
-                defaultMessage: 'Tu ceremonia como tu quieres.'
+                defaultMessage: 'Tu ceremonia como tú quieres.'
               })}
             </h3>
             <p className='text-base sm:text-xl text-slate-900'>
