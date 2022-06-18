@@ -57,7 +57,7 @@ export default function Hero() {
           >
             <polygon points='50,0 100,0 50,100 0,100' />
           </svg>
-          <div className='relative pt-6 px-4 sm:px-6 lg:px-8'>
+          <div className='relative pt-6 sm:pt-14 px-4 sm:px-6 lg:px-8'>
             <nav
               className='relative flex flex-col items-start space-y-4'
               aria-label='Menu de navegación'
@@ -66,11 +66,11 @@ export default function Hero() {
                 <div className='flex items-center justify-between w-full md:w-auto'>
                   <a href='/'>
                     <span className='sr-only'>{logoAlt}</span>
-                    <img src={logoSrc} alt={logoAlt} className='w-40' />
+                    <img src={logoSrc} alt={logoAlt} className='h-16' />
                   </a>
                 </div>
               </div>
-              <div className='pb-4 w-full space-x-8 border-rose-600 flex'>
+              <div className='pt-2 pb-4 w-full space-x-8 border-rose-600 flex'>
                 {menuItems.map((menuItem: MenuItemProps, index: number) => (
                   <MenuItem key={index} {...menuItem} />
                 ))}
@@ -80,11 +80,12 @@ export default function Hero() {
 
           <main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
             <div className='sm:text-center lg:text-left'>
-              <h1 className='font-serif text-4xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl'>
-                <span className='block text-rose-600 xl:inline'>
+              <h1 className='font-serif text-2xl tracking-tight font-extrabold text-slate-900 sm:text-3xl md:text-4xl'>
+                <span className='block text-slate-900 xl:inline'>
                   {intl.formatMessage({
                     id: '/m71Vx',
-                    defaultMessage: 'Maestro de ceremonias'
+                    defaultMessage:
+                      'Maestro de ceremonias, oficiante de bodas, presentador.'
                   })}
                 </span>
               </h1>
@@ -115,7 +116,7 @@ export default function Hero() {
 
       <div className='relative z-10 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
         <div className='absolute left-0 bottom-8 flex'>
-          <div className='text-center px-4 md:pl-32 pt-1.5 pb-1 rounded-r-lg bg-white text-slate-600 text-base sm:text-xl font-light'>
+          <div className='text-center px-4 md:pl-32 pt-1.5 pb-1 rounded-r-lg bg-white text-slate-900 text-base sm:text-xl'>
             {intl.formatMessage({
               id: 'wdSecf',
               defaultMessage: 'Conectar y compartir emociones.'
