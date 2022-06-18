@@ -39,7 +39,10 @@ const openGraph = {
           { name: 'viewport', content: 'width=device-width' },
         ],
         link: [
-          { rel: "icon", href: "/favicon.ico" },
+          { rel: "icon", href: "/favicon.png" },
+          { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+          { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+          { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Martel+Sans:wght@300;400&display=swap'},
           ...alternateUrls.map(alternate => ({
             href: alternate.url,
             rel: 'alternate',

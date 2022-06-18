@@ -1,4 +1,4 @@
 export const DOMAINS = {
-  maestroCeremonias: 'maestro-de-ceremonias.cat',
+  maestroCeremonias: 'maestrodeceremoniasyoficiantedebodas.com',
   somethingElse: 'something.es'
 } as const

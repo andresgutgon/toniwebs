@@ -26,17 +26,18 @@ export const sites: Record<string, Site> = {
           ...PAGE_LOCALE.es,
           canonical: true,
           meta: {
-            title: 'Mestro de ceremonias',
-            description: 'Maestro bla bla bla'
+            title: 'Maestro de ceremonias',
+            description:
+              'Maestro de ceremonias oficiante de bodas presentador actor para eventos más de 20 años de experiencia Toni Figuera con mi experiencia y pasión podemos crear un evento inolvidable'
           },
           openGraph: {
             basic: {
-              title: 'TO BE DEFINED',
+              title: 'Maestro de ceremonias, oficiante de bodas, presentador.',
               type: OG_TYPE,
               image: OG_IMAGE_URL
             },
             image: {
-              alt: 'TO BE DEFINED',
+              alt: 'Toni Figuera maestro de ceremonias oficiando una boda',
               url: OG_IMAGE_URL,
               ...OG_IMAGE_DIMENSIONS
             }
@@ -46,17 +47,18 @@ export const sites: Record<string, Site> = {
           ...PAGE_LOCALE.ca,
           path: 'ca',
           meta: {
-            title: 'Mestre de ceremonias',
-            description: 'Mestre bla bla bla'
+            title: 'Maestro de ceremonias',
+            description:
+              'Maestro de ceremonias oficiante de bodas presentador actor para eventos más de 20 años de experiencia Toni Figuera con mi experiencia y pasión podemos crear un evento inolvidable'
           },
           openGraph: {
             basic: {
-              title: 'TO BE DEFINED',
+              title: 'Maestro de ceremonias, oficiante de bodas, presentador.',
               type: OG_TYPE,
               image: OG_IMAGE_URL
             },
             image: {
-              alt: 'TO BE DEFINED',
+              alt: 'Toni Figuera maestro de ceremonias oficiando una boda',
               url: OG_IMAGE_URL,
               ...OG_IMAGE_DIMENSIONS
             }
