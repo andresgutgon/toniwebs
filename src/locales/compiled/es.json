@@ -2,13 +2,25 @@
   "/m71Vx": [
     {
       "type": 0,
-      "value": "Maestro de ceremonias, oficiante de bodas, presentador."
+      "value": "Toni figuera, maestro de ceremonias"
     }
   ],
   "0OAotW": [
     {
       "type": 0,
       "value": "Sobre mí"
+    }
+  ],
+  "3xDpCF": [
+    {
+      "type": 0,
+      "value": "Tu ceremonia como tu quieres."
+    }
+  ],
+  "4Y3qdy": [
+    {
+      "type": 0,
+      "value": "Maestro de ceremonias, oficiante de bodas, presentador."
     }
   ],
   "88sEW8": [
@@ -29,10 +41,36 @@
       "value": "Pensando en los detalles de tu boda"
     }
   ],
-  "YW4JIj": [
+  "VUgx65": [
     {
       "type": 0,
       "value": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y allegados."
+    }
+  ],
+  "n71Uwf": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conectar y compartir"
+        }
+      ],
+      "type": 8,
+      "value": "hightlight"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "emociones."
+        }
+      ],
+      "type": 8,
+      "value": "normal"
     }
   ],
   "rjQbxZ": [
@@ -47,10 +85,10 @@
       "value": "Informáte sin compromiso"
     }
   ],
-  "wdSecf": [
+  "z3dPJe": [
     {
       "type": 0,
-      "value": "Conectar y compartir emociones."
+      "value": "Si estás preparando tu boda estoy seguro que ya te la has imaginado en muchas ocasiones. Cuéntame qué imaginas, tus expectativas e ilusiones, cómo te gustaría que fuera tu ceremonia y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única."
     }
   ]
 }

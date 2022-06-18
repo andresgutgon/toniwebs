@@ -1,4 +1,4 @@
-import { useIntl } from 'react-intl'
+import { FormattedMessage, useIntl } from 'react-intl'
 
 import PageWrapper from '@components/PageWrapper'
 import PageContent from '@components/PageContent'
@@ -80,18 +80,38 @@ export default function Hero() {
 
           <main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
             <div className='sm:text-center lg:text-left'>
-              <h1 className='font-serif text-2xl tracking-tight font-extrabold text-slate-900 sm:text-3xl md:text-4xl'>
-                <span className='block text-slate-900 xl:inline'>
-                  {intl.formatMessage({
-                    id: '/m71Vx',
-                    defaultMessage:
-                      'Maestro de ceremonias, oficiante de bodas, presentador.'
-                  })}
-                </span>
-              </h1>
-              <p className='mt-3 text-base text-slate-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
+              <p className='font-serif text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl'>
+                <FormattedMessage
+                  id='n71Uwf'
+                  defaultMessage='<hightlight>Conectar y compartir</hightlight> <normal>emociones.</normal>'
+                  values={{
+                    hightlight: function hightlight(chunks) {
+                      return (
+                        <span className='block text-rose-600 xl:inline'>
+                          {chunks}
+                        </span>
+                      )
+                    },
+                    normal: function normal(chunks) {
+                      return (
+                        <span className='block text-slate-900 xl:inline'>
+                          {chunks}
+                        </span>
+                      )
+                    }
+                  }}
+                />
+              </p>
+              <h1 className='mt-3 text-base text-slate-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
                 {intl.formatMessage({
-                  id: 'YW4JIj',
+                  id: '4Y3qdy',
+                  defaultMessage:
+                    'Maestro de ceremonias, oficiante de bodas, presentador.'
+                })}
+              </h1>
+              <p className='text-base text-slate-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0'>
+                {intl.formatMessage({
+                  id: 'VUgx65',
                   defaultMessage:
                     'Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y allegados.'
                 })}
@@ -115,15 +135,6 @@ export default function Hero() {
       </PageContent>
 
       <div className='relative z-10 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
-        <div className='absolute left-0 bottom-8 flex'>
-          <div className='text-center px-4 md:pl-32 pt-1.5 pb-1 rounded-r-lg bg-white text-slate-900 text-base sm:text-xl'>
-            {intl.formatMessage({
-              id: 'wdSecf',
-              defaultMessage: 'Conectar y compartir emociones.'
-            })}
-          </div>
-        </div>
-
         <img
           className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
           src={imageSrc}
