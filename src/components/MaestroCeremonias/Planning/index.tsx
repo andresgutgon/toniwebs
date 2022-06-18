@@ -23,7 +23,7 @@ const Planning = () => {
             />
           </div>
           <div className='order-first sm:order-last flex flex-col items-start justify-center space-y-8'>
-            <h3 className='font-serif text-3xl tracking-tight font-extrabold sm:text-3xl md:text-4xl text-slate-900'>
+            <h3 className='font-serif text-3xl tracking-tight font-extrabold sm:text-5xl text-slate-900'>
               {intl.formatMessage({
                 id: '3xDpCF',
                 defaultMessage: 'Tu ceremonia como tú quieres.'

@@ -8,7 +8,7 @@ type Props = {
 }
 const PageWrapper = ({ bgColor, verticalSpace, children }: Props) => (
   <div
-    className={cn('relative bg-white overflow-hidden', {
+    className={cn('antialiased relative bg-white overflow-hidden', {
       'py-16 sm:py-28': verticalSpace === 'normal',
       'bg-white': bgColor === 'white',
       'bg-transparent': bgColor === 'transparent'
