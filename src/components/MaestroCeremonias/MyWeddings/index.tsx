@@ -30,7 +30,7 @@ const MyWeddings = () => {
             </span>
           </h2>
         </div>
-        <div className='mt-6 prose prose-rose prose-lg text-gray-500 mx-auto'>
+        <div className='mt-6 prose prose-rose prose-lg sm:prose-xl text-gray-500 mx-auto'>
           <p>
             {intl.formatMessage({
               id: 'pKwwNm',
@@ -52,7 +52,9 @@ const MyWeddings = () => {
               width='800'
               height='426'
             />
-            <figcaption>{perfectWeddingAlt}</figcaption>
+            <figcaption className='prose-figcaption:text-sm'>
+              {perfectWeddingAlt}
+            </figcaption>
           </figure>
           <p>
             {intl.formatMessage({

@@ -1,4 +1,10 @@
 {
+  "/ES52+": [
+    {
+      "type": 0,
+      "value": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
+    }
+  ],
   "/m71Vx": [
     {
       "type": 0,
@@ -41,10 +47,28 @@
       "value": "Bodas"
     }
   ],
+  "AHJaaS": [
+    {
+      "type": 0,
+      "value": "Boda cómica"
+    }
+  ],
+  "AZLz3a": [
+    {
+      "type": 0,
+      "value": "multitud de opciones"
+    }
+  ],
   "BIAord": [
     {
       "type": 0,
       "value": "Pensando en los detalles de tu boda"
+    }
+  ],
+  "CA9eY5": [
+    {
+      "type": 0,
+      "value": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
     }
   ],
   "FILuxH": [
@@ -59,10 +83,36 @@
       "value": "Os ayudo a conseguir la boda perfecta"
     }
   ],
+  "LU7byF": [
+    {
+      "type": 0,
+      "value": "Musical"
+    }
+  ],
   "LaU95V": [
     {
       "type": 0,
       "value": "Todo lo que quieras podemos hacerlo posible"
+    }
+  ],
+  "SSXizG": [
+    {
+      "type": 0,
+      "value": "Personaliza tu ceremonia con "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "vuestra canción o canciones favoritas"
+        }
+      ],
+      "type": 8,
+      "value": "specialSong"
+    },
+    {
+      "type": 0,
+      "value": ". Como actor y cantante he trabajado en muchos musicales, si quieres incluir alguna canción o canciones en tu ceremonia podemos hacerlo posible."
     }
   ],
   "SxgkbE": [
@@ -83,10 +133,34 @@
       "value": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y allegados."
     }
   ],
+  "YtYhuo": [
+    {
+      "type": 0,
+      "value": "Concurso"
+    }
+  ],
   "YwsmHE": [
     {
       "type": 0,
       "value": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
+    }
+  ],
+  "iUp8+g": [
+    {
+      "type": 0,
+      "value": "Durante mi carrera como presentador y maestro de ceremonias he desarrollado distintas habilidades que pueden hacer de tu boda un momento inolvidable."
+    }
+  ],
+  "jIQVf0": [
+    {
+      "type": 0,
+      "value": "Boda con DJ"
+    }
+  ],
+  "mrFj9D": [
+    {
+      "type": 0,
+      "value": "Convierte tu boda en un concurso al más puro estilo televisivo dónde novios e invitados serán participantes de un concurso dónde los novios serán siempre los ganadores."
     }
   ],
   "n71Uwf": [
@@ -131,6 +205,12 @@
     {
       "type": 0,
       "value": "Informáte sin compromiso"
+    }
+  ],
+  "wTo87j": [
+    {
+      "type": 0,
+      "value": "Genera recuerdos memorables"
     }
   ],
   "z3dPJe": [
