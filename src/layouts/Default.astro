@@ -51,6 +51,11 @@ const openGraph = {
         ]
       }}
     />
+    <style is:global>
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+  </style>
   </head>
   <body>
     <slot />

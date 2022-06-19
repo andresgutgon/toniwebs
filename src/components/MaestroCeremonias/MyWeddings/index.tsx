@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl'
 
 import PageWrapper from '@components/PageWrapper'
-import BgPatterns from './BgPatterns'
+import BgPatterns from '@components/PageWrapper/BgPatterns'
 import perfectWeddingSrc from './la-boda-perfecta.png'
 
 const MyWeddings = () => {
@@ -11,7 +11,7 @@ const MyWeddings = () => {
     defaultMessage: 'Os ayudo a conseguir la boda perfecta'
   })
   return (
-    <PageWrapper>
+    <PageWrapper id='las-bodas-que-yo-hago'>
       <BgPatterns />
       <div className='relative px-4 sm:px-6 lg:px-8'>
         <div className='text-lg max-w-prose mx-auto'>
@@ -30,7 +30,7 @@ const MyWeddings = () => {
             </span>
           </h2>
         </div>
-        <div className='mt-6 prose prose-rose prose-lg sm:prose-xl text-gray-500 mx-auto'>
+        <div className='mt-6 prose prose-rose prose sm:prose-xl text-gray-500 mx-auto'>
           <p>
             {intl.formatMessage({
               id: 'pKwwNm',
@@ -38,7 +38,7 @@ const MyWeddings = () => {
                 'Como maestro de ceremonias cuando oficio una boda creo que no debe ser sólo oficiar la ceremonia, hacer alguna broma o chiste ingenioso y leer algún texto sobre el amor. Creo que la figura del maestro de ceremonias va más allá. Me gusta que los novios se sientan los protagonistas y que los invitados se sientan parte de la celebración. Por eso me gusta recibir a los invitados, hablar con ellos, conocer a la familia y amigos durante unos minutos para poder crear un ambiente festivo y alegre entre todos antes de recibir a los novios. '
             })}
           </p>
-          <blockquote className='font-serif text-slate-400 text-2xl'>
+          <blockquote className='font-serif text-slate-400 sm:text-2xl'>
             {intl.formatMessage({
               id: 'SxgkbE',
               defaultMessage: 'El estilo y el ambiente lo eliges tú.'

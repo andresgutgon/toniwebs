@@ -1,58 +1,15 @@
 import { FormattedMessage, useIntl } from 'react-intl'
 
+import Button from '@components/Button'
 import PageWrapper from '@components/PageWrapper'
 import PageContent from '@components/PageContent'
-import logoSrc from './logo.svg'
 import imageSrc from './toni-maestro-ceremonias.jpg'
 
-type MenuItemProps = { url: string; text: string }
-const MenuItem = ({ url, text }: MenuItemProps) => (
-  <a
-    href={url}
-    className='text-lg sm:text-xl font-medium text-slate-900 hover:text-rose-600'
-  >
-    {text}
-  </a>
-)
 export default function Hero() {
   const intl = useIntl()
 
-  const logoAlt = intl.formatMessage({
-    id: '/m71Vx',
-    defaultMessage: 'Toni figuera, maestro de ceremonias'
-  })
-  const menuItems = [
-    {
-      url: '#presentador',
-      text: intl.formatMessage({
-        id: 'FILuxH',
-        defaultMessage: 'Presentador'
-      })
-    },
-    {
-      url: '#ejemplos-de-boda',
-      text: intl.formatMessage({
-        id: '9u7E3s',
-        defaultMessage: 'Bodas'
-      })
-    },
-    {
-      url: '#sobre-mi',
-      text: intl.formatMessage({
-        id: '0OAotW',
-        defaultMessage: 'Sobre mí'
-      })
-    },
-    {
-      url: '#contactame',
-      text: intl.formatMessage({
-        id: '88sEW8',
-        defaultMessage: 'Contactame'
-      })
-    }
-  ]
   return (
-    <PageWrapper bgColor='white' verticalSpace='none'>
+    <PageWrapper id='hero-section' bgColor='white' verticalSpace='none'>
       <PageContent>
         <div className='relative z-20 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32'>
           <svg
@@ -64,28 +21,7 @@ export default function Hero() {
           >
             <polygon points='50,0 100,0 50,100 0,100' />
           </svg>
-          <div className='relative pt-6 sm:pt-14 px-4 sm:px-6 lg:px-8'>
-            <nav
-              className='relative flex flex-col items-start space-y-4'
-              aria-label='Menu de navegación'
-            >
-              <div className='flex items-center flex-grow flex-shrink-0 lg:flex-grow-0'>
-                <div className='flex items-center justify-between w-full md:w-auto'>
-                  <a href='/'>
-                    <span className='sr-only'>{logoAlt}</span>
-                    <img src={logoSrc} alt={logoAlt} className='h-16' />
-                  </a>
-                </div>
-              </div>
-              <div className='pt-2 pb-4 w-full space-x-8 border-rose-600 flex'>
-                {menuItems.map((menuItem: MenuItemProps, index: number) => (
-                  <MenuItem key={index} {...menuItem} />
-                ))}
-              </div>
-            </nav>
-          </div>
-
-          <main className='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
+          <main className='pt-10 mx-auto max-w-7xl px-4 sm:pt-12 sm:px-6 md:pt-16 lg:pt-20 lg:px-8 xl:pt-28'>
             <div className='sm:text-center lg:text-left'>
               <p className='font-serif text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl'>
                 <FormattedMessage
@@ -94,14 +30,14 @@ export default function Hero() {
                   values={{
                     hightlight: function hightlight(chunks) {
                       return (
-                        <span className='block text-rose-600 xl:inline'>
+                        <span className='block text-slate-900 xl:inline'>
                           {chunks}
                         </span>
                       )
                     },
                     normal: function normal(chunks) {
                       return (
-                        <span className='block text-slate-900 xl:inline'>
+                        <span className='block text-rose-600 xl:inline'>
                           {chunks}
                         </span>
                       )
@@ -109,14 +45,14 @@ export default function Hero() {
                   }}
                 />
               </p>
-              <h1 className='mt-3 text-base text-slate-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
+              <h1 className='mt-3 text-base text-slate-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
                 {intl.formatMessage({
                   id: '4Y3qdy',
                   defaultMessage:
                     'Maestro de ceremonias, oficiante de bodas, presentador.'
                 })}
               </h1>
-              <p className='text-base text-slate-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0'>
+              <p className='mt-1 text-sm text-slate-500 sm:text-base sm:max-w-xl sm:mx-auto md:text-lg lg:mx-0'>
                 {intl.formatMessage({
                   id: 'VUgx65',
                   defaultMessage:
@@ -125,15 +61,12 @@ export default function Hero() {
               </p>
               <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
                 <div className='rounded-md shadow'>
-                  <a
-                    href='#contactame'
-                    className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-xl md:px-10'
-                  >
+                  <Button href='#contactame'>
                     {intl.formatMessage({
                       id: 'tklU5R',
                       defaultMessage: 'Informáte sin compromiso'
                     })}
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>

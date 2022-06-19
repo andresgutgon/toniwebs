@@ -47,7 +47,7 @@ const Offerings = () => {
   ]
 
   return (
-    <PageWrapper bgColor='white'>
+    <PageWrapper id='opciones-para-bodas' bgColor='white'>
       <PageContent>
         <div className="lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div>

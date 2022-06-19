@@ -2,6 +2,7 @@ import { useIntl } from 'react-intl'
 
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
+import BgPatterns from '@components/PageWrapper/BgPatterns'
 import planingWeddingImageSrc from './planeando-la-boda.jpg'
 
 const Planning = () => {
@@ -12,7 +13,8 @@ const Planning = () => {
   })
 
   return (
-    <PageWrapper>
+    <PageWrapper id='planear-tu-boda'>
+      <BgPatterns thirdVisible={false}/>
       <PageContent>
         <div className='grid sm:grid-cols-2 gap-10'>
           <div>
@@ -36,6 +38,12 @@ const Planning = () => {
                   'Si estás preparando tu boda estoy seguro que ya te la has imaginado en muchas ocasiones. Cuéntame qué imaginas, tus expectativas e ilusiones, cómo te gustaría que fuera tu ceremonia y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única.'
               })}
             </p>
+            <a className='text-base sm:text-xl text-rose-600 underline' href='#contactame'>
+              {intl.formatMessage({
+                id: 'xGfqJO',
+                defaultMessage: 'Pregúntame lo que necesites'
+              })}
+            </a>
           </div>
         </div>
       </PageContent>

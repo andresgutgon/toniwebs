@@ -2,13 +2,15 @@ import type { ReactNode } from 'react'
 import cn from 'classnames'
 
 type Props = {
+  id: string
   children: ReactNode
   verticalSpace: 'none' | 'normal'
   bgColor: 'white' | 'transparent'
 }
-const PageWrapper = ({ bgColor, verticalSpace, children }: Props) => (
+const PageWrapper = ({ id, bgColor, verticalSpace, children }: Props) => (
   <div
-    className={cn('antialiased relative bg-white overflow-hidden', {
+    id={id}
+    className={cn('antialiased relative bg-white overflow-hidden', 'border-b border-slate-100', {
       'py-16 sm:py-28': verticalSpace === 'normal',
       'bg-white': bgColor === 'white',
       'bg-transparent': bgColor === 'transparent'
