@@ -68,7 +68,7 @@ const Header = () => {
       </div>
 
       <nav
-        className='sticky top-0 z-40 flex flex-col items-start shadow-slate-200 shadow sm:shadow-none'
+        className='sticky top-0 z-40 flex flex-col items-start'
         aria-label='Menu de navegación'
       >
         <div className='absolute inset-0 bg-white sm:bg-white/60 sm:backdrop-blur-sm' />

@@ -26,7 +26,7 @@ export default function Hero() {
           </svg>
           <main className='pt-10 mx-auto max-w-7xl px-4 sm:pt-12 sm:px-6 md:pt-16 lg:pt-20 lg:px-8 xl:pt-28'>
             <div className='sm:text-center lg:text-left'>
-              <p className='font-serif text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl leading-loose'>
+              <p className='font-serif text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl'>
                 <FormattedMessage
                   id='n71Uwf'
                   defaultMessage='<hightlight>Conectar con la gente</hightlight> <normal>compartir emociones.</normal>'
@@ -62,8 +62,8 @@ export default function Hero() {
                     'Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y allegados.'
                 })}
               </p>
-              <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
-                <div className='w-full space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row items-center'>
+              <div className='mt-5 sm:mt-8 sm:flex justify-center lg:justify-start'>
+                <div className='space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row items-center'>
                   <div>
                     <Button href='#contactame'>
                       {intl.formatMessage({
@@ -72,7 +72,7 @@ export default function Hero() {
                       })}
                     </Button>
                   </div>
-                  <div className='text-center sm:text-left sm:w-1/2 flex-0'>
+                  <div className='text-center sm:text-left flex-0'>
                     <FormattedMessage
                       id='7GtpBL'
                       defaultMessage='<callTag>O llama al</callTag> <phoneTag></phoneTag>'

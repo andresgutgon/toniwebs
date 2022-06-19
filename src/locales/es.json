@@ -1,7 +1,4 @@
 {
-  "+AAB8p": {
-    "defaultMessage": "Día"
-  },
   "/ES52+": {
     "defaultMessage": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
   },
@@ -13,12 +10,6 @@
   },
   "2WHEEl": {
     "defaultMessage": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos antes 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
-  },
-  "2wycFf": {
-    "defaultMessage": "Mes"
-  },
-  "3dnvt4": {
-    "defaultMessage": "Fecha del evento"
   },
   "3xDpCF": {
     "defaultMessage": "Tu ceremonia como tú quieres."
@@ -62,9 +53,6 @@
   "N7yh1n": {
     "defaultMessage": "Enviar mensaje"
   },
-  "R/mhJZ": {
-    "defaultMessage": "Número aprox. de invitados"
-  },
   "S6W4PT": {
     "defaultMessage": "Teléfono"
   },
@@ -96,7 +84,7 @@
     "defaultMessage": "Explica un poco cómo quieres que sea tu evento"
   },
   "cBWDft": {
-    "defaultMessage": "Enviame un mensaje explicando un poco como queréis la ceremonia y me pondré en contacto lo antes posible."
+    "defaultMessage": "Explícame el evento que quieres preparar"
   },
   "iUp8+g": {
     "defaultMessage": "Durante mi carrera como presentador y maestro de ceremonias he desarrollado distintas habilidades que pueden hacer de tu boda un momento inolvidable."
@@ -106,9 +94,6 @@
   },
   "jIQVf0": {
     "defaultMessage": "Boda con DJ"
-  },
-  "lruu5m": {
-    "defaultMessage": "Año"
   },
   "mJqcsd": {
     "defaultMessage": "Presentador y Maestro de ceremonias"

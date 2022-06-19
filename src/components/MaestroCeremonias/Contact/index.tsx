@@ -4,68 +4,7 @@ import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 import { usePage } from '@layouts/PageProvider'
-import Button from '@components/Button'
-import Input from '@components/Input'
-import Textarea from '@components/Textarea'
-import FieldGroup from '@components/FieldRow'
-
-const Form = () => {
-  const intl = useIntl()
-  const name = intl.formatMessage({ id: 'mKjzSK', defaultMessage: 'Tu nombre' })
-  const phone = intl.formatMessage({
-    id: 'wl6aCz',
-    defaultMessage: 'Tu número de teléfono'
-  })
-  const eventDate = intl.formatMessage({
-    id: '3dnvt4',
-    defaultMessage: 'Fecha del evento'
-  })
-  const day = intl.formatMessage({
-    id: '+AAB8p',
-    defaultMessage: 'Día'
-  })
-  const month = intl.formatMessage({
-    id: '2wycFf',
-    defaultMessage: 'Mes'
-  })
-  const year = intl.formatMessage({
-    id: 'lruu5m',
-    defaultMessage: 'Año'
-  })
-  const numOfInvitations = intl.formatMessage({
-    id: 'R/mhJZ',
-    defaultMessage: 'Número aprox. de invitados'
-  })
-  const message = intl.formatMessage({
-    id: 'acQBQS',
-    defaultMessage: 'Explica un poco cómo quieres que sea tu evento'
-  })
-  return (
-    <form action='#' method='POST' className='grid grid-cols-1 gap-y-6'>
-      <FieldGroup label={eventDate}>
-        <Input required id='day' label={day} placeholder={day} />
-        <Input required id='month' label={month} placeholder={month} />
-        <Input required id='year' label={year} placeholder={year} />
-      </FieldGroup>
-      <Input required id='name' label={name} placeholder={name} />
-      <Input required id='phone' label={phone} placeholder={phone} />
-      <Input
-        id='numOfInvitations'
-        label={numOfInvitations}
-        placeholder={numOfInvitations}
-      />
-      <Textarea required id='message' label={message} placeholder={message} />
-      <div>
-        <Button onClick={() => {}}>
-          {intl.formatMessage({
-            id: 'N7yh1n',
-            defaultMessage: 'Enviar mensaje'
-          })}
-        </Button>
-      </div>
-    </form>
-  )
-}
+import Form from './Form'
 
 const Contact = () => {
   const intl = useIntl()
@@ -86,8 +25,7 @@ const Contact = () => {
             <p className='hidden sm:block mt-3 text-lg leading-6 text-gray-500'>
               {intl.formatMessage({
                 id: 'cBWDft',
-                defaultMessage:
-                  'Enviame un mensaje explicando un poco como queréis la ceremonia y me pondré en contacto lo antes posible.'
+                defaultMessage: 'Explícame el evento que quieres preparar'
               })}
             </p>
             <dl className='mt-8 text-base text-gray-500'>
@@ -131,6 +69,7 @@ const Contact = () => {
           <div className='col-span-6'>
             <Form />
           </div>
+          <div className='h-[500px] sm:h-auto' />
         </div>
       </PageContent>
     </PageWrapper>
