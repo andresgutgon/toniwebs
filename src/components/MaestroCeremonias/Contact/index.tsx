@@ -2,7 +2,7 @@ import { useIntl } from 'react-intl'
 
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
-import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
+import { MailIcon, PhoneIcon } from '@heroicons/react/outline/index.js'
 import { usePage } from '@layouts/PageProvider'
 import Form from './Form'
 

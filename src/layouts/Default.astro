@@ -4,8 +4,6 @@ import { SEO } from 'astro-seo'
 import type { SitePage } from '@sites/types'
 import { buildCanonicalAndAlternate } from '@sites/index'
 
-export interface Props { page: SitePage }
-
 const { site: config } = Astro.props
 const {
   locale,
@@ -68,7 +66,7 @@ const openGraph = {
         var lang = navigator.language || navigator.userLanguage;
         var isCatVersion = pathname.match(/\/ca\/?$/)
         if (!isCatVersion && lang.indexOf('ca') == 0) {
-          window.location = '/maestro-de-ceremonias/ca/'
+          window.location = '/ca/'
         }
       }
 

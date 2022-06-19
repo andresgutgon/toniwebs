@@ -1,5 +1,5 @@
 import { useIntl } from 'react-intl'
-import { CheckIcon } from '@heroicons/react/outline'
+import CheckIcon from '@heroicons/react/outline/CheckIcon.js'
 
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
@@ -49,7 +49,7 @@ const Offerings = () => {
   return (
     <PageWrapper id='opciones-para-bodas' bgColor='gray'>
       <PageContent>
-        <div className="lg:grid lg:grid-cols-3 lg:gap-x-8">
+        <div className='lg:grid lg:grid-cols-3 lg:gap-x-8'>
           <div>
             <h2 className='text-base text-rose-500 uppercase tracking-wide'>
               {intl.formatMessage({
