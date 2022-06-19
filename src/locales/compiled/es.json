@@ -35,6 +35,28 @@
       "value": "Maestro de ceremonias, oficiante de bodas, presentador."
     }
   ],
+  "7GtpBL": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "O llama al"
+        }
+      ],
+      "type": 8,
+      "value": "callTag"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+      ],
+      "type": 8,
+      "value": "phoneTag"
+    }
+  ],
   "7StwJn": [
     {
       "type": 0,

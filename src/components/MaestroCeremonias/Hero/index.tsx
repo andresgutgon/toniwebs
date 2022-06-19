@@ -63,7 +63,7 @@ export default function Hero() {
                 })}
               </p>
               <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
-                <div className='w-full space-y-4 sm:space-x-4 flex flex-col sm:flex-row items-center'>
+                <div className='w-full space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row items-center'>
                   <div>
                     <Button href='#contactame'>
                       {intl.formatMessage({
@@ -73,13 +73,30 @@ export default function Hero() {
                     </Button>
                   </div>
                   <div className='text-center sm:text-left sm:w-1/2 flex-0'>
-                    <span className='text-base text-slate-400'>O llama al</span>{' '}
-                    <a
-                      href={`tel:${phone.trim()}`}
-                      className='block sm:inline-block text-xl text-slate-900'
-                    >
-                      +34 {phone}
-                    </a>
+                    <FormattedMessage
+                      id='7GtpBL'
+                      defaultMessage='<callTag>O llama al</callTag> <phoneTag></phoneTag>'
+                      values={{
+                        callTag: function callTag(chunks) {
+                          return (
+                            <span className='text-base text-slate-400'>
+                              {chunks}
+                            </span>
+                          )
+                        },
+                        phoneTag: function phoneTag(chunks) {
+                          return (
+                            <a
+                              href={`tel:${phone.trim()}`}
+                              className='block sm:inline-block text-xl text-slate-900'
+                            >
+                              +34 {phone}
+                              {chunks}
+                            </a>
+                          )
+                        }
+                      }}
+                    />
                   </div>
                 </div>
               </div>
