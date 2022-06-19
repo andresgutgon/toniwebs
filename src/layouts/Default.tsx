@@ -26,7 +26,6 @@ const DefaultLayout = ({ bgColor, site, children }: Props) => {
         return ES_LOCALE
     }
   }, [locale])
-
   return (
     <PageProvider site={site}>
       <IntlProvider locale={locale} messages={messages}>
