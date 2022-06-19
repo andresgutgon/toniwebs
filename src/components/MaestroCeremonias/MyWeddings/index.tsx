@@ -11,12 +11,12 @@ const MyWeddings = () => {
     defaultMessage: 'Os ayudo a conseguir la boda perfecta'
   })
   return (
-    <PageWrapper id='las-bodas-que-yo-hago'>
+    <PageWrapper id='las-bodas-que-yo-hago' bgColor='gray'>
       <BgPatterns />
       <div className='relative px-4 sm:px-6 lg:px-8'>
         <div className='text-lg max-w-prose mx-auto'>
           <h2>
-            <span className='block text-base text-center text-rose-600 font-semibold tracking-wide uppercase'>
+            <span className='block text-base text-center text-rose-600 tracking-wide uppercase'>
               {intl.formatMessage({
                 id: '7StwJn',
                 defaultMessage: 'las bodas que yo hago'

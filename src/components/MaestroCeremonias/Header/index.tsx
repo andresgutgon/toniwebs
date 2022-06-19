@@ -20,15 +20,15 @@ const Header = () => {
     defaultMessage: 'Toni figuera, maestro de ceremonias'
   })
   const menuItems = [
+    // {
+    //   url: '#presentador',
+    //   text: intl.formatMessage({
+    //     id: 'FILuxH',
+    //     defaultMessage: 'Presentador'
+    //   })
+    // },
     {
-      url: '#presentador',
-      text: intl.formatMessage({
-        id: 'FILuxH',
-        defaultMessage: 'Presentador'
-      })
-    },
-    {
-      url: '#ejemplos-de-boda',
+      url: '#opciones-para-bodas',
       text: intl.formatMessage({
         id: '9u7E3s',
         defaultMessage: 'Bodas'
@@ -54,7 +54,7 @@ const Header = () => {
     <>
       <div id='inicio' className='bg-white sm:mb-3'>
         <PageContent>
-          <div className={cn('relative pt-2', paddingLeft)}>
+          <div className={cn('relative pt-2 sm:pt-8', paddingLeft)}>
             <div className='flex items-center flex-grow flex-shrink-0 lg:flex-grow-0'>
               <div className='flex items-center justify-between w-full md:w-auto'>
                 <a href='/'>

@@ -16,8 +16,8 @@ const MaestroCeremonias = ({ site }: Props) => {
 
       <Offerings />
       <Planning />
-      <AboutMe />
       <MyWeddings />
+      <AboutMe />
     </DefaultLayout>
   )
 }

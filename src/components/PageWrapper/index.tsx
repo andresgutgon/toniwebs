@@ -5,7 +5,7 @@ type Props = {
   id: string
   children: ReactNode
   verticalSpace: 'none' | 'normal'
-  bgColor: 'white' | 'transparent'
+  bgColor: 'white' | 'gray' | 'transparent'
 }
 const PageWrapper = ({ id, bgColor, verticalSpace, children }: Props) => (
   <div
@@ -13,7 +13,8 @@ const PageWrapper = ({ id, bgColor, verticalSpace, children }: Props) => (
     className={cn('antialiased relative bg-white overflow-hidden', 'border-b border-slate-100', {
       'py-16 sm:py-28': verticalSpace === 'normal',
       'bg-white': bgColor === 'white',
-      'bg-transparent': bgColor === 'transparent'
+      'bg-transparent': bgColor === 'transparent',
+      'bg-slate-50': bgColor === 'gray'
     })}
   >
     {children}

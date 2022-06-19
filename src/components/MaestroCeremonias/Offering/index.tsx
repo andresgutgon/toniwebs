@@ -47,11 +47,11 @@ const Offerings = () => {
   ]
 
   return (
-    <PageWrapper id='opciones-para-bodas' bgColor='white'>
+    <PageWrapper id='opciones-para-bodas' bgColor='gray'>
       <PageContent>
         <div className="lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div>
-            <h2 className='text-base font-semibold text-rose-500 uppercase tracking-wide'>
+            <h2 className='text-base text-rose-500 uppercase tracking-wide'>
               {intl.formatMessage({
                 id: 'AZLz3a',
                 defaultMessage: 'multitud de opciones'
