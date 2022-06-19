@@ -14,11 +14,12 @@ const Planning = () => {
 
   return (
     <PageWrapper id='planear-tu-boda'>
-      <BgPatterns thirdVisible={false}/>
+      <BgPatterns thirdVisible={false} />
       <PageContent>
         <div className='grid sm:grid-cols-2 gap-10'>
           <div>
             <img
+              loading='lazy'
               alt={planningAlt}
               src={planingWeddingImageSrc}
               className='block w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 '
@@ -38,7 +39,10 @@ const Planning = () => {
                   'Si estás preparando tu boda estoy seguro que ya te la has imaginado en muchas ocasiones. Cuéntame qué imaginas, tus expectativas e ilusiones, cómo te gustaría que fuera tu ceremonia y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única.'
               })}
             </p>
-            <a className='text-base sm:text-xl text-rose-600 underline' href='#contactame'>
+            <a
+              className='text-base sm:text-xl text-rose-600 underline'
+              href='#contactame'
+            >
               {intl.formatMessage({
                 id: 'xGfqJO',
                 defaultMessage: 'Pregúntame lo que necesites'

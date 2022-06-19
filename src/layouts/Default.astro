@@ -55,7 +55,25 @@ const openGraph = {
       .no-scrollbar::-webkit-scrollbar {
         display: none;
       }
-  </style>
+    </style>
+
+    <script>
+      function redirectToCatalan () {
+        var searchParams = new URLSearchParams(window.location.search)
+        const forceLocale = !!searchParams.get('forceLocale')
+        // I want to see any locale
+        if (forceLocale) return
+
+        var pathname = window.location.pathname
+        var lang = navigator.language || navigator.userLanguage;
+        var isCatVersion = pathname.match(/\/ca\/?$/)
+        if (!isCatVersion && lang.indexOf('ca') == 0) {
+          window.location = '/maestro-de-ceremonias/ca/'
+        }
+      }
+
+      redirectToCatalan()
+    </script>
   </head>
   <body>
     <slot />

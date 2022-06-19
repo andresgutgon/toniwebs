@@ -77,12 +77,6 @@
       "value": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
     }
   ],
-  "FILuxH": [
-    {
-      "type": 0,
-      "value": "Presentador"
-    }
-  ],
   "HYitF5": [
     {
       "type": 0,
@@ -163,6 +157,12 @@
       "value": "Durante mi carrera como presentador y maestro de ceremonias he desarrollado distintas habilidades que pueden hacer de tu boda un momento inolvidable."
     }
   ],
+  "ik0QqA": [
+    {
+      "type": 0,
+      "value": "Solicita información"
+    }
+  ],
   "jIQVf0": [
     {
       "type": 0,
@@ -186,7 +186,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Conectar y compartir"
+          "value": "Conectar con la gente"
         }
       ],
       "type": 8,
@@ -200,7 +200,7 @@
       "children": [
         {
           "type": 0,
-          "value": "emociones."
+          "value": "compartir emociones."
         }
       ],
       "type": 8,
@@ -217,12 +217,6 @@
     {
       "type": 0,
       "value": "Toni Figuera maestro de ceremonias oficiando una boda"
-    }
-  ],
-  "tklU5R": [
-    {
-      "type": 0,
-      "value": "Informáte sin compromiso"
     }
   ],
   "wTo87j": [

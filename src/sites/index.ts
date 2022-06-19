@@ -1,12 +1,5 @@
 import type { Locale } from '@types'
-import type {
-  SitePage,
-  Page,
-  OpenGraph,
-  LocaleOption,
-  Domain,
-  Site
-} from './types'
+import type { SitePage, Page, LocaleOption, Domain, Site } from './types'
 import { DOMAINS } from './domains'
 
 type PageLocale = { locale: Locale; localeLabel: string }
@@ -19,6 +12,7 @@ const PAGE_LOCALE: Record<Locale, PageLocale> = {
 }
 export const sites: Record<string, Site> = {
   maestroCeremoniasCat: {
+    phoneNumber: '606 979 735',
     domain: DOMAINS.maestroCeremonias,
     pages: {
       home: {

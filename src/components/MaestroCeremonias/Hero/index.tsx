@@ -3,9 +3,12 @@ import { FormattedMessage, useIntl } from 'react-intl'
 import Button from '@components/Button'
 import PageWrapper from '@components/PageWrapper'
 import PageContent from '@components/PageContent'
+import { usePage } from '@layouts/PageProvider'
 import imageSrc from './toni-maestro-ceremonias.jpg'
 
 export default function Hero() {
+  const { site } = usePage()
+  const phone = site.site.phoneNumber
   const intl = useIntl()
 
   return (
@@ -23,14 +26,14 @@ export default function Hero() {
           </svg>
           <main className='pt-10 mx-auto max-w-7xl px-4 sm:pt-12 sm:px-6 md:pt-16 lg:pt-20 lg:px-8 xl:pt-28'>
             <div className='sm:text-center lg:text-left'>
-              <p className='font-serif text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl'>
+              <p className='font-serif text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl leading-loose'>
                 <FormattedMessage
                   id='n71Uwf'
-                  defaultMessage='<hightlight>Conectar y compartir</hightlight> <normal>emociones.</normal>'
+                  defaultMessage='<hightlight>Conectar con la gente</hightlight> <normal>compartir emociones.</normal>'
                   values={{
                     hightlight: function hightlight(chunks) {
                       return (
-                        <span className='block text-slate-900 xl:inline'>
+                        <span className='block text-slate-900 xl:inline-block mb-2'>
                           {chunks}
                         </span>
                       )
@@ -60,13 +63,24 @@ export default function Hero() {
                 })}
               </p>
               <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
-                <div className='rounded-md shadow'>
-                  <Button href='#contactame'>
-                    {intl.formatMessage({
-                      id: 'tklU5R',
-                      defaultMessage: 'Informáte sin compromiso'
-                    })}
-                  </Button>
+                <div className='w-full space-y-4 sm:space-x-4 flex flex-col sm:flex-row items-center'>
+                  <div>
+                    <Button href='#contactame'>
+                      {intl.formatMessage({
+                        id: 'ik0QqA',
+                        defaultMessage: 'Solicita información'
+                      })}
+                    </Button>
+                  </div>
+                  <div className='text-center sm:text-left sm:w-1/2 flex-0'>
+                    <span className='text-base text-slate-400'>O llama al</span>{' '}
+                    <a
+                      href={`tel:${phone.trim()}`}
+                      className='block sm:inline-block text-xl text-slate-900'
+                    >
+                      +34 {phone}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

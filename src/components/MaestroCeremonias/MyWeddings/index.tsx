@@ -46,6 +46,7 @@ const MyWeddings = () => {
           </blockquote>
           <figure>
             <img
+              loading='lazy'
               className='w-full rounded-lg'
               src={perfectWeddingSrc}
               alt={perfectWeddingAlt}
