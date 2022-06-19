@@ -11,7 +11,7 @@ import { usePage } from '@layouts/PageProvider'
 // Same Google sheet as tonifiguera.com
 const BASE_API = 'https://script.google.com/macros/s'
 const VERSION =
-  'AKfycbzrYyHkVn3OPASsBBDbqCkabFd9FRHeMmK0Yfm-gsi8MDzV3C4oySpTbw86rJn4Z8rYBQ'
+  'AKfycbwdMppEBOR49PWTY-o_Mgjw0jo8jnkfLQ2E2h5mvI6eaX6e_65k2trErfRSIFZjZ3HNSw'
 const URL = `${BASE_API}/${VERSION}/exec`
 
 const Form = () => {
