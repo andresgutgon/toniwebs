@@ -6,6 +6,7 @@ import Planning from '@components/MaestroCeremonias/Planning'
 import MyWeddings from '@components/MaestroCeremonias/MyWeddings'
 import Offerings from '@components/MaestroCeremonias/Offering'
 import AboutMe from '@components/MaestroCeremonias/AboutMe'
+import Contact from '@components/MaestroCeremonias/Contact'
 
 type Props = { site: SitePage }
 const MaestroCeremonias = ({ site }: Props) => {
@@ -18,6 +19,7 @@ const MaestroCeremonias = ({ site }: Props) => {
       <Planning />
       <MyWeddings />
       <AboutMe />
+      <Contact />
     </DefaultLayout>
   )
 }

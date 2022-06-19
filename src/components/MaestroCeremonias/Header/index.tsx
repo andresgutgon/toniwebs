@@ -45,7 +45,7 @@ const Header = () => {
       url: '#contactame',
       text: intl.formatMessage({
         id: '88sEW8',
-        defaultMessage: 'Contactame'
+        defaultMessage: 'Contáctame'
       })
     }
   ]
@@ -68,7 +68,6 @@ const Header = () => {
       </div>
 
       <nav
-
         className='sticky top-0 z-40 flex flex-col items-start shadow-slate-200 shadow sm:shadow-none'
         aria-label='Menu de navegación'
       >
@@ -77,14 +76,12 @@ const Header = () => {
           <div className='relative max-w-7xl mx-auto pl-6 '>
             <div className='sm:hidden absolute z-10 right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-white' />
             <div
-              className={
-                cn(
-                  'pt-2 sm:pt-4 pb-2 w-full space-x-2 sm:space-x-4',
-                  'md:space-x-8 border-rose-600 ',
-                  'flex flex-row flex-nowrap overflow-auto whitespace-nowrap no-scrollbar',
-                  paddingLeft
-                )
-              }
+              className={cn(
+                'pt-2 sm:pt-4 pb-2 w-full space-x-2 sm:space-x-4',
+                'md:space-x-8 border-rose-600 ',
+                'flex flex-row flex-nowrap overflow-auto whitespace-nowrap no-scrollbar',
+                paddingLeft
+              )}
             >
               {menuItems.map((menuItem: MenuItemProps, index: number) => (
                 <MenuItem key={index} {...menuItem} />

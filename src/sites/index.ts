@@ -13,6 +13,7 @@ const PAGE_LOCALE: Record<Locale, PageLocale> = {
 export const sites: Record<string, Site> = {
   maestroCeremoniasCat: {
     phoneNumber: '606 979 735',
+    email: 'tonifiguera05@gmail.com',
     domain: DOMAINS.maestroCeremonias,
     pages: {
       home: {

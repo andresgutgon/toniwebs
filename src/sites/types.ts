@@ -33,6 +33,7 @@ export type I18nPage = Record<Locale, Page>
 export type Site = {
   domain: Domain
   phoneNumber: string
+  email: string
   pages: Record<string, I18nPage>
 }
 

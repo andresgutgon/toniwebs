@@ -1,4 +1,10 @@
 {
+  "+AAB8p": [
+    {
+      "type": 0,
+      "value": "Día"
+    }
+  ],
   "/ES52+": [
     {
       "type": 0,
@@ -21,6 +27,18 @@
     {
       "type": 0,
       "value": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos antes 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
+    }
+  ],
+  "2wycFf": [
+    {
+      "type": 0,
+      "value": "Mes"
+    }
+  ],
+  "3dnvt4": [
+    {
+      "type": 0,
+      "value": "Fecha del evento"
     }
   ],
   "3xDpCF": [
@@ -66,7 +84,7 @@
   "88sEW8": [
     {
       "type": 0,
-      "value": "Contactame"
+      "value": "Contáctame"
     }
   ],
   "9u7E3s": [
@@ -117,6 +135,24 @@
       "value": "Todo lo que quieras podemos hacerlo posible"
     }
   ],
+  "N7yh1n": [
+    {
+      "type": 0,
+      "value": "Enviar mensaje"
+    }
+  ],
+  "R/mhJZ": [
+    {
+      "type": 0,
+      "value": "Número aprox. de invitados"
+    }
+  ],
+  "S6W4PT": [
+    {
+      "type": 0,
+      "value": "Teléfono"
+    }
+  ],
   "SSXizG": [
     {
       "type": 0,
@@ -135,6 +171,12 @@
     {
       "type": 0,
       "value": ". Como actor y cantante he trabajado en muchos musicales, si quieres incluir alguna canción o canciones en tu ceremonia podemos hacerlo posible."
+    }
+  ],
+  "ScnA6d": [
+    {
+      "type": 0,
+      "value": "Solicita información"
     }
   ],
   "SxgkbE": [
@@ -173,6 +215,18 @@
       "value": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
     }
   ],
+  "acQBQS": [
+    {
+      "type": 0,
+      "value": "Explica un poco cómo quieres que sea tu evento"
+    }
+  ],
+  "cBWDft": [
+    {
+      "type": 0,
+      "value": "Enviame un mensaje explicando un poco como queréis la ceremonia y me pondré en contacto lo antes posible."
+    }
+  ],
   "iUp8+g": [
     {
       "type": 0,
@@ -191,10 +245,22 @@
       "value": "Boda con DJ"
     }
   ],
+  "lruu5m": [
+    {
+      "type": 0,
+      "value": "Año"
+    }
+  ],
   "mJqcsd": [
     {
       "type": 0,
       "value": "Presentador y Maestro de ceremonias"
+    }
+  ],
+  "mKjzSK": [
+    {
+      "type": 0,
+      "value": "Tu nombre"
     }
   ],
   "mrFj9D": [
@@ -245,6 +311,12 @@
     {
       "type": 0,
       "value": "Genera recuerdos memorables"
+    }
+  ],
+  "wl6aCz": [
+    {
+      "type": 0,
+      "value": "Tu número de teléfono"
     }
   ],
   "xGfqJO": [
