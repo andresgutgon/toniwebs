@@ -9,7 +9,7 @@ const PAGE_LOCALE: Record<Locale, PageLocale> = {
   ca: { locale: 'ca', localeLabel: 'Catalá' }
 }
 export const site: Site = {
-  phoneNumber: '618 05 92 59',
+  phoneNumber: '618 059 259',
   email: 'tonifiguera05@gmail.com',
   domain: 'maestroyoficiantedeceremonias.com',
   pages: {
