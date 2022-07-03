@@ -5,9 +5,10 @@ Some landing pages generated with Astro and React
 ## TODO
 
 - [ ] Make a /404.htm page
-- [ ] Theme main color with Tailwind
-- [ ] Review copies / translations on SEO metatags
 - [ ] Read about [Google Search Console](https://support.google.com/webmasters/answer/9128669?utm_source=wnc_20079900&utm_medium=panel&utm_campaign=wnc_20079900&utm_content=msg_20079900&hl=en-GB#zippy=%2Cbeginning-user-willing-to-learn%2Cweb-developer)
+- [ ] Add Google Analytics + Cookie banner
+- [ ] Review copies / translations on SEO metatags
+- [ ] Theme main color with Tailwind
 - [x] Robots.txt
 - [x] Investigate deploy to ghpages each domain
   - [x] Create repo for maestro-de-ceremonias
