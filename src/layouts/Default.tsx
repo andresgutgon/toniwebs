@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 import cn from 'classnames'
 import { IntlProvider } from 'react-intl'
 
-import type { SitePage } from '@sites/types'
+import type { SitePage } from '@site/types'
 import { PageProvider } from '@layouts/PageProvider'
 
 import ES_LOCALE from '../locales/compiled/es.json'
@@ -11,11 +11,11 @@ import CA_LOCALE from '../locales/compiled/ca.json'
 
 type Props = {
   children: ReactNode
-  site: SitePage
+  page: SitePage
   bgColor: 'gray' | 'white'
 }
-const DefaultLayout = ({ bgColor, site, children }: Props) => {
-  const locale = site.page.locale
+const DefaultLayout = ({ bgColor, page, children }: Props) => {
+  const locale = page.currentPage.locale
   const messages = useMemo(() => {
     switch (locale) {
       case 'es':
@@ -27,7 +27,7 @@ const DefaultLayout = ({ bgColor, site, children }: Props) => {
     }
   }, [locale])
   return (
-    <PageProvider site={site}>
+    <PageProvider page={page}>
       <IntlProvider locale={locale} messages={messages}>
         <div
           className={cn({

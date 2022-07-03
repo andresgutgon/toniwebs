@@ -1,26 +1,26 @@
 ---
 import { SEO } from 'astro-seo'
 
-import type { SitePage } from '@sites/types'
-import { buildCanonicalAndAlternate } from '@sites/index'
+import type { SitePage } from '@site/types'
+import { buildCanonicalAndAlternate } from '@site/index'
 
-const { site: config } = Astro.props
+const { page } = Astro.props
 const {
   locale,
-  page,
+  currentPage,
   currentUrl,
   canonicalUrl,
   localeAlternate,
   alternateUrls,
-} = config
-const { title, description } = page.meta
-const og = page.openGraph
+} = page
+const { title, description } = currentPage.meta
+const og = currentPage.openGraph
 const openGraph = {
   basic: {
     ...og.basic,
     url: currentUrl
   },
-  image: page.openGraph.image,
+  image: currentPage.openGraph.image,
   optional: { description, localeAlternate }
 }
 ---

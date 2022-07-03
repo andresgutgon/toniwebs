@@ -7,8 +7,8 @@ import { usePage } from '@layouts/PageProvider'
 import imageSrc from './toni-maestro-ceremonias.jpg'
 
 export default function Hero() {
-  const { site } = usePage()
-  const phone = site.site.phoneNumber
+  const { page } = usePage()
+  const phone = page.site.phoneNumber
   const intl = useIntl()
 
   return (

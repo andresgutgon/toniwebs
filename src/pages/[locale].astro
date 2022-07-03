@@ -1,7 +1,7 @@
 ---
 import Layout from '@layouts/Default.astro'
-import Home from '@components/MaestroCeremonias/Home/index.astro'
-import { sites, getPage } from '@sites/index'
+import Home from '@PageComponents/Weedings/index.astro'
+import { sites, getPage } from '@site/index'
 
 export function getStaticPaths() {
   return [
@@ -12,4 +12,4 @@ export function getStaticPaths() {
 const { locale } = Astro.params
 const site = getPage(sites.maestroCeremoniasCat, 'home', locale)
 ---
-<Layout site={site}><Home site={site} /></Layout>
+<Layout site={site}><Home page={page} /></Layout>

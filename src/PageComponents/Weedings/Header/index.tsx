@@ -20,13 +20,6 @@ const Header = () => {
     defaultMessage: 'Toni figuera, maestro de ceremonias'
   })
   const menuItems = [
-    // {
-    //   url: '#presentador',
-    //   text: intl.formatMessage({
-    //     id: 'FILuxH',
-    //     defaultMessage: 'Presentador'
-    //   })
-    // },
     {
       url: '#opciones-para-bodas',
       text: intl.formatMessage({

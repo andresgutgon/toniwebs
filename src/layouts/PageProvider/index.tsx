@@ -1,16 +1,16 @@
 import { createContext, useContext } from 'react'
 import type { ReactNode } from 'react'
-import type { SitePage } from '@sites/types'
+import type { SitePage } from '@site/types'
 
-export type ContextProps = { site: SitePage }
+export type ContextProps = { page: SitePage }
 export const PageContext = createContext<ContextProps>({
-  site: null
+  page: null
 })
 type Props = {
   children: ReactNode
-  site: SitePage
+  page: SitePage
 }
-export const PageProvider = ({ site, children }: Props) => (
-  <PageContext.Provider value={{ site }}>{children}</PageContext.Provider>
+export const PageProvider = ({ page, children }: Props) => (
+  <PageContext.Provider value={{ page }}>{children}</PageContext.Provider>
 )
 export const usePage = () => useContext(PageContext)

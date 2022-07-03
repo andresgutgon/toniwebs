@@ -15,7 +15,7 @@ const VERSION =
 const URL = `${BASE_API}/${VERSION}/exec`
 
 const Form = () => {
-  const { site } = usePage()
+  const { page } = usePage()
   const formRef = useRef(null)
   const intl = useIntl()
   const name = intl.formatMessage({ id: 'mKjzSK', defaultMessage: 'Tu nombre' })
@@ -36,7 +36,7 @@ const Form = () => {
 
     data.append(
       'subject',
-      `[${data.get('name')}] contacto de ${site.site.domain}`
+      `[${data.get('name')}] contacto de ${page.site.domain}`
     )
     const { ok } = await fetch(URL, {
       method: 'POST',

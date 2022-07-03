@@ -8,9 +8,9 @@ import Form from './Form'
 
 const Contact = () => {
   const intl = useIntl()
-  const { site } = usePage()
-  const phone = site.site.phoneNumber
-  const email = site.site.email
+  const { page } = usePage()
+  const phone = page.site.phoneNumber
+  const email = page.site.email
   return (
     <PageWrapper id='contactame' bgColor='gray'>
       <PageContent>

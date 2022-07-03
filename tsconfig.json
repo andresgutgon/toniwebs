@@ -3,9 +3,10 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
+      "@PageComponents/*": ["src/PageComponents/*"],
       "@hooks/*": ["src/hooks/*"],
       "@layouts/*": ["src/layouts/*"],
-      "@sites/*": ["src/sites/*"],
+      "@site/*": ["src/site/*"],
       "@types": ["src/types.ts"]
     },
     "target": "ESNext",

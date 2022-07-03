@@ -1,0 +1,8 @@
+---
+import Content from './Content.tsx'
+import Contact from './Contact.tsx'
+
+const { page } = Astro.props
+---
+<Content page={page} />
+<Contact page={page} client:visible />

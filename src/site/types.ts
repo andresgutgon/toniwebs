@@ -1,8 +1,4 @@
 import type { Locale } from '@types'
-import { DOMAINS } from './domains'
-
-export type DomainKeys = keyof typeof DOMAINS
-export type Domain = typeof DOMAINS[DomainKeys]
 
 export type OpenGraph = {
   basic: {
@@ -31,7 +27,7 @@ export type Page = {
 
 export type I18nPage = Record<Locale, Page>
 export type Site = {
-  domain: Domain
+  domain: string
   phoneNumber: string
   email: string
   pages: Record<string, I18nPage>
@@ -41,7 +37,7 @@ export type LocaleOption = { label: string; value: Locale }
 type CanonicalUrl = { url: string; locale: Locale }
 export type SitePage = {
   site: Site
-  page: Page
+  currentPage: Page
   localeOptions: LocaleOption[]
   currentUrl: string
   canonicalUrl: CanonicalUrl
