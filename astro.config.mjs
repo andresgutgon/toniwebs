@@ -6,6 +6,6 @@ import react from '@astrojs/react'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://maestroyoficiantedeceremonias.com',
-  path: process.env.NODE_ENV === 'production' ? '/toniwebs' : null,
+  path: '/toniwebs',
   integrations: [tailwind(), react()]
 })
