@@ -69,7 +69,6 @@ const Contact = () => {
           <div className='col-span-6'>
             <Form />
           </div>
-          <div className='h-[500px] sm:h-auto' />
         </div>
       </PageContent>
     </PageWrapper>
