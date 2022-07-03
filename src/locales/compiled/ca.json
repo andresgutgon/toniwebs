@@ -1,8 +1,304 @@
 {
-  "n+D0mx": [
+  "/ES52+": [
     {
       "type": 0,
-      "value": "Adeu"
+      "value": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
+    }
+  ],
+  "/m71Vx": [
+    {
+      "type": 0,
+      "value": "Toni figuera, maestro de ceremonias"
+    }
+  ],
+  "0OAotW": [
+    {
+      "type": 0,
+      "value": "Sobre mí"
+    }
+  ],
+  "2WHEEl": [
+    {
+      "type": 0,
+      "value": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos antes 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
+    }
+  ],
+  "3xDpCF": [
+    {
+      "type": 0,
+      "value": "Tu ceremonia como tú quieres."
+    }
+  ],
+  "4Y3qdy": [
+    {
+      "type": 0,
+      "value": "Maestro de ceremonias, oficiante de bodas, presentador."
+    }
+  ],
+  "7GtpBL": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "O llama al"
+        }
+      ],
+      "type": 8,
+      "value": "callTag"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+      ],
+      "type": 8,
+      "value": "phoneTag"
+    }
+  ],
+  "7StwJn": [
+    {
+      "type": 0,
+      "value": "las bodas que yo hago"
+    }
+  ],
+  "88sEW8": [
+    {
+      "type": 0,
+      "value": "Contáctame"
+    }
+  ],
+  "9u7E3s": [
+    {
+      "type": 0,
+      "value": "Bodas"
+    }
+  ],
+  "AHJaaS": [
+    {
+      "type": 0,
+      "value": "Boda cómica"
+    }
+  ],
+  "AZLz3a": [
+    {
+      "type": 0,
+      "value": "multitud de opciones"
+    }
+  ],
+  "BIAord": [
+    {
+      "type": 0,
+      "value": "Pensando en los detalles de tu boda"
+    }
+  ],
+  "CA9eY5": [
+    {
+      "type": 0,
+      "value": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
+    }
+  ],
+  "HYitF5": [
+    {
+      "type": 0,
+      "value": "Os ayudo a conseguir la boda perfecta"
+    }
+  ],
+  "LU7byF": [
+    {
+      "type": 0,
+      "value": "Musical"
+    }
+  ],
+  "LaU95V": [
+    {
+      "type": 0,
+      "value": "Todo lo que quieras podemos hacerlo posible"
+    }
+  ],
+  "N7yh1n": [
+    {
+      "type": 0,
+      "value": "Enviar mensaje"
+    }
+  ],
+  "S6W4PT": [
+    {
+      "type": 0,
+      "value": "Teléfono"
+    }
+  ],
+  "SSXizG": [
+    {
+      "type": 0,
+      "value": "Personaliza tu ceremonia con "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "vuestra canción o canciones favoritas"
+        }
+      ],
+      "type": 8,
+      "value": "specialSong"
+    },
+    {
+      "type": 0,
+      "value": ". Como actor y cantante he trabajado en muchos musicales, si quieres incluir alguna canción o canciones en tu ceremonia podemos hacerlo posible."
+    }
+  ],
+  "ScnA6d": [
+    {
+      "type": 0,
+      "value": "Solicita información"
+    }
+  ],
+  "SxgkbE": [
+    {
+      "type": 0,
+      "value": "El estilo y el ambiente lo eliges tú."
+    }
+  ],
+  "TCi2JO": [
+    {
+      "type": 0,
+      "value": "Creo necesario hacer una escaleta con el timming del enlace, canciones, participación de testigos o invitados, etc, todo coordinado con la música para darle al enlace un empaque de espectáculo. Y puede ser grande, majestuoso y épico, o romántico, mágico y detallista. El estilo y el ambiente lo eliges tú."
+    }
+  ],
+  "VUgx65": [
+    {
+      "type": 0,
+      "value": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y allegados."
+    }
+  ],
+  "W4zTHZ": [
+    {
+      "type": 0,
+      "value": "Después de muchos años y tanta experiencia acumulada, he conseguido tener los conocimientos ideales para poderte ofrecer un trabajo justo a medida de tus necesidades y expectativas, sólo tenemos que hablar un rato y podré hacerte una propuesta ajustada a tu evento o celebración. Con trabajo y pasión podemos crear algo inolvidable."
+    }
+  ],
+  "YtYhuo": [
+    {
+      "type": 0,
+      "value": "Concurso"
+    }
+  ],
+  "YwsmHE": [
+    {
+      "type": 0,
+      "value": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
+    }
+  ],
+  "acQBQS": [
+    {
+      "type": 0,
+      "value": "Explica un poco cómo quieres que sea tu evento"
+    }
+  ],
+  "cBWDft": [
+    {
+      "type": 0,
+      "value": "Explícame el evento que quieres preparar"
+    }
+  ],
+  "iUp8+g": [
+    {
+      "type": 0,
+      "value": "Durante mi carrera como presentador y maestro de ceremonias he desarrollado distintas habilidades que pueden hacer de tu boda un momento inolvidable."
+    }
+  ],
+  "ik0QqA": [
+    {
+      "type": 0,
+      "value": "Solicita información"
+    }
+  ],
+  "jIQVf0": [
+    {
+      "type": 0,
+      "value": "Boda con DJ"
+    }
+  ],
+  "mJqcsd": [
+    {
+      "type": 0,
+      "value": "Presentador y Maestro de ceremonias"
+    }
+  ],
+  "mKjzSK": [
+    {
+      "type": 0,
+      "value": "Tu nombre"
+    }
+  ],
+  "mrFj9D": [
+    {
+      "type": 0,
+      "value": "Convierte tu boda en un concurso al más puro estilo televisivo dónde novios e invitados serán participantes de un concurso dónde los novios serán siempre los ganadores."
+    }
+  ],
+  "n71Uwf": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conectar con la gente"
+        }
+      ],
+      "type": 8,
+      "value": "hightlight"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "compartir emociones."
+        }
+      ],
+      "type": 8,
+      "value": "normal"
+    }
+  ],
+  "pKwwNm": [
+    {
+      "type": 0,
+      "value": "Como maestro de ceremonias cuando oficio una boda creo que no debe ser sólo oficiar la ceremonia, hacer alguna broma o chiste ingenioso y leer algún texto sobre el amor. Creo que la figura del maestro de ceremonias va más allá. Me gusta que los novios se sientan los protagonistas y que los invitados se sientan parte de la celebración. Por eso me gusta recibir a los invitados, hablar con ellos, conocer a la familia y amigos durante unos minutos para poder crear un ambiente festivo y alegre entre todos antes de recibir a los novios."
+    }
+  ],
+  "rjQbxZ": [
+    {
+      "type": 0,
+      "value": "Toni Figuera maestro de ceremonias oficiando una boda"
+    }
+  ],
+  "wTo87j": [
+    {
+      "type": 0,
+      "value": "Genera recuerdos memorables"
+    }
+  ],
+  "wl6aCz": [
+    {
+      "type": 0,
+      "value": "Tu número de teléfono"
+    }
+  ],
+  "xGfqJO": [
+    {
+      "type": 0,
+      "value": "Pregúntame lo que necesites"
+    }
+  ],
+  "z3dPJe": [
+    {
+      "type": 0,
+      "value": "Si estás preparando tu boda estoy seguro que ya te la has imaginado en muchas ocasiones. Cuéntame qué imaginas, tus expectativas e ilusiones, cómo te gustaría que fuera tu ceremonia y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única."
     }
   ]
 }
