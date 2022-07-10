@@ -10,7 +10,7 @@ const PAGE_LOCALE: Record<Locale, PageLocale> = {
 }
 export const site: Site = {
   phoneNumber: '618 059 259',
-  email: 'tonifiguera05@gmail.com',
+  email: 'toni@tonifiguera.com',
   domain: 'maestroyoficiantedeceremonias.com',
   pages: {
     home: {
