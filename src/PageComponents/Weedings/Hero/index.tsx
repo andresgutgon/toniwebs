@@ -4,7 +4,7 @@ import Button from '@components/Button'
 import PageWrapper from '@components/PageWrapper'
 import PageContent from '@components/PageContent'
 import { usePage } from '@layouts/PageProvider'
-import imageSrc from './toni-maestro-ceremonias.jpg'
+import imageSrc from './toni-maestro-ceremonias.jpeg'
 
 export default function Hero() {
   const { page } = usePage()

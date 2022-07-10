@@ -3,7 +3,7 @@ import { useIntl } from 'react-intl'
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
 import BgPatterns from '@components/PageWrapper/BgPatterns'
-import planingWeddingImageSrc from './planeando-la-boda.jpg'
+import planingWeddingImageSrc from './planeando-la-boda.jpeg'
 
 const Planning = () => {
   const intl = useIntl()
