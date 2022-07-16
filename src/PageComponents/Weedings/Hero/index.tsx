@@ -59,7 +59,7 @@ export default function Hero() {
                 {intl.formatMessage({
                   id: 'VUgx65',
                   defaultMessage:
-                    'Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y allegados.'
+                    'Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos.'
                 })}
               </p>
               <div className='mt-5 sm:mt-8 sm:flex justify-center lg:justify-start'>

@@ -7,7 +7,7 @@
     "AstroBuild": "astro build",
     "preview": "astro preview",
     "tc": "tsc --noEmit",
-    "extract:i18n": "formatjs extract 'src/{pages,components,layouts}/**/*.{js,ts,tsx}' --ignore='**/*.d.ts' --out-file 'src/locales/es.json' --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
+    "extract:i18n": "formatjs extract 'src/{pages,PageComponents,components,layouts}/**/*.{js,ts,tsx}' --ignore='**/*.d.ts' --out-file 'src/locales/es.json' --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
     "compile:i18n": "formatjs compile-folder --ast src/locales src/locales/compiled",
     "i18n": "npm run extract:i18n && npm run compile:i18n",
     "build": "npm run i18n && npm run AstroBuild"

@@ -22,12 +22,6 @@ const Contact = () => {
                 defaultMessage: 'Solicita información'
               })}
             </h2>
-            <p className='hidden sm:block mt-3 text-lg leading-6 text-gray-500'>
-              {intl.formatMessage({
-                id: 'cBWDft',
-                defaultMessage: 'Explícame el evento que quieres preparar'
-              })}
-            </p>
             <dl className='mt-8 text-base text-gray-500'>
               <div className='mt-6'>
                 <dt className='sr-only'>

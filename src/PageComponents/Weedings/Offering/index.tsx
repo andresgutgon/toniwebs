@@ -8,6 +8,14 @@ const Offerings = () => {
   const intl = useIntl()
   const offerings = [
     {
+      name: intl.formatMessage({ id: 'fo3Ho5', defaultMessage: 'Idiomas' }),
+      description: intl.formatMessage({
+        id: '1lOQI2',
+        defaultMessage:
+          'Una ceremonia en varios idiomas para que vosotros y vuestros invitados os sintáis cómodos y disfrutéis de la velada: Castellano, catalán, inglés, italiano, francés y lo que necesitéis.'
+      })
+    },
+    {
       name: intl.formatMessage({ id: 'jIQVf0', defaultMessage: 'Boda con DJ' }),
       description: intl.formatMessage({
         id: 'CA9eY5',
@@ -36,14 +44,6 @@ const Offerings = () => {
         }
       )
     },
-    {
-      name: intl.formatMessage({ id: 'YtYhuo', defaultMessage: 'Concurso' }),
-      description: intl.formatMessage({
-        id: 'mrFj9D',
-        defaultMessage:
-          'Convierte tu boda en un concurso al más puro estilo televisivo dónde novios e invitados serán participantes de un concurso dónde los novios serán siempre los ganadores.'
-      })
-    }
   ]
 
   return (
@@ -51,25 +51,12 @@ const Offerings = () => {
       <PageContent>
         <div className='lg:grid lg:grid-cols-3 lg:gap-x-8'>
           <div>
-            <h2 className='text-base text-rose-500 uppercase tracking-wide'>
-              {intl.formatMessage({
-                id: 'AZLz3a',
-                defaultMessage: 'multitud de opciones'
-              })}
-            </h2>
-            <p className='mt-2 font-serif text-3xl font-extrabold text-slate-900'>
+            <h2 className='mt-2 font-serif text-3xl font-extrabold text-slate-900'>
               {intl.formatMessage({
                 id: 'wTo87j',
-                defaultMessage: 'Genera recuerdos memorables'
+                defaultMessage: 'Algunos ejemplos o ideas que te pueden ayudar'
               })}
-            </p>
-            <p className='mt-4 text-lg text-gray-500'>
-              {intl.formatMessage({
-                id: 'iUp8+g',
-                defaultMessage:
-                  'Durante mi carrera como presentador y maestro de ceremonias he desarrollado distintas habilidades que pueden hacer de tu boda un momento inolvidable. '
-              })}
-            </p>
+            </h2>
           </div>
           <div className='mt-12 lg:mt-0 lg:col-span-2'>
             <dl className='space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8'>

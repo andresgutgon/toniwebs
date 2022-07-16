@@ -36,7 +36,7 @@ const Planning = () => {
               {intl.formatMessage({
                 id: 'z3dPJe',
                 defaultMessage:
-                  'Si estás preparando tu boda estoy seguro que ya te la has imaginado en muchas ocasiones. Cuéntame qué imaginas, tus expectativas e ilusiones, cómo te gustaría que fuera tu ceremonia y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única.'
+                  'Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única.'
               })}
             </p>
             <a

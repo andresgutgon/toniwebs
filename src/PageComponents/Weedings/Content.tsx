@@ -15,10 +15,9 @@ const Content = ({ page }: Props) => {
     <DefaultLayout page={page} bgColor='white'>
       <Header />
       <Hero />
-
-      <Offerings />
-      <Planning />
       <MyWeddings />
+      <Planning />
+      <Offerings />
       <AboutMe />
     </DefaultLayout>
   )
