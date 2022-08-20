@@ -39,18 +39,18 @@ export const site: Site = {
         ...PAGE_LOCALE.ca,
         path: 'ca',
         meta: {
-          title: 'Maestro de ceremonias',
+          title: 'Mestre de cerimònies',
           description:
-            'Maestro de ceremonias oficiante de bodas presentador actor para eventos más de 20 años de experiencia Toni Figuera con mi experiencia y pasión podemos crear un evento inolvidable'
+            "Mestre de cerimònies oficiant de casaments presentador actor per a esdeveniments més de 20 anys d'experiència Toni Figuera amb la meva experiència i passió podem crear un esdeveniment inoblidable"
         },
         openGraph: {
           basic: {
-            title: 'Maestro de ceremonias, oficiante de bodas, presentador.',
+            title: 'Mestre de cerimònies, oficiant de casaments, presentador.',
             type: OG_TYPE,
             image: OG_IMAGE_URL
           },
           image: {
-            alt: 'Toni Figuera maestro de ceremonias oficiando una boda',
+            alt: 'Toni Figuera mestre de cerimònies oficiant un casaments',
             url: OG_IMAGE_URL,
             ...OG_IMAGE_DIMENSIONS
           }

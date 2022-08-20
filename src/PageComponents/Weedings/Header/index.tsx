@@ -3,6 +3,17 @@ import cn from 'classnames'
 
 import PageContent from '@components/PageContent'
 import logoSrc from './logo.svg'
+import logoCaSrc from './logo-ca.svg'
+import { usePage } from '@layouts/PageProvider'
+
+const LOGOS_BY_LOCALE = {
+  es: logoSrc,
+  ca: logoCaSrc
+}
+const HOME_LINK_BY_LOCALE = {
+  es: '/',
+  ca: '/ca'
+}
 
 type MenuItemProps = { url: string; text: string }
 const MenuItem = ({ url, text }: MenuItemProps) => (
@@ -15,6 +26,7 @@ const MenuItem = ({ url, text }: MenuItemProps) => (
 )
 const Header = () => {
   const intl = useIntl()
+  const { page } = usePage()
   const logoAlt = intl.formatMessage({
     id: '/m71Vx',
     defaultMessage: 'Toni figuera, maestro de ceremonias'
@@ -50,9 +62,13 @@ const Header = () => {
           <div className={cn('relative pt-2 sm:pt-8', paddingLeft)}>
             <div className='flex items-center flex-grow flex-shrink-0 lg:flex-grow-0'>
               <div className='flex items-center justify-between w-full md:w-auto'>
-                <a href='/'>
+                <a href={HOME_LINK_BY_LOCALE[page.locale]}>
                   <span className='sr-only'>{logoAlt}</span>
-                  <img src={logoSrc} alt={logoAlt} className='h-16' />
+                  <img
+                    src={LOGOS_BY_LOCALE[page.locale]}
+                    alt={logoAlt}
+                    className='h-16'
+                  />
                 </a>
               </div>
             </div>

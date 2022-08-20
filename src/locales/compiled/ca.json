@@ -2,37 +2,43 @@
   "/ES52+": [
     {
       "type": 0,
-      "value": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
+      "value": "Dona-li a la teva cerimònia un toc còmic amb un capellà o un jutge de pau molt particulars i divertits. Sorprèn als teus convidats amb riures i diversió en una cerimònia que no deixarà indiferent a ningú."
     }
   ],
   "/m71Vx": [
     {
       "type": 0,
-      "value": "Toni figuera, maestro de ceremonias"
+      "value": "Toni figuera, mestre de cerimònies"
     }
   ],
   "0OAotW": [
     {
       "type": 0,
-      "value": "Sobre mí"
+      "value": "Coses meves"
+    }
+  ],
+  "1lOQI2": [
+    {
+      "type": 0,
+      "value": "Una cerimònia en diversos idiomes perquè vosaltres i els vostres convidats us sentiu còmodes i gaudiu de la vetllada: Castellà, català, anglès, italià, francès i el que necessiteu."
     }
   ],
   "2WHEEl": [
     {
       "type": 0,
-      "value": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos ante 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
+      "value": "Em dic Toni Figuera i sóc actor i director de teatre i events. Porto més de vint anys treballant en el món de l'espectacle, i en aquests anys he fet absolutament de tot: teatre de text, teatre musical, teatre de carrer, televisió, events d'empresa, events privats, oficiant de casaments, mestre de cerimònies... cel·lebracions de tot tipus i en totes les situacions que puguis imaginar. He actuat en teatres plens davant de 1200 persones, i en events privats amb 10 comensals. M'he canviat en camerins de 50 m2 amb el meu nom a la porta i un càtering meravellós, i en el lavabo d'un restaurant per actuar en un aniversari. Així és la vida de l'artista i m'apassiona."
     }
   ],
   "3xDpCF": [
     {
       "type": 0,
-      "value": "Tu ceremonia como tú quieres."
+      "value": "La teva cerimònia com tu la vols."
     }
   ],
   "4Y3qdy": [
     {
       "type": 0,
-      "value": "Maestro de ceremonias, oficiante de bodas, presentador."
+      "value": "Mestre de cerimònies, oficiant de casaments, presentador."
     }
   ],
   "7GtpBL": [
@@ -60,49 +66,43 @@
   "7StwJn": [
     {
       "type": 0,
-      "value": "las bodas que yo hago"
+      "value": "Els casaments com jo els faig"
     }
   ],
   "88sEW8": [
     {
       "type": 0,
-      "value": "Contáctame"
+      "value": "Contacte"
     }
   ],
   "9u7E3s": [
     {
       "type": 0,
-      "value": "Bodas"
+      "value": "Casaments"
     }
   ],
   "AHJaaS": [
     {
       "type": 0,
-      "value": "Boda cómica"
-    }
-  ],
-  "AZLz3a": [
-    {
-      "type": 0,
-      "value": "multitud de opciones"
+      "value": "Cerimònia de casament còmica"
     }
   ],
   "BIAord": [
     {
       "type": 0,
-      "value": "Pensando en los detalles de tu boda"
+      "value": "Pensant en els detalls del teu casament."
     }
   ],
   "CA9eY5": [
     {
       "type": 0,
-      "value": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
+      "value": "Fes la teva cerimònia més dinàmica i entretinguda amb un dj que posarà cançons i música en totes les parts de la cerimònia, oblida't de les pauses llargues i els silencis aborrits."
     }
   ],
   "HYitF5": [
     {
       "type": 0,
-      "value": "Os ayudo a conseguir la boda perfecta"
+      "value": "Us ayudo a conseguir la cerimònia perfecte"
     }
   ],
   "LU7byF": [
@@ -114,129 +114,103 @@
   "LaU95V": [
     {
       "type": 0,
-      "value": "Todo lo que quieras podemos hacerlo posible"
+      "value": "Tot el que vulguis podem fer-ho possible"
     }
   ],
   "N7yh1n": [
     {
       "type": 0,
-      "value": "Enviar mensaje"
+      "value": "Enviar missatge"
     }
   ],
   "S6W4PT": [
     {
       "type": 0,
-      "value": "Teléfono"
+      "value": "Telèfon"
     }
   ],
   "SSXizG": [
     {
       "type": 0,
-      "value": "Personaliza tu ceremonia con "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "vuestra canción o canciones favoritas"
-        }
-      ],
-      "type": 8,
-      "value": "specialSong"
-    },
-    {
-      "type": 0,
-      "value": ". Como actor y cantante he trabajado en muchos musicales, si quieres incluir alguna canción o canciones en tu ceremonia podemos hacerlo posible."
+      "value": "Personalitza la teva cerimònia amb la vostra cançó o cançons preferides. Com actor i cantant he treballat en molts musicals, si vols incloure alguna cançó o cançóns en la teva cerimònia podem fer-ho realitat."
     }
   ],
   "ScnA6d": [
     {
       "type": 0,
-      "value": "Solicita información"
+      "value": "Demana informació"
     }
   ],
   "SxgkbE": [
     {
       "type": 0,
-      "value": "El estilo y el ambiente lo eliges tú."
+      "value": "L'estil el to i l'ambient ho esculls tu."
     }
   ],
   "TCi2JO": [
     {
       "type": 0,
-      "value": "Creo necesario hacer una escaleta con el timming del enlace, canciones, participación de testigos o invitados, etc, todo coordinado con la música para darle al enlace un empaque de espectáculo. Y puede ser grande, majestuoso y épico, o romántico, mágico y detallista. El estilo y el ambiente lo eliges tú."
+      "value": "Crec necessari fer una escaleta amb les diferents parts i els timmings de la cerimònia, cançons, participació de testimonis o convidats, etc, tot coordinat amb la música per donar-li al casament un toc d'espectacle. I pot ser gran i èpic o romàntic i màgic. L'estil i l'ambient l'esculls tu."
+    }
+  ],
+  "TeuDtf": [
+    {
+      "type": 0,
+      "value": "Enviant..."
     }
   ],
   "VUgx65": [
     {
       "type": 0,
-      "value": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y allegados."
-    }
-  ],
-  "W4zTHZ": [
-    {
-      "type": 0,
-      "value": "Después de muchos años y tanta experiencia acumulada, he conseguido tener los conocimientos ideales para poderte ofrecer un trabajo justo a medida de tus necesidades y expectativas, sólo tenemos que hablar un rato y podré hacerte una propuesta ajustada a tu evento o celebración. Con trabajo y pasión podemos crear algo inolvidable."
-    }
-  ],
-  "YtYhuo": [
-    {
-      "type": 0,
-      "value": "Concurso"
+      "value": "Fer que el teu casament sigui especial per a tu i els teus convidats. Crear records imborrables. Una cel·lebració del vostre amor per compartir-la amb la vostra familia i amics."
     }
   ],
   "YwsmHE": [
     {
       "type": 0,
-      "value": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
+      "value": "M'agrada preparar, a gust dels nuvis, unes presentacions personalitzades i adaptades a l'estil que vulgueu en la vostra cerimònia per a que, quan entreu pel passadís se us posi la pell de gallina y aquesta emoció sigui compartida amb tots els assistentns."
     }
   ],
   "acQBQS": [
     {
       "type": 0,
-      "value": "Explica un poco cómo quieres que sea tu evento"
+      "value": "Explica'm com vols que sigui la teva cel·lebració."
     }
   ],
-  "cBWDft": [
+  "fo3Ho5": [
     {
       "type": 0,
-      "value": "Explícame el evento que quieres preparar"
-    }
-  ],
-  "iUp8+g": [
-    {
-      "type": 0,
-      "value": "Durante mi carrera como presentador y maestro de ceremonias he desarrollado distintas habilidades que pueden hacer de tu boda un momento inolvidable."
+      "value": "Idiomas"
     }
   ],
   "ik0QqA": [
     {
       "type": 0,
-      "value": "Solicita información"
+      "value": "Demana informació"
     }
   ],
   "jIQVf0": [
     {
       "type": 0,
-      "value": "Boda con DJ"
+      "value": "Cerimònia amb DJ"
+    }
+  ],
+  "kxRPrz": [
+    {
+      "type": 0,
+      "value": "Missatge enviat!"
     }
   ],
   "mJqcsd": [
     {
       "type": 0,
-      "value": "Presentador y Maestro de ceremonias"
+      "value": "Presentador i Mestre de cerimònies"
     }
   ],
   "mKjzSK": [
     {
       "type": 0,
-      "value": "Tu nombre"
-    }
-  ],
-  "mrFj9D": [
-    {
-      "type": 0,
-      "value": "Convierte tu boda en un concurso al más puro estilo televisivo dónde novios e invitados serán participantes de un concurso dónde los novios serán siempre los ganadores."
+      "value": "El teu nom"
     }
   ],
   "n71Uwf": [
@@ -244,7 +218,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Conectar con la gente"
+          "value": "Connectar amb la gent"
         }
       ],
       "type": 8,
@@ -258,7 +232,7 @@
       "children": [
         {
           "type": 0,
-          "value": "compartir emociones."
+          "value": "compartir emocions"
         }
       ],
       "type": 8,
@@ -268,37 +242,43 @@
   "pKwwNm": [
     {
       "type": 0,
-      "value": "Como maestro de ceremonias cuando oficio una boda creo que no debe ser sólo oficiar la ceremonia, hacer alguna broma o chiste ingenioso y leer algún texto sobre el amor. Creo que la figura del maestro de ceremonias va más allá. Me gusta que los novios se sientan los protagonistas y que los invitados se sientan parte de la celebración. Por eso me gusta recibir a los invitados, hablar con ellos, conocer a la familia y amigos durante unos minutos para poder crear un ambiente festivo y alegre entre todos antes de recibir a los novios."
+      "value": "Com a mestre de cerimònies quan oficio un casament crec que no és tan sols oficiar la cerimònia, fer alguna broma sobre els nuvis i llegir algún text sobre l'amor. Crec que la figura del mestre de cermònies va més enllà. M'agrada que els nuvis sentin que són els protagonistes i que els convidats sentin que són part de la cel·lebració. Per això m'agrada rebre als convidats, parlar amb ells, conèixer a la família i amics durant uns minuts per poder crear un ambient festiu i alegre entre tots abans de rebre els nuvis."
     }
   ],
   "rjQbxZ": [
     {
       "type": 0,
-      "value": "Toni Figuera maestro de ceremonias oficiando una boda"
+      "value": "Toni Figuera mestre de cerimònies en un casament"
+    }
+  ],
+  "vSXIpl": [
+    {
+      "type": 0,
+      "value": "Em posaré en contacte amb vosaltres el més aviat possible. Una salutació coordial."
     }
   ],
   "wTo87j": [
     {
       "type": 0,
-      "value": "Genera recuerdos memorables"
+      "value": "Alguns exemples o idees que us poden ajudar"
     }
   ],
   "wl6aCz": [
     {
       "type": 0,
-      "value": "Tu número de teléfono"
+      "value": "El teu número de telèfon"
     }
   ],
   "xGfqJO": [
     {
       "type": 0,
-      "value": "Pregúntame lo que necesites"
+      "value": "Pregunta'm el que necessitis"
     }
   ],
   "z3dPJe": [
     {
       "type": 0,
-      "value": "Si estás preparando tu boda estoy seguro que ya te la has imaginado en muchas ocasiones. Cuéntame qué imaginas, tus expectativas e ilusiones, cómo te gustaría que fuera tu ceremonia y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única."
+      "value": "Explica'm que imagines, les teves espectatives i il·lusions i deixa'm que t'ajudi a que sigui real. Una casament a mida, una cel·lebració perfecte, una cerimònia única."
     }
   ]
 }
