@@ -7,11 +7,14 @@ import Input from '@components/Input'
 import Textarea from '@components/Textarea'
 import { usePage } from '@layouts/PageProvider'
 
+// NOTE on CORS: setting in fetch `mode: 'no-cors'` allow to send from localhost
+const CORS_MODE = 'cors' // production is 'cors'
+//
 // Info: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server
 // Same Google sheet as tonifiguera.com
 const BASE_API = 'https://script.google.com/macros/s'
 const VERSION =
-  'AKfycbwdMppEBOR49PWTY-o_Mgjw0jo8jnkfLQ2E2h5mvI6eaX6e_65k2trErfRSIFZjZ3HNSw'
+  'AKfycbz06mg_HTQLXmp95os8yaVST5KdoiskTJq8fTR5KT98Nb76Ik7pl--b2upe57aSnWQw'
 const URL = `${BASE_API}/${VERSION}/exec`
 
 const Form = () => {
@@ -40,6 +43,7 @@ const Form = () => {
     )
     const { ok } = await fetch(URL, {
       method: 'POST',
+      mode: CORS_MODE,
       body: data
     })
     console.log('OK', ok)
