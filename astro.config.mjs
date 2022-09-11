@@ -1,8 +1,9 @@
 import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
 import react from '@astrojs/react'
-
 import sitemap from '@astrojs/sitemap'
+
+import alpinejs from '@astrojs/alpinejs'
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,12 +13,13 @@ export default defineConfig({
     react(),
     sitemap({
       i18n: {
-        defaultLocale: 'es', // All urls that don't contain `es` or `fr` after `https://stargazers.club/` will be treated as default locale, i.e. `en`
+        defaultLocale: 'es',
         locales: {
-          es: 'es', // The `defaultLocale` value must present in `locales` keys
+          es: 'es',
           ca: 'ca'
         }
       }
-    })
+    }),
+    alpinejs()
   ]
 })

@@ -1,0 +1,19 @@
+---
+import Layout from '@layouts/Default.astro'
+import { site, getPage } from '@site/index'
+
+import { getServiceStaticPathsForES } from '@site/getStaticPaths'
+import { SERVICES } from '@PageComponents/Services/base'
+import Contact from '@PageComponents/Contact.tsx'
+
+export const getStaticPaths = getServiceStaticPathsForES
+
+const locale = 'es'
+const { slug } = Astro.params
+const service = SERVICES[slug]
+const page = getPage(site, service.pageKey, locale)
+---
+<Layout page={page}>
+  <service.pageComponent page={page} />
+  <Contact bgColor='gray' page={page} client:visible />
+</Layout>

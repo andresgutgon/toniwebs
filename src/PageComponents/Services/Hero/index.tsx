@@ -4,9 +4,23 @@ import Button from '@components/Button'
 import PageWrapper from '@components/PageWrapper'
 import PageContent from '@components/PageContent'
 import { usePage } from '@layouts/PageProvider'
-import imageSrc from './toni-maestro-ceremonias.jpeg'
 
-export default function Hero() {
+type Props = {
+  h1: string
+  description: string
+  imageSrc: string
+  imageAlt: string
+  sectionName: string
+  sectionClaim: string
+}
+export default function Hero({
+  h1,
+  description,
+  imageSrc,
+  imageAlt,
+  sectionName,
+  sectionClaim
+}: Props) {
   const { page } = usePage()
   const phone = page.site.phoneNumber
   const intl = useIntl()
@@ -24,47 +38,25 @@ export default function Hero() {
           >
             <polygon points='50,0 100,0 50,100 0,100' />
           </svg>
-          <main className='pt-10 mx-auto max-w-7xl px-4 sm:pt-12 sm:px-6 md:pt-16 lg:pt-20 lg:px-8 xl:pt-28'>
+          <main className='pt-10 sm:pt-12 sm:px-6 md:pt-16 lg:pt-20 lg:px-8 xl:pt-28'>
             <div className='sm:text-center lg:text-left'>
               <p className='font-serif text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl'>
-                <FormattedMessage
-                  id='n71Uwf'
-                  defaultMessage='<hightlight>Conectar con la gente</hightlight> <normal>compartir emociones.</normal>'
-                  values={{
-                    hightlight: function hightlight(chunks) {
-                      return (
-                        <span className='block text-slate-900 xl:inline-block mb-2'>
-                          {chunks}
-                        </span>
-                      )
-                    },
-                    normal: function normal(chunks) {
-                      return (
-                        <span className='block text-rose-600 xl:inline'>
-                          {chunks}
-                        </span>
-                      )
-                    }
-                  }}
-                />
+                <span className='block md:text-4xl text-slate-900 mb-2'>
+                  {sectionName}
+                </span>
+                <span className='sm:block text-rose-600 xl:inline'>
+                  {sectionClaim}
+                </span>
               </p>
               <h1 className='mt-3 text-base text-slate-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
-                {intl.formatMessage({
-                  id: '4Y3qdy',
-                  defaultMessage:
-                    'Maestro de ceremonias, oficiante de bodas, presentador.'
-                })}
+                {h1}
               </h1>
               <p className='mt-1 text-sm text-slate-500 sm:text-base sm:max-w-xl sm:mx-auto md:text-lg lg:mx-0'>
-                {intl.formatMessage({
-                  id: 'VUgx65',
-                  defaultMessage:
-                    'Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos.'
-                })}
+                {description}
               </p>
               <div className='mt-5 sm:mt-8 sm:flex justify-center lg:justify-start'>
                 <div className='space-y-4 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row items-center'>
-                  <div>
+                  <div className='w-full'>
                     <Button href='#contactame'>
                       {intl.formatMessage({
                         id: 'ik0QqA',
@@ -109,11 +101,7 @@ export default function Hero() {
         <img
           className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
           src={imageSrc}
-          alt={intl.formatMessage({
-            id: 'rjQbxZ',
-            defaultMessage:
-              'Toni Figuera maestro de ceremonias oficiando una boda'
-          })}
+          alt={imageAlt}
         />
       </div>
     </PageWrapper>

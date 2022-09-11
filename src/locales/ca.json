@@ -1,9 +1,9 @@
 {
+  "+mV4j+": {
+    "defaultMessage": "Cambrer false"
+  },
   "/ES52+": {
     "defaultMessage": "Dona-li a la teva cerimònia un toc còmic amb un capellà o un jutge de pau molt particulars i divertits. Sorprèn als teus convidats amb riures i diversió en una cerimònia que no deixarà indiferent a ningú."
-  },
-  "/m71Vx": {
-    "defaultMessage": "Toni figuera, mestre de cerimònies"
   },
   "0OAotW": {
     "defaultMessage": "Coses meves"
@@ -26,6 +26,12 @@
   "7StwJn": {
     "defaultMessage": "Els casaments com jo els faig"
   },
+  "7iDOUc": {
+    "defaultMessage": "Toni Figuera oficiant de casaments"
+  },
+  "8eedt8": {
+    "defaultMessage": "Toni Figuera com a reporter de TV"
+  },
   "88sEW8": {
     "defaultMessage": "Contacte"
   },
@@ -41,14 +47,50 @@
   "CA9eY5": {
     "defaultMessage": "Fes la teva cerimònia més dinàmica i entretinguda amb un dj que posarà cançons i música en totes les parts de la cerimònia, oblida't de les pauses llargues i els silencis aborrits."
   },
+  "DQj22Z": {
+    "defaultMessage": "Serveis"
+  },
+  "FILuxH": {
+    "defaultMessage": "Presentador"
+  },
+  "G/FnW3": {
+    "defaultMessage": "Personatge infiltrat per dinamitzar els teus esdeveniments"
+  },
+  "JCUq5o": {
+    "defaultMessage": "El teu esdeveniment guanyarà amb un presentador professional"
+  },
+  "JIpkFd": {
+    "defaultMessage": "es"
+  },
   "HYitF5": {
     "defaultMessage": "Us ayudo a conseguir la cerimònia perfecte"
+  },
+  "IcUlg8": {
+    "defaultMessage": "Entrevista els teus convidats per explicar la festa."
   },
   "LU7byF": {
     "defaultMessage": "Musical"
   },
   "LaU95V": {
     "defaultMessage": "Tot el que vulguis podem fer-ho possible"
+  },
+  "MU0ket": {
+    "defaultMessage": "Speaker"
+  },
+  "NmKYYc": {
+    "defaultMessage": "Speaker per dinamitzar esdeveniments, fires i congressos"
+  },
+  "OvIhir": {
+    "defaultMessage": "Altres serveis"
+  },
+  "Q7JOYR": {
+    "defaultMessage": "Toni Figuera speaker pels teus esdeveniments"
+  },
+  "RS703h": {
+    "defaultMessage": "Enric, el meu personatge, l'autèntic cambrer fals. Més de 20 anys d'experiència i més de 600 actuacions per tot el país, fent aquest personatge còmic que farà riure tothom."
+  },
+  "SDhEt/": {
+    "defaultMessage": "Toni Figuera caracteritzat com a Enric, el cambrer fals"
   },
   "N7yh1n": {
     "defaultMessage": "Enviar missatge"
@@ -58,6 +100,9 @@
   },
   "SSXizG": {
     "defaultMessage": "Personalitza la teva cerimònia amb la vostra cançó o cançons preferides. Com actor i cantant he treballat en molts musicals, si vols incloure alguna cançó o cançóns en la teva cerimònia podem fer-ho realitat."
+  },
+  "SXP7Jc": {
+    "defaultMessage": "Castellà"
   },
   "ScnA6d": {
     "defaultMessage": "Demana informació"
@@ -74,14 +119,29 @@
   "VUgx65": {
     "defaultMessage": "Fer que el teu casament sigui especial per a tu i els teus convidats. Crear records imborrables. Una cel·lebració del vostre amor per compartir-la amb la vostra familia i amics."
   },
+  "YOCjIA": {
+    "defaultMessage": "<master>Mestre</master> <of>de</of> <ceremonies>cerimònies</ceremonies>"
+  },
+  "Y2kNwV": {
+    "defaultMessage": "Entrevistes divertides i diferents o serioses i funcionals si ho prefereixes. Tindràs imatges i entrevistes del teu esdeveniment. En acabar muntarem un vídeo perquè el facis servir."
+  },
   "YwsmHE": {
     "defaultMessage": "M'agrada preparar, a gust dels nuvis, unes presentacions personalitzades i adaptades a l'estil que vulgueu en la vostra cerimònia per a que, quan entreu pel passadís se us posi la pell de gallina y aquesta emoció sigui compartida amb tots els assistentns."
+  },
+  "Zpf9z8": {
+    "defaultMessage": "Català"
   },
   "acQBQS": {
     "defaultMessage": "Explica'm com vols que sigui la teva cel·lebració."
   },
+  "bKaUyD": {
+    "defaultMessage": "Rialles inoblidables"
+  },
   "fo3Ho5": {
     "defaultMessage": "Idiomas"
+  },
+  "gkkTKW": {
+    "defaultMessage": "Reporters"
   },
   "ik0QqA": {
     "defaultMessage": "Demana informació"
@@ -89,8 +149,23 @@
   "jIQVf0": {
     "defaultMessage": "Cerimònia amb DJ"
   },
+  "j7nW78": {
+    "defaultMessage": "ca"
+  },
   "kxRPrz": {
     "defaultMessage": "Missatge enviat!"
+  },
+  "l3x1dl": {
+    "defaultMessage": "La TV al teu esdeveniment"
+  },
+  "l6tgYx": {
+    "defaultMessage": "Una veu professional"
+  },
+  "lnKhYI": {
+    "defaultMessage": "Cambrer fals: casaments, aniversaris i esdeveniments d'empresa"
+  },
+  "lp+gEa": {
+    "defaultMessage": "El teu esdeveniment serà perfecte."
   },
   "mJqcsd": {
     "defaultMessage": "Presentador i Mestre de cerimònies"
@@ -98,14 +173,26 @@
   "mKjzSK": {
     "defaultMessage": "El teu nom"
   },
-  "n71Uwf": {
-    "defaultMessage": "<hightlight>Connectar amb la gent</hightlight> <normal>compartir emocions</normal>"
+  "mvXmDJ": {
+    "defaultMessage": "Toni Figuera com a personatge infiltrat"
+  },
+  "ooc11H": {
+    "defaultMessage": "Els avantatges de tenir un presentador professional són molts: presència escènica, domini del ritme i l'escenari, fluïdesa i naturalitat a la parla i el llenguatge i control del llenguatge corporal."
   },
   "pKwwNm": {
     "defaultMessage": "Com a mestre de cerimònies quan oficio un casament crec que no és tan sols oficiar la cerimònia, fer alguna broma sobre els nuvis i llegir algún text sobre l'amor. Crec que la figura del mestre de cermònies va més enllà. M'agrada que els nuvis sentin que són els protagonistes i que els convidats sentin que són part de la cel·lebració. Per això m'agrada rebre als convidats, parlar amb ells, conèixer a la família i amics durant uns minuts per poder crear un ambient festiu i alegre entre tots abans de rebre els nuvis."
   },
+  "rFNyQq": {
+    "defaultMessage": "Una veu que se sentirà al llarg de tota la jornada explicant i donant informació als visitants, anunciant sponsors i patrocinadors. Informant de les activitats"
+  },
+  "v5XiOI": {
+    "defaultMessage": "Toni Figuera com a presentador"
+  },
   "rjQbxZ": {
     "defaultMessage": "Toni Figuera mestre de cerimònies en un casament"
+  },
+  "w+TK7p": {
+    "defaultMessage": "Compartir emocions."
   },
   "vSXIpl": {
     "defaultMessage": "Em posaré en contacte amb vosaltres el més aviat possible. Una salutació coordial."
@@ -121,5 +208,17 @@
   },
   "z3dPJe": {
     "defaultMessage": "Explica'm que imagines, les teves espectatives i il·lusions i deixa'm que t'ajudi a que sigui real. Una casament a mida, una cel·lebració perfecte, una cerimònia única."
+  },
+  "y/kDTo": {
+    "defaultMessage": "Personatge infiltrat"
+  },
+  "5EEnOC": {
+    "defaultMessage": "Sorprendre i provocar"
+  },
+  "3tgYEd": {
+    "defaultMessage": "Tu tries el personatge, jo ho crec i m'infiltro com un més al teu esdeveniment. Bromes a amics, companys, treballadors, familiars o convidats. Qualsevol personatge que se t'acudeixi podrà ser realitat."
+  },
+  "zkXTrr": {
+    "defaultMessage": "Casaments"
   }
 }

@@ -1,0 +1,13 @@
+---
+import Layout from '@layouts/Default.astro'
+import { site, getPage } from '@site/index'
+
+import Contact from '@PageComponents/Contact.tsx'
+import NotFound from '@PageComponents/NotFound'
+
+const page = getPage(site, 'notFound', 'es')
+---
+<Layout page={page}>
+  <NotFound page={page} />
+  <Contact bgColor='gray' page={page} client:visible />
+</Layout>

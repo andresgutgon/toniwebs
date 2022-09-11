@@ -1,0 +1,8 @@
+---
+import Layout from '@layouts/Default.astro'
+import Home from '@PageComponents/Services/Weedings/index.astro'
+import { site, getPage } from '@site/index'
+
+const page = getPage(site, 'home', 'ca')
+---
+<Layout page={page}><Home page={page} /></Layout>

@@ -1,10 +1,6 @@
 import DefaultLayout from '@layouts/Default'
 
-import Header from './Header/'
-import Hero from './Hero'
-import Planning from './Planning'
-import MyWeddings from './MyWeddings'
-import Offerings from './Offering'
+import Header from '@components/Header'
 import AboutMe from '@components/AboutMe'
 
 import { SitePage } from '@site/types'
@@ -14,10 +10,6 @@ const Content = ({ page }: Props) => {
   return (
     <DefaultLayout page={page} bgColor='white'>
       <Header />
-      <Hero />
-      <MyWeddings />
-      <Planning />
-      <Offerings />
       <AboutMe />
     </DefaultLayout>
   )
