@@ -1,97 +1,60 @@
 import type { Locale } from '@types'
-import type { SitePage, Page, LocaleOption, Site } from './types'
-type PageLocale = { locale: Locale; localeLabel: string }
-const OG_TYPE = 'website'
-const OG_IMAGE_URL = '/og-image.jpg'
-const OG_IMAGE_DIMENSIONS = { width: 880, height: 495 }
-const PAGE_LOCALE: Record<Locale, PageLocale> = {
-  es: { locale: 'es', localeLabel: 'Castellano' },
-  ca: { locale: 'ca', localeLabel: 'Catalá' }
+import type { SitePage, Page, Site } from './types'
+
+// Pages metadata and top menu info
+import homeMetadata from '@site/metadata/services/weddings'
+import aboutMe from '@site/metadata/aboutMe'
+import notFound from '@site/metadata/notFound'
+import moderator from '@site/metadata/services/moderator'
+import speaker from '@site/metadata/services/speaker'
+import fakeWaiter from '@site/metadata/services/fakeWaiter'
+import infiltratedCharacter from '@site/metadata/services/infiltratedCharacter'
+import reporterTv from '@site/metadata/services/reporterTv'
+
+const PAGES = {
+  home: homeMetadata, // Weddings at the moment
+  aboutMe,
+  moderator,
+  speaker,
+  fakeWaiter,
+  infiltratedCharacter,
+  reporterTv,
+  notFound
 }
+
+export type PageKey = keyof typeof PAGES
 export const site: Site = {
   phoneNumber: '618 059 259',
   email: 'toni@tonifiguera.com',
-  domain: 'maestroyoficiantedeceremonias.com',
-  pages: {
-    home: {
-      es: {
-        ...PAGE_LOCALE.es,
-        canonical: true,
-        meta: {
-          title: 'Maestro de ceremonias',
-          description:
-            'Maestro de ceremonias oficiante de bodas presentador actor para eventos más de 20 años de experiencia Toni Figuera con mi experiencia y pasión podemos crear un evento inolvidable'
-        },
-        openGraph: {
-          basic: {
-            title: 'Maestro de ceremonias, oficiante de bodas, presentador.',
-            type: OG_TYPE,
-            image: OG_IMAGE_URL
-          },
-          image: {
-            alt: 'Toni Figuera maestro de ceremonias oficiando una boda',
-            url: OG_IMAGE_URL,
-            ...OG_IMAGE_DIMENSIONS
-          }
-        }
-      },
-      ca: {
-        ...PAGE_LOCALE.ca,
-        path: 'ca',
-        meta: {
-          title: 'Mestre de cerimònies',
-          description:
-            "Mestre de cerimònies oficiant de casaments presentador actor per a esdeveniments més de 20 anys d'experiència Toni Figuera amb la meva experiència i passió podem crear un esdeveniment inoblidable"
-        },
-        openGraph: {
-          basic: {
-            title: 'Mestre de cerimònies, oficiant de casaments, presentador.',
-            type: OG_TYPE,
-            image: OG_IMAGE_URL
-          },
-          image: {
-            alt: 'Toni Figuera mestre de cerimònies oficiant un casaments',
-            url: OG_IMAGE_URL,
-            ...OG_IMAGE_DIMENSIONS
-          }
-        }
-      }
-    }
-  }
+  domain: import.meta.env.PROD ? 'maestroyoficiantedeceremonias.com' : '',
+  pages: PAGES
 }
 
 export const buildUrl = (domain: string, path: string | null): string => {
   const base = 'https://'
-  const domainWithBase = `${base}${domain}`
+  const domainWithBase = domain === '' ? '' : `${base}${domain}`
 
   if (!path) return domainWithBase
 
-  return `${domainWithBase}/${path}`
+  return `${domainWithBase}${path}`
 }
 
 export const getPage = (
   site: Site,
-  pageKey: string,
+  pageKey: PageKey,
   currentLocale: Locale
 ): SitePage => {
   const i18nPage = site.pages[pageKey]
   const domain = site.domain
   const currentPage = i18nPage[currentLocale]
-  const localeOptions = Object.keys(i18nPage).reduce(
-    (memo: LocaleOption[], locale: Locale) => {
-      const page = i18nPage[locale]
-      memo.push({
-        label: page.localeLabel,
-        value: page.locale
-      })
-      return memo
-    },
-    []
-  )
   const pages = Object.values(i18nPage) as Page[]
   const nonCurrentPages = pages.filter((p) => p.locale !== currentLocale)
   const canonicalPage: Page = pages.find((p: Page) => p.canonical)
   const nonCanonicalPages: Page[] = pages.filter((p: Page) => !p.canonical)
+  const allUrls = [canonicalPage, ...nonCanonicalPages].map((page: Page) => ({
+    url: buildUrl(domain, page.path),
+    locale: page.locale
+  }))
   const alternateUrls = nonCanonicalPages.map((page: Page) => ({
     url: buildUrl(domain, page.path),
     locale: page.locale
@@ -106,11 +69,12 @@ export const getPage = (
 
   return {
     site,
+    pageKey,
     currentPage,
-    localeOptions,
     canonicalUrl,
     alternateUrls,
     currentUrl,
+    allUrls,
     locale: currentLocale,
     localeAlternate
   }

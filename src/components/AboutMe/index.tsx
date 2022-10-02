@@ -9,11 +9,11 @@ const AboutMe = () => {
   return (
     <PageWrapper id='sobre-mi' bgColor='white'>
       <PageContent>
-        <div className='space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-10 sm:space-y-0'>
+        <div className='space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-x-8 sm:space-y-0'>
           <div className='aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4'>
             <img
               loading='lazy'
-              className='object-cover shadow-lg rounded-lg'
+              className='object-cover shadow-lg rounded-lg aspect-square'
               src={toniSrc}
               alt='Toni Figuera'
             />

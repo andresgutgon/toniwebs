@@ -1,4 +1,5 @@
 import type { Locale } from '@types'
+import { PageKey } from '.'
 
 export type OpenGraph = {
   basic: {
@@ -14,6 +15,7 @@ export type OpenGraph = {
   }
 }
 export type Page = {
+  menuText: string
   meta: {
     title: string
     description: string
@@ -21,8 +23,8 @@ export type Page = {
   openGraph: OpenGraph
   locale: Locale
   localeLabel: string
-  path?: string // Home no path
-  canonical?: boolean // Home canonical: true
+  path: string
+  canonical: boolean
 }
 
 export type I18nPage = Record<Locale, Page>
@@ -30,18 +32,24 @@ export type Site = {
   domain: string
   phoneNumber: string
   email: string
-  pages: Record<string, I18nPage>
+  pages: Record<PageKey, I18nPage>
 }
 
-export type LocaleOption = { label: string; value: Locale }
-type CanonicalUrl = { url: string; locale: Locale }
+export type LocaleOption = {
+  label: string
+  shortLabel: string
+  identifier: Locale
+  url: string
+}
+export type CanonicalUrl = { url: string; locale: Locale }
 export type SitePage = {
   site: Site
+  pageKey: PageKey
   currentPage: Page
-  localeOptions: LocaleOption[]
   currentUrl: string
   canonicalUrl: CanonicalUrl
   alternateUrls: CanonicalUrl[]
-  locale: string
+  allUrls: CanonicalUrl[]
+  locale: Locale
   localeAlternate: string[]
 }

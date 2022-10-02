@@ -3,19 +3,28 @@ import cn from 'classnames'
 
 type Props = {
   children: ReactNode
+  widthFull?: boolean
   href?: string
   onClick?: () => void
   buttonType?: 'button' | 'submit'
   disabled?: boolean
 }
-const Button = ({ href, onClick, disabled, buttonType, children }: Props) => {
+const Button = ({
+  href,
+  onClick,
+  disabled,
+  buttonType,
+  widthFull,
+  children
+}: Props) => {
   const styles = cn(
-    'w-full flex items-center justify-center px-8 py-3 ',
+    'full flex items-center justify-center px-8 py-3 ',
     'border border-transparent text-lg font-medium rounded-md',
     'text-white bg-rose-600 hover:bg-rose-700',
     'md:py-4 md:text-xl md:px-10',
     {
-      'opacity-40': disabled
+      'opacity-40': disabled,
+      'w-full': widthFull
     }
   )
 
@@ -37,6 +46,6 @@ const Button = ({ href, onClick, disabled, buttonType, children }: Props) => {
   )
 }
 
-Button.defaultProps = { buttonType: 'button' }
+Button.defaultProps = { widthFull: true, buttonType: 'button' }
 
 export default Button

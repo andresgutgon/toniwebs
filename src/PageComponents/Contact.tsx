@@ -2,12 +2,13 @@ import DefaultLayout from '@layouts/Default'
 
 import type { SitePage } from '@site/types'
 import Contact from '@components/Contact'
+import { PageWrapperBgColor } from '@components/PageWrapper'
 
-type Props = { page: SitePage }
-const ContactPage = ({ page }: Props) => {
+type Props = { page: SitePage; bgColor: PageWrapperBgColor }
+const ContactPage = ({ bgColor, page }: Props) => {
   return (
     <DefaultLayout page={page} bgColor='white'>
-      <Contact />
+      <Contact bgColor={bgColor} />
     </DefaultLayout>
   )
 }

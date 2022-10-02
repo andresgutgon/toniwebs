@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import type { FormEvent } from 'react'
 import { useIntl } from 'react-intl'
-import { BadgeCheckIcon } from '@heroicons/react/outline/index.js'
+import CheckBadgeIcon from '@heroicons/react/24/outline/CheckBadgeIcon.js'
 
 import Button from '@components/Button'
 import Input from '@components/Input'
@@ -53,7 +53,9 @@ const Form = () => {
     setSent(true)
 
     // Show again form
-    setTimeout(() => { setSent(false) }, 5000) // 5 seconds
+    setTimeout(() => {
+      setSent(false)
+    }, 5000) // 5 seconds
 
     console.log('OK', ok)
   }
@@ -64,7 +66,8 @@ const Form = () => {
   })
   const messageSentDescription = intl.formatMessage({
     id: 'vSXIpl',
-    defaultMessage: 'Me pondré en contacto con vosotros lo antes posible. Un saludo coordial'
+    defaultMessage:
+      'Me pondré en contacto con vosotros lo antes posible. Un saludo coordial'
   })
   const buttonLabel = intl.formatMessage({
     id: 'N7yh1n',
@@ -78,7 +81,7 @@ const Form = () => {
   if (sent) {
     return (
       <div className='flex flex-col items-center justify-center p-10 space-y-4'>
-        <BadgeCheckIcon className='text-green-500 h-10 w-10'/>
+        <CheckBadgeIcon className='text-green-500 h-10 w-10' />
         <div className='space-y-2 flex flex-col items-center'>
           <h3 className='text-3xl text-center'>{messageSentTitle}</h3>
           <p className='text-center'>{messageSentDescription}</p>

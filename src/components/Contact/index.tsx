@@ -1,18 +1,20 @@
 import { useIntl } from 'react-intl'
+import EnvelopeIcon from '@heroicons/react/24/outline/EnvelopeIcon.js'
+import PhoneIcon from '@heroicons/react/24/outline/PhoneIcon.js'
 
 import PageContent from '@components/PageContent'
-import PageWrapper from '@components/PageWrapper'
-import { MailIcon, PhoneIcon } from '@heroicons/react/outline/index.js'
 import { usePage } from '@layouts/PageProvider'
+import PageWrapper, { PageWrapperBgColor } from '@components/PageWrapper'
 import Form from './Form'
 
-const Contact = () => {
+type Props = { bgColor: PageWrapperBgColor }
+const Contact = ({ bgColor }: Props) => {
   const intl = useIntl()
   const { page } = usePage()
   const phone = page.site.phoneNumber
   const email = page.site.email
   return (
-    <PageWrapper id='contactame' bgColor='gray'>
+    <PageWrapper id='contactame' bgColor={bgColor}>
       <PageContent>
         <div className='sm:grid sm:grid-cols-12 gap-6 space-y-4'>
           <div className='col-span-4 col-start-2'>
@@ -46,7 +48,7 @@ const Contact = () => {
               <div className='mt-3'>
                 <dt className='sr-only'>Email</dt>
                 <dd className='flex'>
-                  <MailIcon
+                  <EnvelopeIcon
                     className='flex-shrink-0 h-6 w-6 text-gray-400'
                     aria-hidden='true'
                   />

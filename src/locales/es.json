@@ -1,9 +1,9 @@
 {
+  "+mV4j+": {
+    "defaultMessage": "Camarero falso"
+  },
   "/ES52+": {
     "defaultMessage": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
-  },
-  "/m71Vx": {
-    "defaultMessage": "Toni figuera, maestro de ceremonias"
   },
   "0OAotW": {
     "defaultMessage": "Sobre mí"
@@ -14,11 +14,17 @@
   "2WHEEl": {
     "defaultMessage": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos ante 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
   },
+  "3tgYEd": {
+    "defaultMessage": "Tú eliges el personaje, yo lo creo y me infiltro como uno más en tu evento. Bromas a amigos, compañeros, trabajadores, familiares o invitados. Cualquier personaje que se te ocurra podrá ser realidad."
+  },
   "3xDpCF": {
     "defaultMessage": "Tu ceremonia como tú quieres."
   },
   "4Y3qdy": {
     "defaultMessage": "Maestro de ceremonias, oficiante de bodas, presentador."
+  },
+  "5EEnOC": {
+    "defaultMessage": "Sorprender y provocar"
   },
   "7GtpBL": {
     "defaultMessage": "<callTag>O llama al</callTag> <phoneTag></phoneTag>"
@@ -26,11 +32,11 @@
   "7StwJn": {
     "defaultMessage": "las bodas que yo hago"
   },
-  "88sEW8": {
-    "defaultMessage": "Contáctame"
+  "7iDOUc": {
+    "defaultMessage": "Toni Figuera oficiante de bodas"
   },
-  "9u7E3s": {
-    "defaultMessage": "Bodas"
+  "8eedt8": {
+    "defaultMessage": "Toni Figuera como reportero de TV"
   },
   "AHJaaS": {
     "defaultMessage": "Boda cómica"
@@ -41,8 +47,26 @@
   "CA9eY5": {
     "defaultMessage": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
   },
+  "DQj22Z": {
+    "defaultMessage": "Servicios"
+  },
+  "FILuxH": {
+    "defaultMessage": "Presentador"
+  },
+  "G/FnW3": {
+    "defaultMessage": "Personaje infiltrado para dinamizar tus eventos"
+  },
   "HYitF5": {
     "defaultMessage": "Os ayudo a conseguir la boda perfecta"
+  },
+  "IcUlg8": {
+    "defaultMessage": "Entrevista a tus invitados para contar la fiesta."
+  },
+  "JCUq5o": {
+    "defaultMessage": "Tu evento ganará con un presentador profesional"
+  },
+  "JIpkFd": {
+    "defaultMessage": "es"
   },
   "LU7byF": {
     "defaultMessage": "Musical"
@@ -50,14 +74,35 @@
   "LaU95V": {
     "defaultMessage": "Todo lo que quieras podemos hacerlo posible"
   },
+  "MU0ket": {
+    "defaultMessage": "Speaker"
+  },
   "N7yh1n": {
     "defaultMessage": "Enviar mensaje"
+  },
+  "NmKYYc": {
+    "defaultMessage": "Speaker para dinamizar eventos, ferias y congresos"
+  },
+  "OvIhir": {
+    "defaultMessage": "Otros servicios"
+  },
+  "Q7JOYR": {
+    "defaultMessage": "Toni Figuera speaker para tus eventos"
+  },
+  "RS703h": {
+    "defaultMessage": "Enric, mi personaje, el auténtico camarero falso. Más de 20 años de experiencia y más de 600 actuaciones por todo el país, haciendo este personaje cómico que hará reír a todo el mundo."
   },
   "S6W4PT": {
     "defaultMessage": "Teléfono"
   },
+  "SDhEt/": {
+    "defaultMessage": "Toni Figuera caracterizado como Enric, el camarero falso"
+  },
   "SSXizG": {
     "defaultMessage": "Personaliza tu ceremonia con <specialSong>vuestra canción o canciones favoritas</specialSong>. Como actor y cantante he trabajado en muchos musicales, si quieres incluir alguna canción o canciones en tu ceremonia podemos hacerlo posible."
+  },
+  "SXP7Jc": {
+    "defaultMessage": "Castellano"
   },
   "ScnA6d": {
     "defaultMessage": "Solicita información"
@@ -74,17 +119,35 @@
   "VUgx65": {
     "defaultMessage": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
   },
+  "Y2kNwV": {
+    "defaultMessage": "Entrevistas divertidas y diferentes o serias y funcionales si lo prefieres. Tendrás imágenes y entrevistas de tu evento. Al finalizar montaremos un vídeo para que lo uses."
+  },
+  "YOCjIA": {
+    "defaultMessage": "<master>Maestro</master> <of>de</of> <ceremonies>ceremonias</ceremonies>"
+  },
   "YwsmHE": {
     "defaultMessage": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
+  },
+  "Zpf9z8": {
+    "defaultMessage": "Catalán"
   },
   "acQBQS": {
     "defaultMessage": "Explica un poco cómo quieres que sea tu evento"
   },
+  "bKaUyD": {
+    "defaultMessage": "Risas inolvidables"
+  },
   "fo3Ho5": {
     "defaultMessage": "Idiomas"
   },
+  "gkkTKW": {
+    "defaultMessage": "Reporteros"
+  },
   "ik0QqA": {
     "defaultMessage": "Solicita información"
+  },
+  "j7nW78": {
+    "defaultMessage": "ca"
   },
   "jIQVf0": {
     "defaultMessage": "Boda con DJ"
@@ -92,23 +155,44 @@
   "kxRPrz": {
     "defaultMessage": "¡Mensaje enviado!"
   },
+  "l3x1dl": {
+    "defaultMessage": "La TV en tu evento"
+  },
+  "l6tgYx": {
+    "defaultMessage": "Una voz profesional"
+  },
+  "lnKhYI": {
+    "defaultMessage": "Camarero falso: bodas, cumpleaños y eventos de empresa"
+  },
+  "lp+gEa": {
+    "defaultMessage": "Tu evento será perfecto."
+  },
   "mJqcsd": {
     "defaultMessage": "Presentador y Maestro de ceremonias"
   },
   "mKjzSK": {
     "defaultMessage": "Tu nombre"
   },
-  "n71Uwf": {
-    "defaultMessage": "<hightlight>Conectar con la gente</hightlight> <normal>compartir emociones.</normal>"
+  "mvXmDJ": {
+    "defaultMessage": "Toni Figuera como personaje infiltrado"
+  },
+  "ooc11H": {
+    "defaultMessage": "Las ventajas de tener a un presentador profesional son muchas: presencia escénica, dominio del ritmo y el escenario, fluidez y naturalidad en el habla y el lenguaje y control del lenguaje corporal."
   },
   "pKwwNm": {
     "defaultMessage": "Como maestro de ceremonias cuando oficio una boda creo que no debe ser sólo oficiar la ceremonia, hacer alguna broma o chiste ingenioso y leer algún texto sobre el amor. Creo que la figura del maestro de ceremonias va más allá. Me gusta que los novios se sientan los protagonistas y que los invitados se sientan parte de la celebración. Por eso me gusta recibir a los invitados, hablar con ellos, conocer a la familia y amigos durante unos minutos para poder crear un ambiente festivo y alegre entre todos antes de recibir a los novios."
   },
-  "rjQbxZ": {
-    "defaultMessage": "Toni Figuera maestro de ceremonias oficiando una boda"
+  "rFNyQq": {
+    "defaultMessage": "Una voz que se se oirá a lo largo de toda la jornada explicando y dando información a los visitantes, anunciando sponsors y patrocinadores. Informando de las actividades"
+  },
+  "v5XiOI": {
+    "defaultMessage": "Toni Figuera como presentador"
   },
   "vSXIpl": {
     "defaultMessage": "Me pondré en contacto con vosotros lo antes posible. Un saludo coordial"
+  },
+  "w+TK7p": {
+    "defaultMessage": "Compartir emociones."
   },
   "wTo87j": {
     "defaultMessage": "Algunos ejemplos o ideas que te pueden ayudar"
@@ -119,7 +203,13 @@
   "xGfqJO": {
     "defaultMessage": "Pregúntame lo que necesites"
   },
+  "y/kDTo": {
+    "defaultMessage": "Personaje infiltrado"
+  },
   "z3dPJe": {
     "defaultMessage": "Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única."
+  },
+  "zkXTrr": {
+    "defaultMessage": "Bodas"
   }
 }

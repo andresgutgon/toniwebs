@@ -1,14 +1,14 @@
 {
+  "+mV4j+": [
+    {
+      "type": 0,
+      "value": "Cambrer false"
+    }
+  ],
   "/ES52+": [
     {
       "type": 0,
       "value": "Dona-li a la teva cerimònia un toc còmic amb un capellà o un jutge de pau molt particulars i divertits. Sorprèn als teus convidats amb riures i diversió en una cerimònia que no deixarà indiferent a ningú."
-    }
-  ],
-  "/m71Vx": [
-    {
-      "type": 0,
-      "value": "Toni figuera, mestre de cerimònies"
     }
   ],
   "0OAotW": [
@@ -29,6 +29,12 @@
       "value": "Em dic Toni Figuera i sóc actor i director de teatre i events. Porto més de vint anys treballant en el món de l'espectacle, i en aquests anys he fet absolutament de tot: teatre de text, teatre musical, teatre de carrer, televisió, events d'empresa, events privats, oficiant de casaments, mestre de cerimònies... cel·lebracions de tot tipus i en totes les situacions que puguis imaginar. He actuat en teatres plens davant de 1200 persones, i en events privats amb 10 comensals. M'he canviat en camerins de 50 m2 amb el meu nom a la porta i un càtering meravellós, i en el lavabo d'un restaurant per actuar en un aniversari. Així és la vida de l'artista i m'apassiona."
     }
   ],
+  "3tgYEd": [
+    {
+      "type": 0,
+      "value": "Tu tries el personatge, jo ho crec i m'infiltro com un més al teu esdeveniment. Bromes a amics, companys, treballadors, familiars o convidats. Qualsevol personatge que se t'acudeixi podrà ser realitat."
+    }
+  ],
   "3xDpCF": [
     {
       "type": 0,
@@ -39,6 +45,12 @@
     {
       "type": 0,
       "value": "Mestre de cerimònies, oficiant de casaments, presentador."
+    }
+  ],
+  "5EEnOC": [
+    {
+      "type": 0,
+      "value": "Sorprendre i provocar"
     }
   ],
   "7GtpBL": [
@@ -69,10 +81,22 @@
       "value": "Els casaments com jo els faig"
     }
   ],
+  "7iDOUc": [
+    {
+      "type": 0,
+      "value": "Toni Figuera oficiant de casaments"
+    }
+  ],
   "88sEW8": [
     {
       "type": 0,
       "value": "Contacte"
+    }
+  ],
+  "8eedt8": [
+    {
+      "type": 0,
+      "value": "Toni Figuera com a reporter de TV"
     }
   ],
   "9u7E3s": [
@@ -99,10 +123,46 @@
       "value": "Fes la teva cerimònia més dinàmica i entretinguda amb un dj que posarà cançons i música en totes les parts de la cerimònia, oblida't de les pauses llargues i els silencis aborrits."
     }
   ],
+  "DQj22Z": [
+    {
+      "type": 0,
+      "value": "Serveis"
+    }
+  ],
+  "FILuxH": [
+    {
+      "type": 0,
+      "value": "Presentador"
+    }
+  ],
+  "G/FnW3": [
+    {
+      "type": 0,
+      "value": "Personatge infiltrat per dinamitzar els teus esdeveniments"
+    }
+  ],
   "HYitF5": [
     {
       "type": 0,
       "value": "Us ayudo a conseguir la cerimònia perfecte"
+    }
+  ],
+  "IcUlg8": [
+    {
+      "type": 0,
+      "value": "Entrevista els teus convidats per explicar la festa."
+    }
+  ],
+  "JCUq5o": [
+    {
+      "type": 0,
+      "value": "El teu esdeveniment guanyarà amb un presentador professional"
+    }
+  ],
+  "JIpkFd": [
+    {
+      "type": 0,
+      "value": "es"
     }
   ],
   "LU7byF": [
@@ -117,10 +177,40 @@
       "value": "Tot el que vulguis podem fer-ho possible"
     }
   ],
+  "MU0ket": [
+    {
+      "type": 0,
+      "value": "Speaker"
+    }
+  ],
   "N7yh1n": [
     {
       "type": 0,
       "value": "Enviar missatge"
+    }
+  ],
+  "NmKYYc": [
+    {
+      "type": 0,
+      "value": "Speaker per dinamitzar esdeveniments, fires i congressos"
+    }
+  ],
+  "OvIhir": [
+    {
+      "type": 0,
+      "value": "Altres serveis"
+    }
+  ],
+  "Q7JOYR": [
+    {
+      "type": 0,
+      "value": "Toni Figuera speaker pels teus esdeveniments"
+    }
+  ],
+  "RS703h": [
+    {
+      "type": 0,
+      "value": "Enric, el meu personatge, l'autèntic cambrer fals. Més de 20 anys d'experiència i més de 600 actuacions per tot el país, fent aquest personatge còmic que farà riure tothom."
     }
   ],
   "S6W4PT": [
@@ -129,10 +219,22 @@
       "value": "Telèfon"
     }
   ],
+  "SDhEt/": [
+    {
+      "type": 0,
+      "value": "Toni Figuera caracteritzat com a Enric, el cambrer fals"
+    }
+  ],
   "SSXizG": [
     {
       "type": 0,
       "value": "Personalitza la teva cerimònia amb la vostra cançó o cançons preferides. Com actor i cantant he treballat en molts musicals, si vols incloure alguna cançó o cançóns en la teva cerimònia podem fer-ho realitat."
+    }
+  ],
+  "SXP7Jc": [
+    {
+      "type": 0,
+      "value": "Castellà"
     }
   ],
   "ScnA6d": [
@@ -165,10 +267,62 @@
       "value": "Fer que el teu casament sigui especial per a tu i els teus convidats. Crear records imborrables. Una cel·lebració del vostre amor per compartir-la amb la vostra familia i amics."
     }
   ],
+  "Y2kNwV": [
+    {
+      "type": 0,
+      "value": "Entrevistes divertides i diferents o serioses i funcionals si ho prefereixes. Tindràs imatges i entrevistes del teu esdeveniment. En acabar muntarem un vídeo perquè el facis servir."
+    }
+  ],
+  "YOCjIA": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Mestre"
+        }
+      ],
+      "type": 8,
+      "value": "master"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "de"
+        }
+      ],
+      "type": 8,
+      "value": "of"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "cerimònies"
+        }
+      ],
+      "type": 8,
+      "value": "ceremonies"
+    }
+  ],
   "YwsmHE": [
     {
       "type": 0,
       "value": "M'agrada preparar, a gust dels nuvis, unes presentacions personalitzades i adaptades a l'estil que vulgueu en la vostra cerimònia per a que, quan entreu pel passadís se us posi la pell de gallina y aquesta emoció sigui compartida amb tots els assistentns."
+    }
+  ],
+  "Zpf9z8": [
+    {
+      "type": 0,
+      "value": "Català"
     }
   ],
   "acQBQS": [
@@ -177,16 +331,34 @@
       "value": "Explica'm com vols que sigui la teva cel·lebració."
     }
   ],
+  "bKaUyD": [
+    {
+      "type": 0,
+      "value": "Rialles inoblidables"
+    }
+  ],
   "fo3Ho5": [
     {
       "type": 0,
       "value": "Idiomas"
     }
   ],
+  "gkkTKW": [
+    {
+      "type": 0,
+      "value": "Reporters"
+    }
+  ],
   "ik0QqA": [
     {
       "type": 0,
       "value": "Demana informació"
+    }
+  ],
+  "j7nW78": [
+    {
+      "type": 0,
+      "value": "ca"
     }
   ],
   "jIQVf0": [
@@ -201,6 +373,30 @@
       "value": "Missatge enviat!"
     }
   ],
+  "l3x1dl": [
+    {
+      "type": 0,
+      "value": "La TV al teu esdeveniment"
+    }
+  ],
+  "l6tgYx": [
+    {
+      "type": 0,
+      "value": "Una veu professional"
+    }
+  ],
+  "lnKhYI": [
+    {
+      "type": 0,
+      "value": "Cambrer fals: casaments, aniversaris i esdeveniments d'empresa"
+    }
+  ],
+  "lp+gEa": [
+    {
+      "type": 0,
+      "value": "El teu esdeveniment serà perfecte."
+    }
+  ],
   "mJqcsd": [
     {
       "type": 0,
@@ -213,30 +409,16 @@
       "value": "El teu nom"
     }
   ],
-  "n71Uwf": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Connectar amb la gent"
-        }
-      ],
-      "type": 8,
-      "value": "hightlight"
-    },
+  "mvXmDJ": [
     {
       "type": 0,
-      "value": " "
-    },
+      "value": "Toni Figuera com a personatge infiltrat"
+    }
+  ],
+  "ooc11H": [
     {
-      "children": [
-        {
-          "type": 0,
-          "value": "compartir emocions"
-        }
-      ],
-      "type": 8,
-      "value": "normal"
+      "type": 0,
+      "value": "Els avantatges de tenir un presentador professional són molts: presència escènica, domini del ritme i l'escenari, fluïdesa i naturalitat a la parla i el llenguatge i control del llenguatge corporal."
     }
   ],
   "pKwwNm": [
@@ -245,16 +427,34 @@
       "value": "Com a mestre de cerimònies quan oficio un casament crec que no és tan sols oficiar la cerimònia, fer alguna broma sobre els nuvis i llegir algún text sobre l'amor. Crec que la figura del mestre de cermònies va més enllà. M'agrada que els nuvis sentin que són els protagonistes i que els convidats sentin que són part de la cel·lebració. Per això m'agrada rebre als convidats, parlar amb ells, conèixer a la família i amics durant uns minuts per poder crear un ambient festiu i alegre entre tots abans de rebre els nuvis."
     }
   ],
+  "rFNyQq": [
+    {
+      "type": 0,
+      "value": "Una veu que se sentirà al llarg de tota la jornada explicant i donant informació als visitants, anunciant sponsors i patrocinadors. Informant de les activitats"
+    }
+  ],
   "rjQbxZ": [
     {
       "type": 0,
       "value": "Toni Figuera mestre de cerimònies en un casament"
     }
   ],
+  "v5XiOI": [
+    {
+      "type": 0,
+      "value": "Toni Figuera com a presentador"
+    }
+  ],
   "vSXIpl": [
     {
       "type": 0,
       "value": "Em posaré en contacte amb vosaltres el més aviat possible. Una salutació coordial."
+    }
+  ],
+  "w+TK7p": [
+    {
+      "type": 0,
+      "value": "Compartir emocions."
     }
   ],
   "wTo87j": [
@@ -275,10 +475,22 @@
       "value": "Pregunta'm el que necessitis"
     }
   ],
+  "y/kDTo": [
+    {
+      "type": 0,
+      "value": "Personatge infiltrat"
+    }
+  ],
   "z3dPJe": [
     {
       "type": 0,
       "value": "Explica'm que imagines, les teves espectatives i il·lusions i deixa'm que t'ajudi a que sigui real. Una casament a mida, una cel·lebració perfecte, una cerimònia única."
+    }
+  ],
+  "zkXTrr": [
+    {
+      "type": 0,
+      "value": "Casaments"
     }
   ]
 }

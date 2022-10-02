@@ -1,5 +1,5 @@
 import { useIntl } from 'react-intl'
-import CheckIcon from '@heroicons/react/outline/CheckIcon.js'
+import CheckIcon from '@heroicons/react/24/outline/CheckIcon.js'
 
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
@@ -43,7 +43,7 @@ const Offerings = () => {
           specialSong: (chunks) => <strong>{chunks}</strong>
         }
       )
-    },
+    }
   ]
 
   return (
