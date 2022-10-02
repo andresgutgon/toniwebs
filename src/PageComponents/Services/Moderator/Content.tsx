@@ -16,7 +16,7 @@ const ModeratorHero = () => {
   })
   const sectionClaim = intl.formatMessage({
     id: 'lp+gEa',
-    defaultMessage: 'Tu evento será perfecto.'
+    defaultMessage: 'Crear expectativas y comunicar.'
   })
   const h1 = intl.formatMessage({
     id: 'JCUq5o',

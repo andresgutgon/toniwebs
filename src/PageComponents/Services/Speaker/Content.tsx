@@ -16,7 +16,7 @@ const SpeakerHero = () => {
   })
   const sectionClaim = intl.formatMessage({
     id: 'l6tgYx',
-    defaultMessage: 'Una voz profesional'
+    defaultMessage: 'Una voz profesional.'
   })
   const h1 = intl.formatMessage({
     id: 'NmKYYc',

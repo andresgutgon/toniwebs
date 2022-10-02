@@ -16,7 +16,7 @@ const InfiltratedCharacterHero = () => {
   })
   const sectionClaim = intl.formatMessage({
     id: '5EEnOC',
-    defaultMessage: 'Sorprender y provocar'
+    defaultMessage: 'Sorprender y provocar.'
   })
   const h1 = intl.formatMessage({
     id: 'G/FnW3',

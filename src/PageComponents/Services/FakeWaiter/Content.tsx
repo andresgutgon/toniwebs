@@ -16,7 +16,7 @@ const FakeWaiterHero = () => {
   })
   const sectionClaim = intl.formatMessage({
     id: 'bKaUyD',
-    defaultMessage: 'Risas inolvidables'
+    defaultMessage: 'Risas inolvidables.'
   })
   const h1 = intl.formatMessage({
     id: 'lnKhYI',

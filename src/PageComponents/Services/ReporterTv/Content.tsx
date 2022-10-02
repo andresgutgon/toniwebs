@@ -16,7 +16,7 @@ const ReportersTVHero = () => {
   })
   const sectionClaim = intl.formatMessage({
     id: 'l3x1dl',
-    defaultMessage: 'La TV en tu evento'
+    defaultMessage: 'La TV en tu evento.'
   })
   const h1 = intl.formatMessage({
     id: 'IcUlg8',
