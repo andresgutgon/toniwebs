@@ -1,1 +1,0 @@
-function r(){var a=new URLSearchParams(window.location.search);if(!a.get("forceLocale")){var e=window.location.pathname,n=navigator.language||navigator.userLanguage,o=e.match(/\/ca\/?$/);!o&&n.indexOf("ca")==0&&(window.location="/ca/")}}r();
