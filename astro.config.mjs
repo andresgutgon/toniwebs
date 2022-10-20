@@ -7,7 +7,7 @@ import alpinejs from '@astrojs/alpinejs'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://maestroyoficiantedeceremonias.com',
+  site: 'https://actorymaestroceremonias.com',
   integrations: [
     tailwind(),
     react(),

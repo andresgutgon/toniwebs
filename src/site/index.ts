@@ -26,7 +26,7 @@ export type PageKey = keyof typeof PAGES
 export const site: Site = {
   phoneNumber: '618 059 259',
   email: 'toni@tonifiguera.com',
-  domain: import.meta.env.PROD ? 'maestroyoficiantedeceremonias.com' : '',
+  domain: import.meta.env.PROD ? 'actorymaestroceremonias.com' : '',
   pages: PAGES
 }
 
