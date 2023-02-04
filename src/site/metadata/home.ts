@@ -2,17 +2,15 @@ import {
   OG_TYPE,
   OG_IMAGE_URL,
   OG_IMAGE_DIMENSIONS,
-  PAGE_LOCALE,
-  PAGE_PATHS_LOCALIZED
+  PAGE_LOCALE
 } from '@site/constants'
 import { I18nPage } from '@site/types'
 
 const metadata: I18nPage = {
   es: {
     ...PAGE_LOCALE.es,
-    menuText: 'Bodas',
     canonical: true,
-    path: `${PAGE_PATHS_LOCALIZED.es.services}/bodas`,
+    path: '/',
     meta: {
       title: 'Maestro de ceremonias',
       description:
@@ -33,9 +31,8 @@ const metadata: I18nPage = {
   },
   ca: {
     ...PAGE_LOCALE.ca,
-    menuText: 'Casaments',
     canonical: false,
-    path: `${PAGE_PATHS_LOCALIZED.ca.services}/bodas`,
+    path: `/${PAGE_LOCALE.ca.locale}`,
     meta: {
       title: 'Mestre de cerimònies',
       description:

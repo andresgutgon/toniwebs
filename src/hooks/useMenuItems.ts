@@ -24,8 +24,8 @@ const useMenuItems = (): TopMenu => {
   } = usePage()
 
   const locale = loc as Locale
-  const home = site.pages.home[locale]
   const aboutMe = site.pages.aboutMe[locale]
+  const weddings = site.pages.weddings[locale]
   const moderator = site.pages.moderator[locale]
   const speaker = site.pages.speaker[locale]
   const fakeWaiter = site.pages.fakeWaiter[locale]
@@ -41,14 +41,14 @@ const useMenuItems = (): TopMenu => {
   }
   const services = [
     {
-      selected: pageKey === 'home',
-      href: home.path,
-      text: home.menuText
-    },
-    {
       selected: pageKey === 'moderator',
       href: moderator.path,
       text: moderator.menuText
+    },
+    {
+      selected: pageKey === 'weddings',
+      href: weddings.path,
+      text: weddings.menuText
     },
     {
       selected: pageKey === 'speaker',
@@ -60,7 +60,7 @@ const useMenuItems = (): TopMenu => {
       href: '#',
       text: intl.formatMessage({
         id: 'OvIhir',
-        defaultMessage: 'Otros servicios'
+        defaultMessage: 'Actor'
       }),
       submenuItems: [
         {

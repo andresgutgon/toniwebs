@@ -2,9 +2,12 @@ import type { Locale } from '@types'
 import type { SitePage, Page, Site } from './types'
 
 // Pages metadata and top menu info
-import homeMetadata from '@site/metadata/services/weddings'
+import home from '@site/metadata/home'
 import aboutMe from '@site/metadata/aboutMe'
 import notFound from '@site/metadata/notFound'
+
+// Services
+import weddings from '@site/metadata/services/weddings'
 import moderator from '@site/metadata/services/moderator'
 import speaker from '@site/metadata/services/speaker'
 import fakeWaiter from '@site/metadata/services/fakeWaiter'
@@ -12,8 +15,9 @@ import infiltratedCharacter from '@site/metadata/services/infiltratedCharacter'
 import reporterTv from '@site/metadata/services/reporterTv'
 
 const PAGES = {
-  home: homeMetadata, // Weddings at the moment
+  home,
   aboutMe,
+  weddings,
   moderator,
   speaker,
   fakeWaiter,

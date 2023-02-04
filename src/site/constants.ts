@@ -21,6 +21,10 @@ export const PAGE_PATHS_LOCALIZED = {
 }
 
 export const SERVICES_SLUGS = {
+  weddings: {
+    es: 'bodas',
+    ca: 'bodas'
+  },
   moderator: {
     es: 'presentador',
     ca: 'presentador'

@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import cn from 'classnames'
 
-export type PageWrapperBgColor = 'white' | 'gray' | 'transparent'
+export type PageWrapperBgColor = 'white' | 'gray' | 'transparent' | 'dark'
 type Props = {
   id: string
   children: ReactNode
@@ -18,7 +18,8 @@ const PageWrapper = ({ id, bgColor, verticalSpace, children }: Props) => (
         'py-16 sm:py-28': verticalSpace === 'normal',
         'bg-white': bgColor === 'white',
         'bg-transparent': bgColor === 'transparent',
-        'bg-slate-50': bgColor === 'gray'
+        'bg-slate-50': bgColor === 'gray',
+        'bg-gray-900': bgColor === 'dark'
       }
     )}
   >

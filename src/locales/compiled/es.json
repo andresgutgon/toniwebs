@@ -1,4 +1,10 @@
 {
+  "+MaJ7w": [
+    {
+      "type": 0,
+      "value": "Pongo mi creatividad, mi experiencia y mi corazón en cada proyecto que hago."
+    }
+  ],
   "+mV4j+": [
     {
       "type": 0,
@@ -87,6 +93,18 @@
       "value": "Toni Figuera oficiante de bodas"
     }
   ],
+  "8EqaQ5": [
+    {
+      "type": 0,
+      "value": "Ver opinión en celebrents.es"
+    }
+  ],
+  "8FOgzN": [
+    {
+      "type": 0,
+      "value": "Algunas de las empresas con las que he trabajado"
+    }
+  ],
   "8eedt8": [
     {
       "type": 0,
@@ -99,10 +117,38 @@
       "value": "Boda cómica"
     }
   ],
+  "Apw5IF": [
+    {
+      "type": 0,
+      "value": "Presentaciones"
+    }
+  ],
   "BIAord": [
     {
       "type": 0,
       "value": "Pensando en los detalles de tu boda"
+    }
+  ],
+  "BRw1sx": [
+    {
+      "type": 0,
+      "value": "Creo recuerdos "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "imborrables"
+        }
+      ],
+      "type": 8,
+      "value": "memorable"
+    }
+  ],
+  "BtmTUc": [
+    {
+      "type": 0,
+      "value": "Eventos para entidades y empresas"
     }
   ],
   "CA9eY5": [
@@ -165,6 +211,12 @@
       "value": "Todo lo que quieras podemos hacerlo posible"
     }
   ],
+  "MDyQk5": [
+    {
+      "type": 0,
+      "value": "Dirección artística"
+    }
+  ],
   "MU0ket": [
     {
       "type": 0,
@@ -183,16 +235,46 @@
       "value": "Speaker para dinamizar eventos, ferias y congresos"
     }
   ],
+  "Ns3gp+": [
+    {
+      "type": 0,
+      "value": "Opiniones"
+    }
+  ],
+  "NuIcmS": [
+    {
+      "type": 0,
+      "value": "Actor y presentador"
+    }
+  ],
   "OvIhir": [
     {
       "type": 0,
-      "value": "Otros servicios"
+      "value": "Actor"
+    }
+  ],
+  "Pxua6D": [
+    {
+      "type": 0,
+      "value": "Nikira el día de su boda"
     }
   ],
   "Q7JOYR": [
     {
       "type": 0,
       "value": "Toni Figuera speaker para tus eventos"
+    }
+  ],
+  "Q7m7JZ": [
+    {
+      "type": 0,
+      "value": "Un profesional con más de 20 años de carrera artística, trabajando en escenarios y eventos por todo el país."
+    }
+  ],
+  "R1k1LC": [
+    {
+      "type": 0,
+      "value": "Me apasiona mi trabajo. Soy un actor y presentador versátil que tanto puede presentar tu evento de empresa como celebrar el día más bonito de tu vida."
     }
   ],
   "RS703h": [
@@ -263,6 +345,12 @@
       "value": "Enviando..."
     }
   ],
+  "VQTSTt": [
+    {
+      "type": 0,
+      "value": "Eventos de empresa"
+    }
+  ],
   "VUgx65": [
     {
       "type": 0,
@@ -325,6 +413,12 @@
     {
       "type": 0,
       "value": "Catalán"
+    }
+  ],
+  "aL0Hl8": [
+    {
+      "type": 0,
+      "value": "Actuación cómica"
     }
   ],
   "acQBQS": [
@@ -415,6 +509,12 @@
     {
       "type": 0,
       "value": "Toni Figuera como personaje infiltrado"
+    }
+  ],
+  "oQ06of": [
+    {
+      "type": 0,
+      "value": "trabajo profesional"
     }
   ],
   "ooc11H": [
