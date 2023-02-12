@@ -15,7 +15,6 @@ export type OpenGraph = {
   }
 }
 export type Page = {
-  menuText: string
   meta: {
     title: string
     description: string
@@ -25,6 +24,7 @@ export type Page = {
   localeLabel: string
   path: string
   canonical: boolean
+  menuText?: string
 }
 
 export type I18nPage = Record<Locale, Page>

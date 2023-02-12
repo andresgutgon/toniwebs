@@ -30,7 +30,7 @@ const MyWeddings = () => {
             </span>
           </h2>
         </div>
-        <div className='mt-6 prose prose-rose prose sm:prose-xl text-gray-500 mx-auto'>
+        <div className='mt-6 prose-rose prose sm:prose-xl text-gray-500 mx-auto'>
           <p>
             {intl.formatMessage({
               id: 'pKwwNm',
