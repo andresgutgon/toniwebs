@@ -23,7 +23,7 @@ const Hero = () => {
         <main className='relative z-20 top-5 sm:top-0 sm:grid sm:grid-cols-12 gap-6'>
           <div
             className={cn(
-              'col-span-7 lg:col-span-6 lg:col-start-2 flex flex-col justify-center',
+              'col-span-7 lg:col-span-6 xl:pl-8 flex flex-col justify-center',
               'relative h-full flex justify-end mt-20 sm:mt-0 py-8 sm:py-16'
             )}
           >

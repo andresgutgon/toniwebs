@@ -15,7 +15,7 @@ type PhotoProps = { src: string; alt: string; extraClassCss?: string }
 const PhotoGridItem = ({ src, alt, extraClassCss }: PhotoProps) => (
   <img
     loading='lazy'
-    className={cn('object-cover h-full', extraClassCss)}
+    className={cn('object-cover w-full h-full', extraClassCss)}
     src={src}
     alt={alt}
   />
@@ -38,7 +38,7 @@ const GridText = ({
   return (
     <div
       className={cn(
-        'relative flex items-end overflow-hidden',
+        'relative flex items-end overflow-hidden w-full',
         'rounded-md shadow-md',
         extraClassCss
       )}
@@ -74,12 +74,12 @@ const Intro = () => {
             })}
             src={presentador}
             alt='Acto de presentación para un evento de Skoda'
-            extraClassCss='order-1 sm:col-span-3 md:col-start-1 lg:col-start-2'
+            extraClassCss='order-1 sm:col-span-4'
           />
           <GridText
             src={boda}
             alt='Toni celebrando una boda'
-            extraClassCss='order-last sm:order-2 sm:col-span-5'
+            extraClassCss='order-last sm:order-2 sm:col-span-4'
             text={intl.formatMessage({
               id: 'zkXTrr',
               defaultMessage: 'Bodas'
@@ -92,7 +92,7 @@ const Intro = () => {
             })}
             src={blanxartPresentacion}
             alt='Presentacón para Blanxart'
-            extraClassCss='order-3 sm:col-span-3 max-[769px]:col-span-4'
+            extraClassCss='order-3 sm:col-span-4'
           />
           <GridText
             text={intl.formatMessage({
@@ -101,7 +101,7 @@ const Intro = () => {
             })}
             src={teatroElefant}
             alt="Actuando en obra de teatro L'Elefant Hipotecat"
-            extraClassCss='order-4 lg:col-start-2 sm:col-span-3 '
+            extraClassCss='order-4 sm:col-span-3 '
           />
           <GridText
             text={intl.formatMessage({

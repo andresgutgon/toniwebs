@@ -66,7 +66,7 @@ const Logos = () => {
             <div className='w-10 h-px bg-rose-200 rounded-full' />
           </h3>
           <div className='grid grid-cols-1 sm:grid-cols-12 gap-y-10 sm:gap-x-6'>
-            <div className='order-2 col-span-1 sm:order-1 sm:col-start-2 sm:col-span-7'>
+            <div className='order-2 col-span-1 sm:order-1 sm:col-span-8'>
               <LogosGrid />
             </div>
             <div className='col-span-1 order-1 sm:order-2 sm:col-span-4 flex flex-col justify-center space-y-3'>

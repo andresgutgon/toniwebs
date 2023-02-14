@@ -123,7 +123,7 @@ const Testimonials = () => {
               <div className='w-10 h-px bg-rose-200 rounded-full' />
             </h3>
             <div className='sm:grid grid-cols-12 gap-6'>
-              <div className='col-start-2 col-span-5'>
+              <div className='col-span-6'>
                 <BigQuote />
               </div>
               <div className='col-span-6'>
