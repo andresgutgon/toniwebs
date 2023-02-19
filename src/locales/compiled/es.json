@@ -17,10 +17,22 @@
       "value": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
     }
   ],
+  "/Ovnza": [
+    {
+      "type": 0,
+      "value": "Team buildings"
+    }
+  ],
   "0OAotW": [
     {
       "type": 0,
       "value": "Sobre mí"
+    }
+  ],
+  "0wZoYx": [
+    {
+      "type": 0,
+      "value": "Control del ritmo y el timming"
     }
   ],
   "1lOQI2": [
@@ -47,6 +59,12 @@
       "value": "Tu ceremonia como tú quieres."
     }
   ],
+  "47iI2x": [
+    {
+      "type": 0,
+      "value": "Presencia escénica"
+    }
+  ],
   "4Y3qdy": [
     {
       "type": 0,
@@ -57,6 +75,12 @@
     {
       "type": 0,
       "value": "Sorprender y provocar."
+    }
+  ],
+  "78ta1L": [
+    {
+      "type": 0,
+      "value": "Capacidad de transmitir mensajes y emociones"
     }
   ],
   "7GtpBL": [
@@ -84,19 +108,13 @@
   "7StwJn": [
     {
       "type": 0,
-      "value": "las bodas que yo hago"
+      "value": "ceremonias personalizadas"
     }
   ],
   "7iDOUc": [
     {
       "type": 0,
       "value": "Toni Figuera oficiante de bodas"
-    }
-  ],
-  "8EqaQ5": [
-    {
-      "type": 0,
-      "value": "Ver opinión en celebrents.es"
     }
   ],
   "8FOgzN": [
@@ -123,6 +141,12 @@
       "value": "Presentaciones"
     }
   ],
+  "Aq+3st": [
+    {
+      "type": 0,
+      "value": "Dominio del escenario"
+    }
+  ],
   "BIAord": [
     {
       "type": 0,
@@ -132,13 +156,13 @@
   "BRw1sx": [
     {
       "type": 0,
-      "value": "Creo recuerdos "
+      "value": "Crear recuerdos "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "imborrables"
+          "value": "inolvidables"
         }
       ],
       "type": 8,
@@ -155,6 +179,12 @@
     {
       "type": 0,
       "value": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
+    }
+  ],
+  "CTkDVU": [
+    {
+      "type": 0,
+      "value": "Es importante conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
     }
   ],
   "DQj22Z": [
@@ -179,6 +209,12 @@
     {
       "type": 0,
       "value": "Os ayudo a conseguir la boda perfecta"
+    }
+  ],
+  "IAW6mL": [
+    {
+      "type": 0,
+      "value": "Presentar un evento es siempre una responsabilidad, porque del presentador dependen el ritmo, los tiempos y la fluidez del mismo."
     }
   ],
   "IcUlg8": [
@@ -253,10 +289,16 @@
       "value": "Actor"
     }
   ],
-  "Pxua6D": [
+  "Oy1QPr": [
     {
       "type": 0,
-      "value": "Nikira el día de su boda"
+      "value": "Transmitir el mensaje que quieres"
+    }
+  ],
+  "P/dpZG": [
+    {
+      "type": 0,
+      "value": "Ferias y Congresos"
     }
   ],
   "Q7JOYR": [
@@ -345,6 +387,12 @@
       "value": "Enviando..."
     }
   ],
+  "U9/ger": [
+    {
+      "type": 0,
+      "value": "Me encargaré de presentar, dar la información necesaria, anunciar sponsors y patrocinadores, informar de las actividades, resultados, juegos o actuaciones."
+    }
+  ],
   "VQTSTt": [
     {
       "type": 0,
@@ -355,6 +403,12 @@
     {
       "type": 0,
       "value": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+    }
+  ],
+  "WjUBO0": [
+    {
+      "type": 0,
+      "value": "Un presentador profesional al servicio de tu empresa"
     }
   ],
   "Y2kNwV": [
@@ -409,16 +463,28 @@
       "value": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
     }
   ],
+  "ZRjPw+": [
+    {
+      "type": 0,
+      "value": "Micrófono en mano puedo dinamizar cualquier acto al aire libre o en interior, adaptando el tono y el lenguaje a la naturaleza del evento."
+    }
+  ],
   "Zpf9z8": [
     {
       "type": 0,
       "value": "Catalán"
     }
   ],
+  "a2sH+L": [
+    {
+      "type": 0,
+      "value": "Las ventajas de tener a un actor y presentador profesional son muchas:"
+    }
+  ],
   "aL0Hl8": [
     {
       "type": 0,
-      "value": "Actuación cómica"
+      "value": "Showman y cómico"
     }
   ],
   "acQBQS": [
@@ -433,16 +499,40 @@
       "value": "Risas inolvidables."
     }
   ],
+  "dMaTpi": [
+    {
+      "type": 0,
+      "value": "Meetings"
+    }
+  ],
+  "fXy2KF": [
+    {
+      "type": 0,
+      "value": "Competiciones"
+    }
+  ],
   "fo3Ho5": [
     {
       "type": 0,
       "value": "Idiomas"
     }
   ],
+  "g7R08O": [
+    {
+      "type": 0,
+      "value": "Galas"
+    }
+  ],
   "gkkTKW": [
     {
       "type": 0,
       "value": "Reporteros"
+    }
+  ],
+  "hMWnIz": [
+    {
+      "type": 0,
+      "value": "Ver más opiones"
     }
   ],
   "ik0QqA": [
@@ -514,7 +604,7 @@
   "oQ06of": [
     {
       "type": 0,
-      "value": "trabajo profesional"
+      "value": "Empresas con las que he trabajado"
     }
   ],
   "ooc11H": [
@@ -535,10 +625,22 @@
       "value": "Una voz que se se oirá a lo largo de toda la jornada explicando y dando información a los visitantes, anunciando sponsors y patrocinadores. Informando de las actividades"
     }
   ],
+  "t/UNWZ": [
+    {
+      "type": 0,
+      "value": "Una voz e imagen para tu evento"
+    }
+  ],
   "v5XiOI": [
     {
       "type": 0,
       "value": "Toni Figuera como presentador"
+    }
+  ],
+  "vH1w0N": [
+    {
+      "type": 0,
+      "value": "Congresos"
     }
   ],
   "vSXIpl": [
@@ -565,6 +667,18 @@
       "value": "Tu número de teléfono"
     }
   ],
+  "x4xTNv": [
+    {
+      "type": 0,
+      "value": "Fluidez y naturalidad en el habla y el lenguaje"
+    }
+  ],
+  "xEfisW": [
+    {
+      "type": 0,
+      "value": "Ferias"
+    }
+  ],
   "xGfqJO": [
     {
       "type": 0,
@@ -575,6 +689,18 @@
     {
       "type": 0,
       "value": "Personaje infiltrado"
+    }
+  ],
+  "ywEnFG": [
+    {
+      "type": 0,
+      "value": "Eventos deportivos"
+    }
+  ],
+  "yxFb/g": [
+    {
+      "type": 0,
+      "value": "Control y dominio del lenguaje corporal"
     }
   ],
   "z3dPJe": [

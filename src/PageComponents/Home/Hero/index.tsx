@@ -30,7 +30,8 @@ const Hero = () => {
             <h1
               className={cn(
                 'font-serif text-rose-600 tracking-tight font-extrabold',
-                'text-3xl sm:text-4xl md:text-5xl'
+                'text-3xl sm:text-4xl md:text-5xl',
+                'mt-12'
               )}
             >
               <span className='text-gray-50 block md:text-5xl mb-2'>

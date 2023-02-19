@@ -44,7 +44,7 @@ const GridText = ({
       )}
     >
       <PhotoGridItem src={src} alt={alt} />
-      <div className='absolute inset-0 z-10 bg-gradient-to-t from-gray-900' />
+      <div className='absolute inset-0 z-10' />
       {text && (
         <h2
           className={cn(
@@ -106,7 +106,7 @@ const Intro = () => {
           <GridText
             text={intl.formatMessage({
               id: 'aL0Hl8',
-              defaultMessage: 'Actuación cómica'
+              defaultMessage: 'Showman y cómico'
             })}
             src={camarero}
             alt='Toni en una celebración actuando como camarero falso'
@@ -121,7 +121,7 @@ const Intro = () => {
             >
               <FormattedMessage
                 id='BRw1sx'
-                defaultMessage='Creo recuerdos <memorable>imborrables</memorable>'
+                defaultMessage='Crear recuerdos <memorable>inolvidables</memorable>'
                 values={{
                   memorable: function memorableTag(chunks) {
                     return <span className='text-gray-900'>{chunks}</span>
