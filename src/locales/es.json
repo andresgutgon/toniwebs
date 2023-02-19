@@ -8,8 +8,14 @@
   "/ES52+": {
     "defaultMessage": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
   },
+  "/Ovnza": {
+    "defaultMessage": "Team buildings"
+  },
   "0OAotW": {
     "defaultMessage": "Sobre mí"
+  },
+  "0wZoYx": {
+    "defaultMessage": "Control del ritmo y el timming"
   },
   "1lOQI2": {
     "defaultMessage": "Una ceremonia en varios idiomas para que vosotros y vuestros invitados os sintáis cómodos y disfrutéis de la velada: Castellano, catalán, inglés, italiano, francés y lo que necesitéis."
@@ -23,23 +29,26 @@
   "3xDpCF": {
     "defaultMessage": "Tu ceremonia como tú quieres."
   },
+  "47iI2x": {
+    "defaultMessage": "Presencia escénica"
+  },
   "4Y3qdy": {
     "defaultMessage": "Maestro de ceremonias, oficiante de bodas, presentador."
   },
   "5EEnOC": {
     "defaultMessage": "Sorprender y provocar."
   },
+  "78ta1L": {
+    "defaultMessage": "Capacidad de transmitir mensajes y emociones"
+  },
   "7GtpBL": {
     "defaultMessage": "<callTag>O llama al</callTag> <phoneTag></phoneTag>"
   },
   "7StwJn": {
-    "defaultMessage": "las bodas que yo hago"
+    "defaultMessage": "ceremonias personalizadas"
   },
   "7iDOUc": {
     "defaultMessage": "Toni Figuera oficiante de bodas"
-  },
-  "8EqaQ5": {
-    "defaultMessage": "Ver opinión en celebrents.es"
   },
   "8FOgzN": {
     "defaultMessage": "Algunas de las empresas con las que he trabajado"
@@ -53,17 +62,23 @@
   "Apw5IF": {
     "defaultMessage": "Presentaciones"
   },
+  "Aq+3st": {
+    "defaultMessage": "Dominio del escenario"
+  },
   "BIAord": {
     "defaultMessage": "Pensando en los detalles de tu boda"
   },
   "BRw1sx": {
-    "defaultMessage": "Creo recuerdos <memorable>imborrables</memorable>"
+    "defaultMessage": "Crear recuerdos <memorable>inolvidables</memorable>"
   },
   "BtmTUc": {
     "defaultMessage": "Eventos para entidades y empresas"
   },
   "CA9eY5": {
     "defaultMessage": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
+  },
+  "CTkDVU": {
+    "defaultMessage": "Es importante conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
   },
   "DQj22Z": {
     "defaultMessage": "Servicios"
@@ -76,6 +91,9 @@
   },
   "HYitF5": {
     "defaultMessage": "Os ayudo a conseguir la boda perfecta"
+  },
+  "IAW6mL": {
+    "defaultMessage": "Presentar un evento es siempre una responsabilidad, porque del presentador dependen el ritmo, los tiempos y la fluidez del mismo."
   },
   "IcUlg8": {
     "defaultMessage": "Entrevista a tus invitados para contar la fiesta."
@@ -113,8 +131,11 @@
   "OvIhir": {
     "defaultMessage": "Actor"
   },
-  "Pxua6D": {
-    "defaultMessage": "Nikira el día de su boda"
+  "Oy1QPr": {
+    "defaultMessage": "Transmitir el mensaje que quieres"
+  },
+  "P/dpZG": {
+    "defaultMessage": "Ferias y Congresos"
   },
   "Q7JOYR": {
     "defaultMessage": "Toni Figuera speaker para tus eventos"
@@ -152,11 +173,17 @@
   "TeuDtf": {
     "defaultMessage": "Enviando..."
   },
+  "U9/ger": {
+    "defaultMessage": "Me encargaré de presentar, dar la información necesaria, anunciar sponsors y patrocinadores, informar de las actividades, resultados, juegos o actuaciones."
+  },
   "VQTSTt": {
     "defaultMessage": "Eventos de empresa"
   },
   "VUgx65": {
     "defaultMessage": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+  },
+  "WjUBO0": {
+    "defaultMessage": "Un presentador profesional al servicio de tu empresa"
   },
   "Y2kNwV": {
     "defaultMessage": "Entrevistas divertidas y diferentes o serias y funcionales si lo prefieres. Tendrás imágenes y entrevistas de tu evento. Al finalizar montaremos un vídeo para que lo uses."
@@ -167,11 +194,17 @@
   "YwsmHE": {
     "defaultMessage": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
   },
+  "ZRjPw+": {
+    "defaultMessage": "Micrófono en mano puedo dinamizar cualquier acto al aire libre o en interior, adaptando el tono y el lenguaje a la naturaleza del evento."
+  },
   "Zpf9z8": {
     "defaultMessage": "Catalán"
   },
+  "a2sH+L": {
+    "defaultMessage": "Las ventajas de tener a un actor y presentador profesional son muchas:"
+  },
   "aL0Hl8": {
-    "defaultMessage": "Actuación cómica"
+    "defaultMessage": "Showman y cómico"
   },
   "acQBQS": {
     "defaultMessage": "Explica un poco cómo quieres que sea tu evento"
@@ -179,11 +212,23 @@
   "bKaUyD": {
     "defaultMessage": "Risas inolvidables."
   },
+  "dMaTpi": {
+    "defaultMessage": "Meetings"
+  },
+  "fXy2KF": {
+    "defaultMessage": "Competiciones"
+  },
   "fo3Ho5": {
     "defaultMessage": "Idiomas"
   },
+  "g7R08O": {
+    "defaultMessage": "Galas"
+  },
   "gkkTKW": {
     "defaultMessage": "Reporteros"
+  },
+  "hMWnIz": {
+    "defaultMessage": "Ver más opiones"
   },
   "ik0QqA": {
     "defaultMessage": "Solicita información"
@@ -219,7 +264,7 @@
     "defaultMessage": "Toni Figuera como personaje infiltrado"
   },
   "oQ06of": {
-    "defaultMessage": "trabajo profesional"
+    "defaultMessage": "Empresas con las que he trabajado"
   },
   "ooc11H": {
     "defaultMessage": "Las ventajas de tener a un presentador profesional son muchas: presencia escénica, dominio del ritmo y el escenario, fluidez y naturalidad en el habla y el lenguaje y control del lenguaje corporal."
@@ -230,8 +275,14 @@
   "rFNyQq": {
     "defaultMessage": "Una voz que se se oirá a lo largo de toda la jornada explicando y dando información a los visitantes, anunciando sponsors y patrocinadores. Informando de las actividades"
   },
+  "t/UNWZ": {
+    "defaultMessage": "Una voz e imagen para tu evento"
+  },
   "v5XiOI": {
     "defaultMessage": "Toni Figuera como presentador"
+  },
+  "vH1w0N": {
+    "defaultMessage": "Congresos"
   },
   "vSXIpl": {
     "defaultMessage": "Me pondré en contacto con vosotros lo antes posible. Un saludo coordial"
@@ -245,11 +296,23 @@
   "wl6aCz": {
     "defaultMessage": "Tu número de teléfono"
   },
+  "x4xTNv": {
+    "defaultMessage": "Fluidez y naturalidad en el habla y el lenguaje"
+  },
+  "xEfisW": {
+    "defaultMessage": "Ferias"
+  },
   "xGfqJO": {
     "defaultMessage": "Pregúntame lo que necesites"
   },
   "y/kDTo": {
     "defaultMessage": "Personaje infiltrado"
+  },
+  "ywEnFG": {
+    "defaultMessage": "Eventos deportivos"
+  },
+  "yxFb/g": {
+    "defaultMessage": "Control y dominio del lenguaje corporal"
   },
   "z3dPJe": {
     "defaultMessage": "Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única."

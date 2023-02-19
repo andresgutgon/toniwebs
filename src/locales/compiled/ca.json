@@ -1,4 +1,10 @@
 {
+  "+MaJ7w": [
+    {
+      "type": 0,
+      "value": "Poso la meva creativitat, la meva experiència i el meu cor en cada projecte que faig."
+    }
+  ],
   "+mV4j+": [
     {
       "type": 0,
@@ -11,10 +17,22 @@
       "value": "Dona-li a la teva cerimònia un toc còmic amb un capellà o un jutge de pau molt particulars i divertits. Sorprèn als teus convidats amb riures i diversió en una cerimònia que no deixarà indiferent a ningú."
     }
   ],
+  "/Ovnza": [
+    {
+      "type": 0,
+      "value": "Team buildings"
+    }
+  ],
   "0OAotW": [
     {
       "type": 0,
       "value": "Coses meves"
+    }
+  ],
+  "0wZoYx": [
+    {
+      "type": 0,
+      "value": "Control del ritme i el timming"
     }
   ],
   "1lOQI2": [
@@ -41,6 +59,12 @@
       "value": "La teva cerimònia com tu la vols."
     }
   ],
+  "47iI2x": [
+    {
+      "type": 0,
+      "value": "Presència escènica"
+    }
+  ],
   "4Y3qdy": [
     {
       "type": 0,
@@ -53,12 +77,18 @@
       "value": "Sorprendre i provocar."
     }
   ],
+  "78ta1L": [
+    {
+      "type": 0,
+      "value": "Capacitat de transmetre missatges i emocions"
+    }
+  ],
   "7GtpBL": [
     {
       "children": [
         {
           "type": 0,
-          "value": "O llama al"
+          "value": "O crida al"
         }
       ],
       "type": 8,
@@ -78,7 +108,7 @@
   "7StwJn": [
     {
       "type": 0,
-      "value": "Els casaments com jo els faig"
+      "value": "Cerimònies Personalitzades"
     }
   ],
   "7iDOUc": [
@@ -91,6 +121,12 @@
     {
       "type": 0,
       "value": "Contacte"
+    }
+  ],
+  "8FOgzN": [
+    {
+      "type": 0,
+      "value": " Algunes de les empreses amb les quals he treballat"
     }
   ],
   "8eedt8": [
@@ -111,16 +147,56 @@
       "value": "Cerimònia de casament còmica"
     }
   ],
+  "Apw5IF": [
+    {
+      "type": 0,
+      "value": "Presentacions"
+    }
+  ],
+  "Aq+3st": [
+    {
+      "type": 0,
+      "value": "Domini de l'escenari"
+    }
+  ],
   "BIAord": [
     {
       "type": 0,
       "value": "Pensant en els detalls del teu casament."
     }
   ],
+  "BRw1sx": [
+    {
+      "type": 0,
+      "value": "Crear records "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "inoblidables"
+        }
+      ],
+      "type": 8,
+      "value": "memorable"
+    }
+  ],
+  "BtmTUc": [
+    {
+      "type": 0,
+      "value": "Esdeveniments per a entitats i empreses"
+    }
+  ],
   "CA9eY5": [
     {
       "type": 0,
       "value": "Fes la teva cerimònia més dinàmica i entretinguda amb un dj que posarà cançons i música en totes les parts de la cerimònia, oblida't de les pauses llargues i els silencis aborrits."
+    }
+  ],
+  "CTkDVU": [
+    {
+      "type": 0,
+      "value": "És important conèixer la naturalesa i l'ambient que es vol crear, i en funció d'això donar-li a l'acte un to o un altre segons convingui. Treball tots els esdeveniments de forma personalitzada, i escric o adapto els textos i guions que siguin necessaris."
     }
   ],
   "DQj22Z": [
@@ -145,6 +221,12 @@
     {
       "type": 0,
       "value": "Us ayudo a conseguir la cerimònia perfecte"
+    }
+  ],
+  "IAW6mL": [
+    {
+      "type": 0,
+      "value": "Presentar un esdeveniment és sempre una responsabilitat, perquè del presentador depenen el ritme, els temps i la fluïdesa d'aquest."
     }
   ],
   "IcUlg8": [
@@ -177,6 +259,12 @@
       "value": "Tot el que vulguis podem fer-ho possible"
     }
   ],
+  "MDyQk5": [
+    {
+      "type": 0,
+      "value": "Dirección artística"
+    }
+  ],
   "MU0ket": [
     {
       "type": 0,
@@ -195,16 +283,52 @@
       "value": "Speaker per dinamitzar esdeveniments, fires i congressos"
     }
   ],
+  "Ns3gp+": [
+    {
+      "type": 0,
+      "value": "Opinions"
+    }
+  ],
+  "NuIcmS": [
+    {
+      "type": 0,
+      "value": "Actor i presentador"
+    }
+  ],
   "OvIhir": [
     {
       "type": 0,
-      "value": "Altres serveis"
+      "value": "Actor"
+    }
+  ],
+  "Oy1QPr": [
+    {
+      "type": 0,
+      "value": "Transmetre el missatge que vols"
+    }
+  ],
+  "P/dpZG": [
+    {
+      "type": 0,
+      "value": "Ferias y Congresos"
     }
   ],
   "Q7JOYR": [
     {
       "type": 0,
       "value": "Toni Figuera speaker pels teus esdeveniments"
+    }
+  ],
+  "Q7m7JZ": [
+    {
+      "type": 0,
+      "value": "Un professional amb més de 20 anys de carrera artística, treballant en escenaris i esdeveniments per tot el país."
+    }
+  ],
+  "R1k1LC": [
+    {
+      "type": 0,
+      "value": "M'apassiona el meu treball. Soc un actor i presentador versàtil que tant pot presentar el teu esdeveniment d'empresa com celebrar el dia més bonic de la teva vida."
     }
   ],
   "RS703h": [
@@ -261,10 +385,28 @@
       "value": "Enviant..."
     }
   ],
+  "U9/ger": [
+    {
+      "type": 0,
+      "value": "M'encarregaré de presentar, donar la informació necessària, anunciar sponsors i patrocinadors, informar de les activitats, resultats, jocs o actuacions."
+    }
+  ],
+  "VQTSTt": [
+    {
+      "type": 0,
+      "value": "Esdeveniments d'empresa"
+    }
+  ],
   "VUgx65": [
     {
       "type": 0,
       "value": "Fer que el teu casament sigui especial per a tu i els teus convidats. Crear records imborrables. Una cel·lebració del vostre amor per compartir-la amb la vostra familia i amics."
+    }
+  ],
+  "WjUBO0": [
+    {
+      "type": 0,
+      "value": "Un presentador professional al servei de la teva empresa"
     }
   ],
   "Y2kNwV": [
@@ -319,10 +461,28 @@
       "value": "M'agrada preparar, a gust dels nuvis, unes presentacions personalitzades i adaptades a l'estil que vulgueu en la vostra cerimònia per a que, quan entreu pel passadís se us posi la pell de gallina y aquesta emoció sigui compartida amb tots els assistentns."
     }
   ],
+  "ZRjPw+": [
+    {
+      "type": 0,
+      "value": "Micròfon en mà puc dinamitzar qualsevol acte a l'aire lliure o en interior, adaptant el to i el llenguatge a la naturalesa de l'esdeveniment."
+    }
+  ],
   "Zpf9z8": [
     {
       "type": 0,
       "value": "Català"
+    }
+  ],
+  "a2sH+L": [
+    {
+      "type": 0,
+      "value": "Els avantatges de tenir a un actor i presentador professional són moltes:"
+    }
+  ],
+  "aL0Hl8": [
+    {
+      "type": 0,
+      "value": "Showman i còmic"
     }
   ],
   "acQBQS": [
@@ -337,16 +497,40 @@
       "value": "Rialles inoblidables."
     }
   ],
+  "dMaTpi": [
+    {
+      "type": 0,
+      "value": "Meetings"
+    }
+  ],
+  "fXy2KF": [
+    {
+      "type": 0,
+      "value": "Competicions"
+    }
+  ],
   "fo3Ho5": [
     {
       "type": 0,
       "value": "Idiomas"
     }
   ],
+  "g7R08O": [
+    {
+      "type": 0,
+      "value": "Gales"
+    }
+  ],
   "gkkTKW": [
     {
       "type": 0,
       "value": "Reporters"
+    }
+  ],
+  "hMWnIz": [
+    {
+      "type": 0,
+      "value": "Veure més opiones"
     }
   ],
   "ik0QqA": [
@@ -415,6 +599,12 @@
       "value": "Toni Figuera com a personatge infiltrat"
     }
   ],
+  "oQ06of": [
+    {
+      "type": 0,
+      "value": "Empreses amb les quals he treballat"
+    }
+  ],
   "ooc11H": [
     {
       "type": 0,
@@ -439,10 +629,22 @@
       "value": "Toni Figuera mestre de cerimònies en un casament"
     }
   ],
+  "t/UNWZ": [
+    {
+      "type": 0,
+      "value": "Una veu i imatge per al teu esdeveniment"
+    }
+  ],
   "v5XiOI": [
     {
       "type": 0,
       "value": "Toni Figuera com a presentador"
+    }
+  ],
+  "vH1w0N": [
+    {
+      "type": 0,
+      "value": "Congressos"
     }
   ],
   "vSXIpl": [
@@ -469,6 +671,18 @@
       "value": "El teu número de telèfon"
     }
   ],
+  "x4xTNv": [
+    {
+      "type": 0,
+      "value": "Fluïdesa i naturalitat en la parla i el llenguatge"
+    }
+  ],
+  "xEfisW": [
+    {
+      "type": 0,
+      "value": "Fires"
+    }
+  ],
   "xGfqJO": [
     {
       "type": 0,
@@ -479,6 +693,18 @@
     {
       "type": 0,
       "value": "Personatge infiltrat"
+    }
+  ],
+  "ywEnFG": [
+    {
+      "type": 0,
+      "value": "Esdeveniments esportius"
+    }
+  ],
+  "yxFb/g": [
+    {
+      "type": 0,
+      "value": "Control i domini del llenguatge corporal"
     }
   ],
   "z3dPJe": [

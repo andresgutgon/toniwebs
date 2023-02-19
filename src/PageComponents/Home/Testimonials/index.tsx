@@ -8,6 +8,7 @@ import marta from './images/marta-blanxart.png'
 import monica from './images/monica-sero.jpg'
 import nikira from './images/nikira.jpg'
 import patriciaAvatar from './images/patricia-fernandez.png'
+import TitleLabel from '@components/TitleLabel'
 
 const CELEBRENS_URL =
   'https://www.celebrents.es/toni-figuera-actor-y-maestro-de-ceremonias-245998/#valorations'
@@ -20,6 +21,7 @@ type SimpleQuoteProps = {
 const SimpleQuote = ({ children, name, src, date }: SimpleQuoteProps) => {
   return (
     <div
+      {...{ ['x-data']: '{ open: false }' }}
       itemScope
       itemType='https://schema.org/Review'
       className={cn('py-6 flex flex-col justify-between', 'space-y-3')}
@@ -58,9 +60,13 @@ const SimpleQuote = ({ children, name, src, date }: SimpleQuoteProps) => {
         </div>
       </div>
       <blockquote
+        {...{
+          [':class']: "open ? '' : 'line-clamp-3'",
+          ['x-on:click']: 'open = !open'
+        }}
         className={cn(
-          'text-sm text-gray-500 flex flex-col space-y-2',
-          'line-clamp-3 max-w-lg'
+          'cursor-pointer text-sm text-gray-500 flex flex-col space-y-2',
+          'max-w-lg'
         )}
       >
         {children}
@@ -110,18 +116,26 @@ const Testimonials = () => {
   const intl = useIntl()
   return (
     <>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `
+            <script>
+              function onClickQuote(e) {
+                console.log('EVENT', event);
+              }
+            </script>
+          `
+        }}
+      />
       <PageWrapper id='other-testimonials' bgColor='white'>
         <PageContent>
           <div className='space-y-8'>
-            <h3 className='space-y-2 flex flex-col items-center'>
-              <span className='block text-base text-center text-rose-600 tracking-wide uppercase'>
-                {intl.formatMessage({
-                  id: 'Ns3gp+',
-                  defaultMessage: 'Opiniones'
-                })}
-              </span>
-              <div className='w-10 h-px bg-rose-200 rounded-full' />
-            </h3>
+            <TitleLabel align='center' underline>
+              {intl.formatMessage({
+                id: 'Ns3gp+',
+                defaultMessage: 'Opiniones'
+              })}
+            </TitleLabel>
             <div className='sm:grid grid-cols-12 gap-6'>
               <div className='col-span-6'>
                 <BigQuote />
@@ -157,6 +171,16 @@ const Testimonials = () => {
                   tanto para el cumpleañero como para el resto de invitados que
                   fuera una fiesta inolvidable.
                 </SimpleQuote>
+                <a
+                  className='text-base text-rose-600'
+                  href={CELEBRENS_URL}
+                  target='_blank'
+                >
+                  {intl.formatMessage({
+                    id: 'hMWnIz',
+                    defaultMessage: 'Ver más opiones'
+                  })}
+                </a>
               </div>
             </div>
           </div>

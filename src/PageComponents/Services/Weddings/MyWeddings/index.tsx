@@ -2,7 +2,7 @@ import { useIntl } from 'react-intl'
 
 import PageWrapper from '@components/PageWrapper'
 import BgPatterns from '@components/PageWrapper/BgPatterns'
-import perfectWeddingSrc from './la-boda-perfecta.png'
+import perfectWeddingSrc from './la-boda-perfecta.jpg'
 
 const MyWeddings = () => {
   const intl = useIntl()
@@ -19,7 +19,7 @@ const MyWeddings = () => {
             <span className='block text-base text-center text-rose-600 tracking-wide uppercase'>
               {intl.formatMessage({
                 id: '7StwJn',
-                defaultMessage: 'las bodas que yo hago'
+                defaultMessage: 'ceremonias personalizadas'
               })}
             </span>
             <span className='font-serif mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>

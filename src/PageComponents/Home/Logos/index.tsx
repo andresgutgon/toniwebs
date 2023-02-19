@@ -15,6 +15,7 @@ import tibidabo from './images/tibidabo.svg'
 import blanxart from './images/blanxart.png'
 import tv3 from './images/tv3.svg'
 import casanovaFoto from './images/casanova-foto.jpg'
+import TitleLabel from '@components/TitleLabel'
 
 type LogoProps = { hideOnSmall?: boolean; src: string; alt: string }
 const Logo = ({ hideOnSmall, src, alt }: LogoProps) => {
@@ -56,15 +57,12 @@ const Logos = () => {
     <PageWrapper id='entidades' bgColor='white'>
       <PageContent>
         <div className='space-y-8'>
-          <h3 className='space-y-2 flex flex-col items-center'>
-            <span className='block text-base text-center text-rose-600 tracking-wide uppercase'>
-              {intl.formatMessage({
-                id: 'oQ06of',
-                defaultMessage: 'trabajo profesional'
-              })}
-            </span>
-            <div className='w-10 h-px bg-rose-200 rounded-full' />
-          </h3>
+          <TitleLabel underline align='center'>
+            {intl.formatMessage({
+              id: 'oQ06of',
+              defaultMessage: 'Empresas con las que he trabajado'
+            })}
+          </TitleLabel>
           <div className='grid grid-cols-1 sm:grid-cols-12 gap-y-10 sm:gap-x-6'>
             <div className='order-2 col-span-1 sm:order-1 sm:col-span-8'>
               <LogosGrid />
@@ -77,7 +75,7 @@ const Logos = () => {
                 })}
               </h2>
               <div className='space-y-2'>
-                <p className='text-base sm:text-xl text-slate-900'>
+                <p className='text-base sm:text-xl text-gray-900'>
                   {intl.formatMessage({
                     id: '+MaJ7w',
                     defaultMessage:
