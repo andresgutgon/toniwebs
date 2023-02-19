@@ -74,7 +74,7 @@ const ImageMiniature = ({ src, alt, text }) => {
         height={400}
         decoding='async'
         className={cn(
-          'object-cover mb-6 sm:mb-0 rounded-lg sm:rounded-none',
+          'h-full object-cover mb-6 sm:mb-0 rounded-lg sm:rounded-none',
           'shadow-xl ring-1 ring-black ring-opacity-5'
         )}
         alt={alt}
@@ -83,7 +83,7 @@ const ImageMiniature = ({ src, alt, text }) => {
       <div
         className={cn(
           'z-10 absolute inset-0 p-4',
-          'text-lg flex items-end text-white/70'
+          'text-lg flex items-end text-white/90'
         )}
       >
         {text}
