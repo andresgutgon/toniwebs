@@ -82,7 +82,7 @@ const Intro = () => {
               id: 'VQTSTt',
               defaultMessage: 'Eventos de empresa'
             })}
-            href={moderator.path}
+            href={speaker.path}
             src={presentador}
             alt='Acto de presentación para un evento de Skoda'
             extraClassCss='order-1 sm:col-span-4'
@@ -103,7 +103,7 @@ const Intro = () => {
               defaultMessage: 'Presentaciones'
             })}
             src={blanxartPresentacion}
-            href={speaker.path}
+            href={moderator.path}
             alt='Presentacón para Blanxart'
             extraClassCss='order-3 sm:col-span-4'
           />
