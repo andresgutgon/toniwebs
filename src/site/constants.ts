@@ -32,17 +32,5 @@ export const SERVICES_SLUGS = {
   speaker: {
     es: 'speaker',
     ca: 'speaker'
-  },
-  fakeWaiter: {
-    es: 'camarero-falso',
-    ca: 'cambrer-fals'
-  },
-  infiltratedCharacter: {
-    es: 'personaje-infiltrado',
-    ca: 'personatge-inflitrat'
-  },
-  reporterTv: {
-    es: 'reporteros-tv',
-    ca: 'reporters-tv'
   }
 }

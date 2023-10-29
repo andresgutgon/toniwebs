@@ -18,7 +18,6 @@ type TopMenu = {
   }
 }
 const useMenuItems = (): TopMenu => {
-  const intl = useIntl()
   const {
     page: { pageKey, site, locale: loc }
   } = usePage()
@@ -28,9 +27,6 @@ const useMenuItems = (): TopMenu => {
   const weddings = site.pages.weddings[locale]
   const moderator = site.pages.moderator[locale]
   const speaker = site.pages.speaker[locale]
-  const fakeWaiter = site.pages.fakeWaiter[locale]
-  const infiltratedCharacter = site.pages.infiltratedCharacter[locale]
-  const reporterTv = site.pages.reporterTv[locale]
   const personal = {
     phone: site.phoneNumber,
     aboutMe: {
@@ -54,31 +50,6 @@ const useMenuItems = (): TopMenu => {
       selected: pageKey === 'speaker',
       href: speaker.path,
       text: speaker.menuText
-    },
-    {
-      selected: false,
-      href: '#',
-      text: intl.formatMessage({
-        id: 'OvIhir',
-        defaultMessage: 'Actor'
-      }),
-      submenuItems: [
-        {
-          selected: pageKey === 'fakeWaiter',
-          href: fakeWaiter.path,
-          text: fakeWaiter.menuText
-        },
-        {
-          selected: pageKey === 'infiltratedCharacter',
-          href: infiltratedCharacter.path,
-          text: infiltratedCharacter.menuText
-        },
-        {
-          selected: pageKey === 'reporterTv',
-          href: reporterTv.path,
-          text: reporterTv.menuText
-        }
-      ]
     }
   ]
 

@@ -10,6 +10,7 @@ import presentador from './images/presentador.jpg'
 import teatroElefant from './images/teatro-obra-elefant.jpg'
 import camarero from './images/toni-actuacion-camarero-falso.jpg'
 import { ReactNode } from 'react'
+import { usePage } from '@layouts/PageProvider'
 
 type PhotoProps = { src: string; alt: string; extraClassCss?: string }
 const PhotoGridItem = ({ src, alt, extraClassCss }: PhotoProps) => (
@@ -24,6 +25,7 @@ const TEXT_SHADOW = '[text-shadow:0_1px_1px_rgba(0,0,0,0.12)]'
 type GridTextProps = {
   src: string
   alt: string
+  href: string
   text?: string
   textTag?: ReactNode
   extraClassCss?: string
@@ -32,11 +34,13 @@ const GridText = ({
   src,
   alt,
   text,
+  href,
   textTag,
   extraClassCss
 }: GridTextProps) => {
   return (
-    <div
+    <a
+      href={href}
       className={cn(
         'relative flex items-end overflow-hidden w-full',
         'rounded-md shadow-md',
@@ -56,12 +60,18 @@ const GridText = ({
         </h2>
       )}
       {textTag && textTag}
-    </div>
+    </a>
   )
 }
 
 const Intro = () => {
   const intl = useIntl()
+  const {
+    page: { site, locale }
+  } = usePage()
+  const weddings = site.pages.weddings[locale]
+  const moderator = site.pages.moderator[locale]
+  const speaker = site.pages.speaker[locale]
   return (
     <PageWrapper id='mi-trabajo' bgColor='gray'>
       <BgPatterns thirdVisible={false} />
@@ -72,6 +82,7 @@ const Intro = () => {
               id: 'VQTSTt',
               defaultMessage: 'Eventos de empresa'
             })}
+            href={moderator.path}
             src={presentador}
             alt='Acto de presentación para un evento de Skoda'
             extraClassCss='order-1 sm:col-span-4'
@@ -80,6 +91,7 @@ const Intro = () => {
             src={boda}
             alt='Toni celebrando una boda'
             extraClassCss='order-last sm:order-2 sm:col-span-4'
+            href={weddings.path}
             text={intl.formatMessage({
               id: 'zkXTrr',
               defaultMessage: 'Bodas'
@@ -91,52 +103,10 @@ const Intro = () => {
               defaultMessage: 'Presentaciones'
             })}
             src={blanxartPresentacion}
+            href={speaker.path}
             alt='Presentacón para Blanxart'
             extraClassCss='order-3 sm:col-span-4'
           />
-          <GridText
-            text={intl.formatMessage({
-              id: 'MDyQk5',
-              defaultMessage: 'Dirección artística'
-            })}
-            src={teatroElefant}
-            alt="Actuando en obra de teatro L'Elefant Hipotecat"
-            extraClassCss='order-4 sm:col-span-3 '
-          />
-          <GridText
-            text={intl.formatMessage({
-              id: 'aL0Hl8',
-              defaultMessage: 'Showman y cómico'
-            })}
-            src={camarero}
-            alt='Toni en una celebración actuando como camarero falso'
-            extraClassCss='order-6 sm:order-5 sm:col-span-3'
-          />
-          <div className='order-5 py-10 sm:py-0 sm:order-6 px-3 flex flex-col space-y-2 lg:w-2/3 sm:col-span-5  sm:justify-end '>
-            <p
-              className={cn(
-                'font-serif text-xl tracking-tight font-extrabold lg:text-4xl text-gray-600',
-                TEXT_SHADOW
-              )}
-            >
-              <FormattedMessage
-                id='BRw1sx'
-                defaultMessage='Crear recuerdos <memorable>inolvidables</memorable>'
-                values={{
-                  memorable: function memorableTag(chunks) {
-                    return <span className='text-gray-900'>{chunks}</span>
-                  }
-                }}
-              />
-            </p>
-            <p className='text-sm lg:text-base text-gray-700'>
-              {intl.formatMessage({
-                id: 'R1k1LC',
-                defaultMessage:
-                  'Me apasiona mi trabajo. Soy un actor y presentador versátil que tanto puede presentar tu evento de empresa como celebrar el día más bonito de tu vida.'
-              })}
-            </p>
-          </div>
         </div>
       </PageContent>
     </PageWrapper>

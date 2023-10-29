@@ -116,17 +116,6 @@ const Testimonials = () => {
   const intl = useIntl()
   return (
     <>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: `
-            <script>
-              function onClickQuote(e) {
-                console.log('EVENT', event);
-              }
-            </script>
-          `
-        }}
-      />
       <PageWrapper id='other-testimonials' bgColor='white'>
         <PageContent>
           <div className='space-y-8'>
