@@ -64,9 +64,6 @@ const MobileMenu = () => {
   const services = menuItems.services.filter(
     (item: MenuItem) => !item?.submenuItems?.length
   )
-  const otherServices = menuItems.services.filter(
-    (item: MenuItem) => !!item?.submenuItems?.length
-  )[0]?.submenuItems
   return (
     <div {...menu} className='flex flex-1l lg:hidden'>
       <Trigger interactiveTriggerProps={trigger} srOnlyText='Abrir menu'>
@@ -94,11 +91,6 @@ const MobileMenu = () => {
               </Title>
               <ul className='pl-2'>
                 {services.map((item: MenuItem, index: number) => (
-                  <li key={index}>
-                    <Item size='small' {...item} />
-                  </li>
-                ))}
-                {otherServices.map((item: MenuItem, index: number) => (
                   <li key={index}>
                     <Item size='small' {...item} />
                   </li>

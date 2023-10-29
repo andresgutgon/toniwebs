@@ -10,9 +10,6 @@ import notFound from '@site/metadata/notFound'
 import weddings from '@site/metadata/services/weddings'
 import moderator from '@site/metadata/services/moderator'
 import speaker from '@site/metadata/services/speaker'
-import fakeWaiter from '@site/metadata/services/fakeWaiter'
-import infiltratedCharacter from '@site/metadata/services/infiltratedCharacter'
-import reporterTv from '@site/metadata/services/reporterTv'
 
 const PAGES = {
   home,
@@ -20,9 +17,6 @@ const PAGES = {
   weddings,
   moderator,
   speaker,
-  fakeWaiter,
-  infiltratedCharacter,
-  reporterTv,
   notFound
 }
 

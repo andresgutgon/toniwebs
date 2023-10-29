@@ -52,17 +52,9 @@ export default function DesktopNavigation({ items }: Props) {
       <ul className='flex px-3 text-sm font-medium text-zinc-800'>
         {items.map((item: MenuItem) => (
           <li key={item.href}>
-            {!item.submenuItems?.length ? (
-              <NavItem selected={item.selected} href={item.href}>
-                {item.text}
-              </NavItem>
-            ) : (
-              <SimpleMenu
-                size='small'
-                trigger={<NavItem selected={false}>{item.text}</NavItem>}
-                items={item.submenuItems}
-              />
-            )}
+            <NavItem selected={item.selected} href={item.href}>
+              {item.text}
+            </NavItem>
           </li>
         ))}
       </ul>
