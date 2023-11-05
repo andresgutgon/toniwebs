@@ -16,6 +16,7 @@ export type MenuItemProps = {
   children: ReactNode
   selected: boolean
   href?: string
+  target?: string
 }
 
 const LanguageSwitcherButton = () => {

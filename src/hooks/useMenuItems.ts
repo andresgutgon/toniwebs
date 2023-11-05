@@ -5,6 +5,7 @@ import { Locale } from '@types'
 
 export type MenuItem = {
   href: string
+  target?: string
   text: string
   selected?: boolean
   submenuItems?: MenuItem[]
@@ -50,6 +51,12 @@ const useMenuItems = (): TopMenu => {
       selected: pageKey === 'speaker',
       href: speaker.path,
       text: speaker.menuText
+    },
+    {
+      selected: false,
+      href: 'https://tonifiguera.com',
+      text: 'Actor',
+      target: '_blank'
     }
   ]
 

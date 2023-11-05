@@ -10,10 +10,11 @@ import { usePage } from '@layouts/PageProvider'
 import { LocaleOption } from '@site/types'
 
 type ItemProps = MenuItem & { size: 'small' | 'normal' }
-const Item = ({ size, text, href, selected }: ItemProps) => {
+const Item = ({ size, text, href, target, selected }: ItemProps) => {
   return (
     <a
       href={href}
+      target={target}
       className={cn(
         'block font-medium',
         'py-2.5 px-3 hover:bg-gray-50',

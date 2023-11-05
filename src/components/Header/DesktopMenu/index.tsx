@@ -6,7 +6,12 @@ import type { MenuItem } from '@hooks/useMenuItems'
 import SimpleMenu, { simpleMenuInteractiveProps } from '@components/SimpleMenu'
 import { MenuItemProps } from '@components/Header'
 
-export const NavItem: FC<MenuItemProps> = ({ selected, href, children }) => {
+export const NavItem: FC<MenuItemProps> = ({
+  selected,
+  href,
+  target,
+  children
+}) => {
   const triggerProps = simpleMenuInteractiveProps.trigger
   const className = cn(
     'font-medium text-base group relative top-0.5',
@@ -27,7 +32,7 @@ export const NavItem: FC<MenuItemProps> = ({ selected, href, children }) => {
   }
 
   return (
-    <a href={href} className={className}>
+    <a href={href} target={target} className={className}>
       {children}
       <span
         className={cn(
@@ -52,7 +57,11 @@ export default function DesktopNavigation({ items }: Props) {
       <ul className='flex px-3 text-sm font-medium text-zinc-800'>
         {items.map((item: MenuItem) => (
           <li key={item.href}>
-            <NavItem selected={item.selected} href={item.href}>
+            <NavItem
+              selected={item.selected}
+              href={item.href}
+              target={item.target}
+            >
               {item.text}
             </NavItem>
           </li>
