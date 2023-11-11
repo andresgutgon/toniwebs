@@ -15,8 +15,8 @@ const Content = ({ page }: Props) => {
       <Header />
       <Hero />
       <Intro />
-      <Testimonials />
       <Logos />
+      <Testimonials />
     </DefaultLayout>
   )
 }

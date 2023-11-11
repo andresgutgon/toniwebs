@@ -1,16 +1,4 @@
 {
-  "+MaJ7w": [
-    {
-      "type": 0,
-      "value": "Pongo mi creatividad, mi experiencia y mi corazón en cada proyecto que hago."
-    }
-  ],
-  "+mV4j+": [
-    {
-      "type": 0,
-      "value": "Camarero falso"
-    }
-  ],
   "/ES52+": [
     {
       "type": 0,
@@ -47,12 +35,6 @@
       "value": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos ante 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
     }
   ],
-  "3tgYEd": [
-    {
-      "type": 0,
-      "value": "Tú eliges el personaje, yo lo creo y me infiltro como uno más en tu evento. Bromas a amigos, compañeros, trabajadores, familiares o invitados. Cualquier personaje que se te ocurra podrá ser realidad."
-    }
-  ],
   "3xDpCF": [
     {
       "type": 0,
@@ -69,12 +51,6 @@
     {
       "type": 0,
       "value": "Maestro de ceremonias, oficiante de bodas, presentador."
-    }
-  ],
-  "5EEnOC": [
-    {
-      "type": 0,
-      "value": "Sorprender y provocar."
     }
   ],
   "78ta1L": [
@@ -117,18 +93,6 @@
       "value": "Toni Figuera oficiante de bodas"
     }
   ],
-  "8FOgzN": [
-    {
-      "type": 0,
-      "value": "Algunas de las empresas con las que he trabajado"
-    }
-  ],
-  "8eedt8": [
-    {
-      "type": 0,
-      "value": "Toni Figuera como reportero de TV"
-    }
-  ],
   "AHJaaS": [
     {
       "type": 0,
@@ -151,28 +115,6 @@
     {
       "type": 0,
       "value": "Pensando en los detalles de tu boda"
-    }
-  ],
-  "BRw1sx": [
-    {
-      "type": 0,
-      "value": "Crear recuerdos "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "inolvidables"
-        }
-      ],
-      "type": 8,
-      "value": "memorable"
-    }
-  ],
-  "BtmTUc": [
-    {
-      "type": 0,
-      "value": "Eventos para entidades y empresas"
     }
   ],
   "CA9eY5": [
@@ -199,10 +141,10 @@
       "value": "Presentador"
     }
   ],
-  "G/FnW3": [
+  "GehNhJ": [
     {
       "type": 0,
-      "value": "Personaje infiltrado para dinamizar tus eventos"
+      "value": "Eventos de empresa, eventos institucionales y eventos privados"
     }
   ],
   "HYitF5": [
@@ -215,12 +157,6 @@
     {
       "type": 0,
       "value": "Presentar un evento es siempre una responsabilidad, porque del presentador dependen el ritmo, los tiempos y la fluidez del mismo."
-    }
-  ],
-  "IcUlg8": [
-    {
-      "type": 0,
-      "value": "Entrevista a tus invitados para contar la fiesta."
     }
   ],
   "JCUq5o": [
@@ -245,12 +181,6 @@
     {
       "type": 0,
       "value": "Todo lo que quieras podemos hacerlo posible"
-    }
-  ],
-  "MDyQk5": [
-    {
-      "type": 0,
-      "value": "Dirección artística"
     }
   ],
   "MU0ket": [
@@ -280,13 +210,7 @@
   "NuIcmS": [
     {
       "type": 0,
-      "value": "Actor y presentador"
-    }
-  ],
-  "OvIhir": [
-    {
-      "type": 0,
-      "value": "Actor"
+      "value": "Maestro de Ceremonias y Presentador de Eventos"
     }
   ],
   "Oy1QPr": [
@@ -310,31 +234,13 @@
   "Q7m7JZ": [
     {
       "type": 0,
-      "value": "Un profesional con más de 20 años de carrera artística, trabajando en escenarios y eventos por todo el país."
-    }
-  ],
-  "R1k1LC": [
-    {
-      "type": 0,
-      "value": "Me apasiona mi trabajo. Soy un actor y presentador versátil que tanto puede presentar tu evento de empresa como celebrar el día más bonito de tu vida."
-    }
-  ],
-  "RS703h": [
-    {
-      "type": 0,
-      "value": "Enric, mi personaje, el auténtico camarero falso. Más de 20 años de experiencia y más de 600 actuaciones por todo el país, haciendo este personaje cómico que hará reír a todo el mundo."
+      "value": "Un profesional con más de 20 años de experiencia en escenarios y eventos por todo el país"
     }
   ],
   "S6W4PT": [
     {
       "type": 0,
       "value": "Teléfono"
-    }
-  ],
-  "SDhEt/": [
-    {
-      "type": 0,
-      "value": "Toni Figuera caracterizado como Enric, el camarero falso"
     }
   ],
   "SSXizG": [
@@ -411,12 +317,6 @@
       "value": "Un presentador profesional al servicio de tu empresa"
     }
   ],
-  "Y2kNwV": [
-    {
-      "type": 0,
-      "value": "Entrevistas divertidas y diferentes o serias y funcionales si lo prefieres. Tendrás imágenes y entrevistas de tu evento. Al finalizar montaremos un vídeo para que lo uses."
-    }
-  ],
   "YOCjIA": [
     {
       "children": [
@@ -481,28 +381,28 @@
       "value": "Las ventajas de tener a un actor y presentador profesional son muchas:"
     }
   ],
-  "aL0Hl8": [
-    {
-      "type": 0,
-      "value": "Showman y cómico"
-    }
-  ],
   "acQBQS": [
     {
       "type": 0,
       "value": "Explica un poco cómo quieres que sea tu evento"
     }
   ],
-  "bKaUyD": [
+  "dLLPUd": [
     {
       "type": 0,
-      "value": "Risas inolvidables."
+      "value": "Tu empresa"
     }
   ],
   "dMaTpi": [
     {
       "type": 0,
       "value": "Meetings"
+    }
+  ],
+  "fPjLVE": [
+    {
+      "type": 0,
+      "value": "Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito."
     }
   ],
   "fXy2KF": [
@@ -523,12 +423,6 @@
       "value": "Galas"
     }
   ],
-  "gkkTKW": [
-    {
-      "type": 0,
-      "value": "Reporteros"
-    }
-  ],
   "hMWnIz": [
     {
       "type": 0,
@@ -539,6 +433,12 @@
     {
       "type": 0,
       "value": "Solicita información"
+    }
+  ],
+  "ixbSeK": [
+    {
+      "type": 0,
+      "value": "Comunicar, transmitir, compartir… todo forma parte de un mismo todo: estar delante de una audiencia y hacer llegar un mensaje, una idea o una emoción. Pongo mi creatividad, mi experiencia y mi corazón en cada proyecto que hago."
     }
   ],
   "j7nW78": [
@@ -559,22 +459,10 @@
       "value": "¡Mensaje enviado!"
     }
   ],
-  "l3x1dl": [
-    {
-      "type": 0,
-      "value": "La TV en tu evento."
-    }
-  ],
   "l6tgYx": [
     {
       "type": 0,
       "value": "Una voz profesional."
-    }
-  ],
-  "lnKhYI": [
-    {
-      "type": 0,
-      "value": "Camarero falso: bodas, cumpleaños y eventos de empresa"
     }
   ],
   "lp+gEa": [
@@ -595,16 +483,10 @@
       "value": "Tu nombre"
     }
   ],
-  "mvXmDJ": [
-    {
-      "type": 0,
-      "value": "Toni Figuera como personaje infiltrado"
-    }
-  ],
   "oQ06of": [
     {
       "type": 0,
-      "value": "Empresas con las que he trabajado"
+      "value": "Algunas empresas con las que he trabajado"
     }
   ],
   "ooc11H": [
@@ -683,12 +565,6 @@
     {
       "type": 0,
       "value": "Pregúntame lo que necesites"
-    }
-  ],
-  "y/kDTo": [
-    {
-      "type": 0,
-      "value": "Personaje infiltrado"
     }
   ],
   "ywEnFG": [

@@ -14,6 +14,9 @@ import skoda from './images/skoda.svg'
 import tibidabo from './images/tibidabo.svg'
 import blanxart from './images/blanxart.png'
 import tv3 from './images/tv3.svg'
+import bodasNet from './images/bodas-net.png'
+import uvic from './images/uvic.png'
+import allianz from './images/allianz.jpg'
 import casanovaFoto from './images/casanova-foto.jpg'
 import TitleLabel from '@components/TitleLabel'
 
@@ -33,6 +36,7 @@ const Logo = ({ hideOnSmall, src, alt }: LogoProps) => {
 }
 
 const LogosGrid = () => {
+  const intl = useIntl()
   return (
     <div className='sm:border-gray-100 sm:border grid grid-cols-2 sm:grid-cols-4 bg-gray-100 gap-px'>
       <Logo src={skoda} alt='Skoda' />
@@ -47,6 +51,15 @@ const LogosGrid = () => {
       <Logo src={firaBarcelona} alt='La Fira de Barcelona' />
       <Logo src={casanovaFoto} alt='Casanova foto' />
       <Logo src={tv3} alt='TV3 televisió' />
+      <Logo src={bodasNet} alt='Bodas.net' />
+      <Logo src={uvic} alt='Universitat de Vic' />
+      <Logo src={allianz} alt='Allianz Seguros' />
+      <div className='flex items-center justify-center uppercase text-xs text-gray-400'>
+        {intl.formatMessage({
+          id: 'dLLPUd',
+          defaultMessage: 'Tu empresa'
+        })}
+      </div>
     </div>
   )
 }
@@ -60,36 +73,12 @@ const Logos = () => {
           <TitleLabel underline align='center'>
             {intl.formatMessage({
               id: 'oQ06of',
-              defaultMessage: 'Empresas con las que he trabajado'
+              defaultMessage: 'Algunas empresas con las que he trabajado'
             })}
           </TitleLabel>
-          <div className='grid grid-cols-1 sm:grid-cols-12 gap-y-10 sm:gap-x-6'>
-            <div className='order-2 col-span-1 sm:order-1 sm:col-span-8'>
+          <div className='grid grid-cols-1 sm:grid-cols-12'>
+            <div className='col-span-1 sm:col-start-2 sm:col-span-10'>
               <LogosGrid />
-            </div>
-            <div className='col-span-1 order-1 sm:order-2 sm:col-span-4 flex flex-col justify-center space-y-3'>
-              <h2 className='mt-2 font-serif text-3xl font-extrabold text-slate-900'>
-                {intl.formatMessage({
-                  id: 'BtmTUc',
-                  defaultMessage: 'Eventos para entidades y empresas'
-                })}
-              </h2>
-              <div className='space-y-2'>
-                <p className='text-base sm:text-xl text-gray-900'>
-                  {intl.formatMessage({
-                    id: '+MaJ7w',
-                    defaultMessage:
-                      'Pongo mi creatividad, mi experiencia y mi corazón en cada proyecto que hago.'
-                  })}
-                </p>
-                <p className='text-base sm:text-lg text-gray-600'>
-                  {intl.formatMessage({
-                    id: '8FOgzN',
-                    defaultMessage:
-                      'Algunas de las empresas con las que he trabajado'
-                  })}
-                </p>
-              </div>
             </div>
           </div>
         </div>
