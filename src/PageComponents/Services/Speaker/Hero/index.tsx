@@ -3,24 +3,21 @@ import { useIntl } from 'react-intl'
 import Hero from '@PageComponents/Services/Hero'
 import imageSrc from './toni-figuera-speaker.jpg'
 
-export default function SpeakerHero () {
+export default function SpeakerHero() {
   const intl = useIntl()
-  const sectionName = intl.formatMessage({
-    id: 'MU0ket',
-    defaultMessage: 'Speaker'
-  })
-  const sectionClaim = intl.formatMessage({
-    id: 'l6tgYx',
-    defaultMessage: 'Una voz profesional.'
-  })
   const h1 = intl.formatMessage({
     id: 'NmKYYc',
-    defaultMessage: 'Speaker para dinamizar eventos, ferias y congresos'
+    defaultMessage: 'Speaker, una voz profesional'
+  })
+  const h2 = intl.formatMessage({
+    id: '/12G36',
+    defaultMessage:
+      'Speaker dinamizador de eventos de empresa, institucionales o deportivos'
   })
   const description = intl.formatMessage({
     id: 'rFNyQq',
     defaultMessage:
-      'Una voz que se se oirá a lo largo de toda la jornada explicando y dando información a los visitantes, anunciando sponsors y patrocinadores. Informando de las actividades'
+      'Una voz capaz de transmitir emoción, de presentar y conducir actos al aire libre o en interiores. Adaptando el tono y el lenguaje a la naturaleza del evento y al público asistente. Anunciando sponsors y patrocinadores. Informando de las actividades. Conduciendo juegos o actividades participativas.'
   })
   const imageAlt = intl.formatMessage({
     id: 'Q7JOYR',
@@ -28,9 +25,8 @@ export default function SpeakerHero () {
   })
   return (
     <Hero
-      sectionName={sectionName}
-      sectionClaim={sectionClaim}
       h1={h1}
+      h2={h2}
       description={description}
       imageSrc={imageSrc}
       imageAlt={imageAlt}

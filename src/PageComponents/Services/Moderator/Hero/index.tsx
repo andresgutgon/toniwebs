@@ -1,7 +1,7 @@
 import { useIntl } from 'react-intl'
 
 import Hero from '@PageComponents/Services/Hero'
-import imageSrc from './images/toni-figuera-como-presentador.jpeg'
+import imageSrc from './images/toni-figuera-como-presentador.jpg'
 
 export default function ModeratorHero() {
   const intl = useIntl()
