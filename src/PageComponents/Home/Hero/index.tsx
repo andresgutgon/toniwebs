@@ -20,18 +20,17 @@ const Hero = () => {
   return (
     <PageWrapper id='home-hero' verticalSpace='none' bgColor='dark'>
       <PageContent>
-        <main className='relative z-20 top-5 sm:top-0 sm:grid sm:grid-cols-12 gap-6'>
+        <main className='relative z-20 sm:top-0 sm:grid sm:grid-cols-12 gap-6'>
           <div
             className={cn(
               'col-span-7 lg:col-span-6 xl:pl-8 flex flex-col justify-center',
-              'relative h-full flex justify-end mt-20 sm:mt-0 py-8 sm:py-16'
+              'relative h-full flex justify-end sm:mt-0 py-8 sm:py-16'
             )}
           >
             <h1
               className={cn(
                 'font-serif text-rose-600 tracking-tight font-extrabold',
-                'text-3xl sm:text-4xl md:text-5xl',
-                'mt-12'
+                'text-xl sm:text-4xl md:text-5xl'
               )}
             >
               <span className='text-gray-50 block md:text-5xl mb-2'>
@@ -39,7 +38,7 @@ const Hero = () => {
               </span>
               {intro}
             </h1>
-            <div className='mt-3 text-base text-slate-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
+            <div className='mt-52 text-base text-slate-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
               {description}
             </div>
             <CallToActionHero inverted alwaysAlignedLeft />
