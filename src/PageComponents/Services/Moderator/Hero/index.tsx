@@ -3,24 +3,20 @@ import { useIntl } from 'react-intl'
 import Hero from '@PageComponents/Services/Hero'
 import imageSrc from './images/toni-figuera-como-presentador.jpg'
 
-export default function ModeratorHero () {
+export default function ModeratorHero() {
   const intl = useIntl()
-  const sectionName = intl.formatMessage({
-    id: 'FILuxH',
-    defaultMessage: 'Presentador'
-  })
-  const sectionClaim = intl.formatMessage({
-    id: 'lp+gEa',
-    defaultMessage: 'Crear expectativas y comunicar.'
-  })
   const h1 = intl.formatMessage({
-    id: 'JCUq5o',
-    defaultMessage: 'Tu evento ganará con un presentador profesional'
+    id: 'auRDAz',
+    defaultMessage: 'Presentador de eventos'
+  })
+  const h2 = intl.formatMessage({
+    id: 'GSHqXL',
+    defaultMessage: 'Eventos de empresa y eventos institucionales'
   })
   const description = intl.formatMessage({
     id: 'ooc11H',
     defaultMessage:
-      'Las ventajas de tener a un presentador profesional son muchas: presencia escénica, dominio del ritmo y el escenario, fluidez y naturalidad en el habla y el lenguaje y control del lenguaje corporal.'
+      'Presentador de eventos: Comunicar y poder de oratoria, buena presencia escénica, dominio del ritmo y del escenario, naturalidad y fluidez en el habla, naturalidad en el lenguaje corporal, control de la situación y sobre todo conectar con la audencia.'
   })
   const imageAlt = intl.formatMessage({
     id: 'v5XiOI',
@@ -28,9 +24,8 @@ export default function ModeratorHero () {
   })
   return (
     <Hero
-      sectionName={sectionName}
-      sectionClaim={sectionClaim}
       h1={h1}
+      h2={h2}
       description={description}
       imageSrc={imageSrc}
       imageAlt={imageAlt}

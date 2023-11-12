@@ -1,9 +1,12 @@
 {
-  "+MaJ7w": {
-    "defaultMessage": "Pongo mi creatividad, mi experiencia y mi corazón en cada proyecto que hago."
+  "+Glk5E": {
+    "defaultMessage": "Un presentador de eventos te garantiza una buena imagen para tu empresa, y como se suele decir que una imagen vale más que mil palabras. Está claro que presentar un evento es siempre una responsabilidad porque del presentador depende el ritmo, los tiempos, la fluidez y con ello el éxito del evento."
   },
-  "+mV4j+": {
-    "defaultMessage": "Camarero falso"
+  "+mbFn4": {
+    "defaultMessage": "Me adaptaré en el idioma o idiomas que necesites. Con músicas y canciones elegidas por vosotros para toda la ceremonia. Con participación de la familia y amigos. Con algún ritual o con votos matrimoniales. Con humor o diversión si lo queréis. Y siempre, siempre, con mucho amor."
+  },
+  "/12G36": {
+    "defaultMessage": "Speaker dinamizador de eventos de empresa, institucionales o deportivos"
   },
   "/ES52+": {
     "defaultMessage": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
@@ -20,23 +23,29 @@
   "1lOQI2": {
     "defaultMessage": "Una ceremonia en varios idiomas para que vosotros y vuestros invitados os sintáis cómodos y disfrutéis de la velada: Castellano, catalán, inglés, italiano, francés y lo que necesitéis."
   },
+  "1oIR+o": {
+    "defaultMessage": "Presentaciones de producto"
+  },
   "2WHEEl": {
     "defaultMessage": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos ante 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
   },
-  "3tgYEd": {
-    "defaultMessage": "Tú eliges el personaje, yo lo creo y me infiltro como uno más en tu evento. Bromas a amigos, compañeros, trabajadores, familiares o invitados. Cualquier personaje que se te ocurra podrá ser realidad."
+  "2b6DBw": {
+    "defaultMessage": "Una ceremonia personalizada"
   },
   "3xDpCF": {
-    "defaultMessage": "Tu ceremonia como tú quieres."
+    "defaultMessage": "Contacta para un entrevista"
   },
   "47iI2x": {
     "defaultMessage": "Presencia escénica"
   },
   "4Y3qdy": {
-    "defaultMessage": "Maestro de ceremonias, oficiante de bodas, presentador."
+    "defaultMessage": "Maestro de ceremonias"
   },
-  "5EEnOC": {
-    "defaultMessage": "Sorprender y provocar."
+  "6hoCdx": {
+    "defaultMessage": "Un Maestro de Ceremonias tiene que conectar con los novios, con los invitados y saber compartir emociones con todos los presentes. La ceremonia es el momento más importante de una boda, es el recuerdo que os va a quedar en la memoria para siempre, y hay que darle la importancia y el valor que se merece. Es importante que os sintáis a gusto con vuestro Maestro de Ceremonias y haya confianza y empatía."
+  },
+  "6sO5KF": {
+    "defaultMessage": "Narración de historias de familiares y amigos."
   },
   "78ta1L": {
     "defaultMessage": "Capacidad de transmitir mensajes y emociones"
@@ -44,17 +53,23 @@
   "7GtpBL": {
     "defaultMessage": "<callTag>O llama al</callTag> <phoneTag></phoneTag>"
   },
+  "7PVMQk": {
+    "defaultMessage": "Con ésta opción tendréis un servicio exclusivo durante toda vuestra boda. Haremos una ceremonia memorable y única."
+  },
   "7StwJn": {
     "defaultMessage": "ceremonias personalizadas"
+  },
+  "7aeSNJ": {
+    "defaultMessage": "Presentación de invitados ilustres elegidos por vosotros."
   },
   "7iDOUc": {
     "defaultMessage": "Toni Figuera oficiante de bodas"
   },
-  "8FOgzN": {
-    "defaultMessage": "Algunas de las empresas con las que he trabajado"
+  "958YGm": {
+    "defaultMessage": "Presentación del pastel nupcial."
   },
-  "8eedt8": {
-    "defaultMessage": "Toni Figuera como reportero de TV"
+  "9AfghM": {
+    "defaultMessage": "Entregas de premios"
   },
   "AHJaaS": {
     "defaultMessage": "Boda cómica"
@@ -68,68 +83,62 @@
   "BIAord": {
     "defaultMessage": "Pensando en los detalles de tu boda"
   },
-  "BRw1sx": {
-    "defaultMessage": "Crear recuerdos <memorable>inolvidables</memorable>"
-  },
-  "BtmTUc": {
-    "defaultMessage": "Eventos para entidades y empresas"
-  },
   "CA9eY5": {
     "defaultMessage": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
   },
   "CTkDVU": {
     "defaultMessage": "Es importante conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
   },
+  "CyRCtC": {
+    "defaultMessage": "Maestro de ceremonias en banquete de bodas"
+  },
   "DQj22Z": {
     "defaultMessage": "Servicios"
   },
-  "FILuxH": {
-    "defaultMessage": "Presentador"
+  "DW3BY1": {
+    "defaultMessage": "Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres"
   },
-  "G/FnW3": {
-    "defaultMessage": "Personaje infiltrado para dinamizar tus eventos"
+  "GSHqXL": {
+    "defaultMessage": "Eventos de empresa y eventos institucionales"
+  },
+  "GehNhJ": {
+    "defaultMessage": "Eventos de empresa, eventos institucionales y eventos privados"
   },
   "HYitF5": {
     "defaultMessage": "Os ayudo a conseguir la boda perfecta"
   },
   "IAW6mL": {
-    "defaultMessage": "Presentar un evento es siempre una responsabilidad, porque del presentador dependen el ritmo, los tiempos y la fluidez del mismo."
-  },
-  "IcUlg8": {
-    "defaultMessage": "Entrevista a tus invitados para contar la fiesta."
-  },
-  "JCUq5o": {
-    "defaultMessage": "Tu evento ganará con un presentador profesional"
+    "defaultMessage": "Estar delante de una audiencia y ser capaz de conectar con ellos requiere de formación y experiencia, hay que estar preparado y saber lo que se necesita en cada momento."
   },
   "JIpkFd": {
     "defaultMessage": "es"
+  },
+  "L2+dto": {
+    "defaultMessage": "Presentación del baile nupcial."
+  },
+  "LDjWIZ": {
+    "defaultMessage": "¿Por qué necesitas un presentador de eventos profesional?"
   },
   "LU7byF": {
     "defaultMessage": "Musical"
   },
   "LaU95V": {
-    "defaultMessage": "Todo lo que quieras podemos hacerlo posible"
-  },
-  "MDyQk5": {
-    "defaultMessage": "Dirección artística"
-  },
-  "MU0ket": {
-    "defaultMessage": "Speaker"
+    "defaultMessage": "Todo lo que sueñas es posible"
   },
   "N7yh1n": {
     "defaultMessage": "Enviar mensaje"
   },
   "NmKYYc": {
-    "defaultMessage": "Speaker para dinamizar eventos, ferias y congresos"
+    "defaultMessage": "Speaker, una voz profesional"
   },
   "Ns3gp+": {
     "defaultMessage": "Opiniones"
   },
   "NuIcmS": {
-    "defaultMessage": "Actor y presentador"
+    "defaultMessage": "Maestro de Ceremonias y Presentador de Eventos"
   },
-  "OvIhir": {
-    "defaultMessage": "Actor"
+  "Nzdye4": {
+    "defaultMessage": "Presentación de regalos."
   },
   "Oy1QPr": {
     "defaultMessage": "Transmitir el mensaje que quieres"
@@ -137,23 +146,17 @@
   "P/dpZG": {
     "defaultMessage": "Ferias y Congresos"
   },
+  "PH7b4G": {
+    "defaultMessage": "Presentación de discursos."
+  },
   "Q7JOYR": {
     "defaultMessage": "Toni Figuera speaker para tus eventos"
   },
   "Q7m7JZ": {
-    "defaultMessage": "Un profesional con más de 20 años de carrera artística, trabajando en escenarios y eventos por todo el país."
-  },
-  "R1k1LC": {
-    "defaultMessage": "Me apasiona mi trabajo. Soy un actor y presentador versátil que tanto puede presentar tu evento de empresa como celebrar el día más bonito de tu vida."
-  },
-  "RS703h": {
-    "defaultMessage": "Enric, mi personaje, el auténtico camarero falso. Más de 20 años de experiencia y más de 600 actuaciones por todo el país, haciendo este personaje cómico que hará reír a todo el mundo."
+    "defaultMessage": "Un profesional con más de 20 años de experiencia en escenarios y eventos por todo el país"
   },
   "S6W4PT": {
     "defaultMessage": "Teléfono"
-  },
-  "SDhEt/": {
-    "defaultMessage": "Toni Figuera caracterizado como Enric, el camarero falso"
   },
   "SSXizG": {
     "defaultMessage": "Personaliza tu ceremonia con <specialSong>vuestra canción o canciones favoritas</specialSong>. Como actor y cantante he trabajado en muchos musicales, si quieres incluir alguna canción o canciones en tu ceremonia podemos hacerlo posible."
@@ -164,35 +167,35 @@
   "ScnA6d": {
     "defaultMessage": "Solicita información"
   },
-  "SxgkbE": {
-    "defaultMessage": "El estilo y el ambiente lo eliges tú."
-  },
-  "TCi2JO": {
-    "defaultMessage": "Creo necesario hacer una escaleta con el timming del enlace, canciones, participación de testigos o invitados, etc, todo coordinado con la música para darle al enlace un empaque de espectáculo. Y puede ser grande, majestuoso y épico, o romántico, mágico y detallista. El estilo y el ambiente lo eliges tú."
-  },
   "TeuDtf": {
     "defaultMessage": "Enviando..."
   },
   "U9/ger": {
     "defaultMessage": "Me encargaré de presentar, dar la información necesaria, anunciar sponsors y patrocinadores, informar de las actividades, resultados, juegos o actuaciones."
   },
+  "UYKKqk": {
+    "defaultMessage": "Tendréis acompañamiento durante todo el banquete, dónde seré el presentador/conductor de todo el evento."
+  },
   "VQTSTt": {
     "defaultMessage": "Eventos de empresa"
   },
   "VUgx65": {
-    "defaultMessage": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+    "defaultMessage": "Maestro de ceremonias, oficiante de bodas. Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+  },
+  "VpUTKw": {
+    "defaultMessage": "Presentación del baile y fiesta final."
+  },
+  "W7X4to": {
+    "defaultMessage": "Una ceremonia única"
+  },
+  "WiqsVz": {
+    "defaultMessage": "Presentación de la entrada de los novios al banquete"
   },
   "WjUBO0": {
     "defaultMessage": "Un presentador profesional al servicio de tu empresa"
   },
-  "Y2kNwV": {
-    "defaultMessage": "Entrevistas divertidas y diferentes o serias y funcionales si lo prefieres. Tendrás imágenes y entrevistas de tu evento. Al finalizar montaremos un vídeo para que lo uses."
-  },
   "YOCjIA": {
     "defaultMessage": "<master>Maestro</master> <of>de</of> <ceremonies>ceremonias</ceremonies>"
-  },
-  "YwsmHE": {
-    "defaultMessage": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
   },
   "ZRjPw+": {
     "defaultMessage": "Micrófono en mano puedo dinamizar cualquier acto al aire libre o en interior, adaptando el tono y el lenguaje a la naturaleza del evento."
@@ -203,17 +206,23 @@
   "a2sH+L": {
     "defaultMessage": "Las ventajas de tener a un actor y presentador profesional son muchas:"
   },
-  "aL0Hl8": {
-    "defaultMessage": "Showman y cómico"
-  },
   "acQBQS": {
     "defaultMessage": "Explica un poco cómo quieres que sea tu evento"
   },
-  "bKaUyD": {
-    "defaultMessage": "Risas inolvidables."
+  "auRDAz": {
+    "defaultMessage": "Presentador de eventos"
+  },
+  "b6CVca": {
+    "defaultMessage": "Presentación de actuaciones."
   },
   "dMaTpi": {
     "defaultMessage": "Meetings"
+  },
+  "dmULS+": {
+    "defaultMessage": "Cercanía, sensibilidad, cariño… vamos a celebrar vuestro amor y juntos haremos que sea especial para vosotros y todos los invitados. Y lo haremos a vuestro gusto, para que sintáis que la ceremonia os representa, que es como vosotros sois, que es lo que vosotros queréis. Una ceremonia totalmente personalizada, hablando de vosotros, de vuestra historia de amor, de vuestras familias, de como habéis llegado hasta aquí, hasta el día de vuestra boda."
+  },
+  "fPjLVE": {
+    "defaultMessage": "Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito."
   },
   "fXy2KF": {
     "defaultMessage": "Competiciones"
@@ -224,14 +233,17 @@
   "g7R08O": {
     "defaultMessage": "Galas"
   },
-  "gkkTKW": {
-    "defaultMessage": "Reporteros"
+  "gP4W0e": {
+    "defaultMessage": "¿Por qué un Maestro de Ceremonias profesional?"
   },
   "hMWnIz": {
     "defaultMessage": "Ver más opiones"
   },
   "ik0QqA": {
     "defaultMessage": "Solicita información"
+  },
+  "ixbSeK": {
+    "defaultMessage": "Comunicar, transmitir una idea, un mensaje, una emoción… hacer participe al público y que sientan interés por lo que se está explicando o sucediendo en el evento. Haremos todo lo necesario para que el público siga conectado a lo que sucede en tu evento. ¿Cuando empezamos?"
   },
   "j7nW78": {
     "defaultMessage": "ca"
@@ -242,17 +254,8 @@
   "kxRPrz": {
     "defaultMessage": "¡Mensaje enviado!"
   },
-  "l3x1dl": {
-    "defaultMessage": "La TV en tu evento."
-  },
-  "l6tgYx": {
-    "defaultMessage": "Una voz profesional."
-  },
-  "lnKhYI": {
-    "defaultMessage": "Camarero falso: bodas, cumpleaños y eventos de empresa"
-  },
-  "lp+gEa": {
-    "defaultMessage": "Crear expectativas y comunicar."
+  "lZ+cxx": {
+    "defaultMessage": "Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única. Preparemos el timming y escaleta de la ceremonia para que todo esté controlado en todo momento."
   },
   "mJqcsd": {
     "defaultMessage": "Presentador y Maestro de ceremonias"
@@ -260,20 +263,17 @@
   "mKjzSK": {
     "defaultMessage": "Tu nombre"
   },
-  "mvXmDJ": {
-    "defaultMessage": "Toni Figuera como personaje infiltrado"
+  "o/1U5f": {
+    "defaultMessage": "Presentación de los menús."
   },
   "oQ06of": {
-    "defaultMessage": "Empresas con las que he trabajado"
+    "defaultMessage": "Algunas empresas con las que he trabajado"
   },
   "ooc11H": {
-    "defaultMessage": "Las ventajas de tener a un presentador profesional son muchas: presencia escénica, dominio del ritmo y el escenario, fluidez y naturalidad en el habla y el lenguaje y control del lenguaje corporal."
-  },
-  "pKwwNm": {
-    "defaultMessage": "Como maestro de ceremonias cuando oficio una boda creo que no debe ser sólo oficiar la ceremonia, hacer alguna broma o chiste ingenioso y leer algún texto sobre el amor. Creo que la figura del maestro de ceremonias va más allá. Me gusta que los novios se sientan los protagonistas y que los invitados se sientan parte de la celebración. Por eso me gusta recibir a los invitados, hablar con ellos, conocer a la familia y amigos durante unos minutos para poder crear un ambiente festivo y alegre entre todos antes de recibir a los novios."
+    "defaultMessage": "Presentador de eventos: Comunicar y poder de oratoria, buena presencia escénica, dominio del ritmo y del escenario, naturalidad y fluidez en el habla, naturalidad en el lenguaje corporal, control de la situación y sobre todo conectar con la audencia."
   },
   "rFNyQq": {
-    "defaultMessage": "Una voz que se se oirá a lo largo de toda la jornada explicando y dando información a los visitantes, anunciando sponsors y patrocinadores. Informando de las actividades"
+    "defaultMessage": "Una voz capaz de transmitir emoción, de presentar y conducir actos al aire libre o en interiores. Adaptando el tono y el lenguaje a la naturaleza del evento y al público asistente. Anunciando sponsors y patrocinadores. Informando de las actividades. Conduciendo juegos o actividades participativas."
   },
   "t/UNWZ": {
     "defaultMessage": "Una voz e imagen para tu evento"
@@ -286,9 +286,6 @@
   },
   "vSXIpl": {
     "defaultMessage": "Me pondré en contacto con vosotros lo antes posible. Un saludo coordial"
-  },
-  "w+TK7p": {
-    "defaultMessage": "Compartir emociones."
   },
   "wTo87j": {
     "defaultMessage": "Algunos ejemplos o ideas que te pueden ayudar"
@@ -304,9 +301,6 @@
   },
   "xGfqJO": {
     "defaultMessage": "Pregúntame lo que necesites"
-  },
-  "y/kDTo": {
-    "defaultMessage": "Personaje infiltrado"
   },
   "ywEnFG": {
     "defaultMessage": "Eventos deportivos"

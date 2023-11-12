@@ -100,6 +100,12 @@ const Form = () => {
     >
       <Input required id='name' label={name} placeholder={name} />
       <Input required id='phone' label={phone} placeholder={phone} />
+      <Input
+        required
+        id='email'
+        label='Email'
+        placeholder='tuemail@ejemplo.com'
+      />
       <Textarea required id='message' label={message} placeholder={message} />
       <div>
         <Button disabled={sending} buttonType='submit'>

@@ -9,26 +9,26 @@ import Offerings from './Offering'
 
 import { SitePage } from '@site/types'
 
-import imageSrc from './toni-figuera-oficiante-de-bodas.jpeg'
+import imageSrc from './toni-figuera-oficiante-de-bodas.jpg'
+import WhyAProfessional from './WhyAProfessional'
+import Banquete from './Banquete'
+import ImageGallery from './ImageGallery'
 
 const WeddingHero = () => {
   const intl = useIntl()
-  const sectionName = intl.formatMessage({
-    id: 'zkXTrr',
-    defaultMessage: 'Bodas'
-  })
-  const sectionClaim = intl.formatMessage({
-    id: 'w+TK7p',
-    defaultMessage: 'Compartir emociones.'
-  })
   const h1 = intl.formatMessage({
     id: '4Y3qdy',
-    defaultMessage: 'Maestro de ceremonias, oficiante de bodas, presentador.'
+    defaultMessage: 'Maestro de ceremonias'
+  })
+  const h2 = intl.formatMessage({
+    id: 'DW3BY1',
+    defaultMessage:
+      'Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres'
   })
   const description = intl.formatMessage({
     id: 'VUgx65',
     defaultMessage:
-      'Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos.'
+      'Maestro de ceremonias, oficiante de bodas. Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos.'
   })
   const imageAlt = intl.formatMessage({
     id: '7iDOUc',
@@ -36,9 +36,8 @@ const WeddingHero = () => {
   })
   return (
     <Hero
-      sectionName={sectionName}
-      sectionClaim={sectionClaim}
       h1={h1}
+      h2={h2}
       description={description}
       imageSrc={imageSrc}
       imageAlt={imageAlt}
@@ -51,9 +50,12 @@ const Content = ({ page }: Props) => {
     <DefaultLayout page={page} bgColor='white'>
       <Header />
       <WeddingHero />
+      <WhyAProfessional />
       <MyWeddings />
+      <Banquete />
       <Planning />
       <Offerings />
+      <ImageGallery />
     </DefaultLayout>
   )
 }
