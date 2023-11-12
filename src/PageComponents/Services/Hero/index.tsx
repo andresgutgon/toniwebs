@@ -75,39 +75,31 @@ export const HeroPattern = () => (
 
 type Props = {
   h1: string
+  h2: string
   description: string
   imageSrc: string
   imageAlt: string
-  sectionName: string
-  sectionClaim: string
 }
 export default function Hero({
   h1,
+  h2,
   description,
   imageSrc,
-  imageAlt,
-  sectionName,
-  sectionClaim
+  imageAlt
 }: Props) {
   return (
     <PageWrapper id='hero-section' bgColor='white' verticalSpace='none'>
       <PageContent>
         <div className='relative z-20 bg-white pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32 lg:max-w-2xl lg:w-full '>
-          <HeroPattern />
           <main className='pt-10 sm:pt-12 sm:px-6 md:pt-16 lg:pt-20 lg:px-8 xl:pt-28'>
             <div className='sm:text-center lg:text-left'>
-              <p className='font-serif tracking-tight font-extrabold text-3xl sm:text-4xl md:text-5xl'>
-                <span className='block md:text-4xl text-slate-900 mb-2'>
-                  {sectionName}
-                </span>
-                <span className='sm:block text-rose-600 xl:inline'>
-                  {sectionClaim}
-                </span>
-              </p>
-              <h1 className='mt-3 text-base text-slate-900 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
-                {h1}
-              </h1>
-              <p className='mt-1 text-sm text-slate-500 sm:text-base sm:max-w-xl sm:mx-auto md:text-lg lg:mx-0'>
+              <div className='font-serif tracking-tight font-extrabold text-3xl sm:text-4xl md:text-5xl'>
+                <h1 className='block md:text-4xl text-slate-900 mb-2'>{h1}</h1>
+                <h2 className='leading-10 sm:block text-rose-600 xl:inline'>
+                  {h2}
+                </h2>
+              </div>
+              <p className='mt-3 text-base md:text-lg text-slate-500 sm:text-base sm:max-w-xl sm:mx-auto lg:mx-0'>
                 {description}
               </p>
               <CallToActionHero />

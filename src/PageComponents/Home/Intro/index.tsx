@@ -1,4 +1,4 @@
-import { FormattedMessage, useIntl } from 'react-intl'
+import { useIntl } from 'react-intl'
 import cn from 'classnames'
 import PageWrapper from '@components/PageWrapper'
 import BgPatterns from '@components/PageWrapper/BgPatterns'
@@ -7,10 +7,9 @@ import PageContent from '@components/PageContent'
 import boda from './images/toni-figuera-oficiante-de-bodas.jpg'
 import blanxartPresentacion from './images/presentacion-para-blanxart.jpg'
 import presentador from './images/presentador.jpg'
-import teatroElefant from './images/teatro-obra-elefant.jpg'
-import camarero from './images/toni-actuacion-camarero-falso.jpg'
 import { ReactNode } from 'react'
 import { usePage } from '@layouts/PageProvider'
+import Paragraph from '@components/Paragraph'
 
 type PhotoProps = { src: string; alt: string; extraClassCss?: string }
 const PhotoGridItem = ({ src, alt, extraClassCss }: PhotoProps) => (
@@ -61,25 +60,6 @@ const GridText = ({
       )}
       {textTag && textTag}
     </a>
-  )
-}
-
-function Paragraph({
-  children,
-  size = 'normal'
-}: {
-  size?: 'normal' | 'small'
-  children: ReactNode
-}) {
-  return (
-    <p
-      className={cn('text-center', {
-        'text-base sm:text-xl text-gray-900': size === 'normal',
-        'text-base text-gray-600': size === 'small'
-      })}
-    >
-      {children}
-    </p>
   )
 }
 
