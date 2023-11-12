@@ -4,7 +4,7 @@ import Paragraph from '@components/Paragraph'
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
 
-export default function WhyAProfessionalModerator() {
+export default function WhyAProfessional() {
   const intl = useIntl()
   return (
     <PageWrapper id='imagenes-presentador' bgColor='gray' verticalSpace='small'>
@@ -13,9 +13,8 @@ export default function WhyAProfessionalModerator() {
           <div className='col-span-6'>
             <h2 className='font-serif mt-2 block text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
               {intl.formatMessage({
-                id: 'LDjWIZ',
-                defaultMessage:
-                  '¿Por qué necesitas un presentador de eventos profesional? '
+                id: 'gP4W0e',
+                defaultMessage: '¿Por qué un Maestro de Ceremonias profesional?'
               })}
             </h2>
           </div>
@@ -24,9 +23,9 @@ export default function WhyAProfessionalModerator() {
             <div className='flex space-y-2 flex-col'>
               <Paragraph align='left'>
                 {intl.formatMessage({
-                  id: '+Glk5E',
+                  id: '6hoCdx',
                   defaultMessage:
-                    'Un presentador de eventos te garantiza una buena imagen para tu empresa, y como se suele decir que una imagen vale más que mil palabras. Está claro que presentar un evento es siempre una responsabilidad porque del presentador depende el ritmo, los tiempos, la fluidez y con ello el éxito del evento.'
+                    'Un Maestro de Ceremonias tiene que conectar con los novios, con los invitados y saber compartir emociones con todos los presentes. La ceremonia es el momento más importante de una boda, es el recuerdo que os va a quedar en la memoria para siempre, y hay que darle la importancia y el valor que se merece. Es importante que os sintáis a gusto con vuestro Maestro de Ceremonias y haya confianza y empatía.'
                 })}
               </Paragraph>
             </div>
@@ -34,9 +33,9 @@ export default function WhyAProfessionalModerator() {
           <div className='col-span-6'>
             <Paragraph align='left'>
               {intl.formatMessage({
-                id: 'ixbSeK',
+                id: 'dmULS+',
                 defaultMessage:
-                  'Comunicar, transmitir una idea, un mensaje, una emoción… hacer participe al público y que sientan interés por lo que se está explicando o sucediendo en el evento. Haremos todo lo necesario para que el público siga conectado a lo que sucede en tu evento. ¿Cuando empezamos?'
+                  'Cercanía, sensibilidad, cariño… vamos a celebrar vuestro amor y juntos haremos que sea especial para vosotros y todos los invitados. Y lo haremos a vuestro gusto, para que sintáis que la ceremonia os representa, que es como vosotros sois, que es lo que vosotros queréis. Una ceremonia totalmente personalizada, hablando de vosotros, de vuestra historia de amor, de vuestras familias, de como habéis llegado hasta aquí, hasta el día de vuestra boda.'
               })}
             </Paragraph>
           </div>

@@ -15,6 +15,7 @@ import tibidabo from './images/tibidabo.svg'
 import blanxart from './images/blanxart.png'
 import tv3 from './images/tv3.svg'
 import bodasNet from './images/bodas-net.png'
+import celebrents from './images/celebrents.png'
 import uvic from './images/uvic.png'
 import allianz from './images/allianz.jpg'
 import casanovaFoto from './images/casanova-foto.jpg'
@@ -54,12 +55,7 @@ const LogosGrid = () => {
       <Logo src={bodasNet} alt='Bodas.net' />
       <Logo src={uvic} alt='Universitat de Vic' />
       <Logo src={allianz} alt='Allianz Seguros' />
-      <div className='flex items-center justify-center uppercase text-xs text-gray-400'>
-        {intl.formatMessage({
-          id: 'dLLPUd',
-          defaultMessage: 'Tu empresa'
-        })}
-      </div>
+      <Logo src={celebrents} alt='Celebrents' />
     </div>
   )
 }

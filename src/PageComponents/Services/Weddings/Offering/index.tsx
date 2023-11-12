@@ -51,12 +51,12 @@ const Offerings = () => {
       <PageContent>
         <div className='lg:grid lg:grid-cols-3 lg:gap-x-8'>
           <div>
-            <h2 className='mt-2 font-serif text-3xl font-extrabold text-slate-900'>
+            <h3 className='mt-2 font-serif text-3xl font-extrabold text-slate-900'>
               {intl.formatMessage({
                 id: 'wTo87j',
                 defaultMessage: 'Algunos ejemplos o ideas que te pueden ayudar'
               })}
-            </h2>
+            </h3>
           </div>
           <div className='mt-12 lg:mt-0 lg:col-span-2'>
             <dl className='space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8'>

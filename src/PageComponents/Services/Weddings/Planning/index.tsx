@@ -5,7 +5,7 @@ import PageWrapper from '@components/PageWrapper'
 import BgPatterns from '@components/PageWrapper/BgPatterns'
 import planingWeddingImageSrc from './planeando-la-boda.jpeg'
 
-const Planning = () => {
+export default function Planning() {
   const intl = useIntl()
   const planningAlt = intl.formatMessage({
     id: 'BIAord',
@@ -13,7 +13,7 @@ const Planning = () => {
   })
 
   return (
-    <PageWrapper id='planear-tu-boda'>
+    <PageWrapper id='planear-tu-boda' bgColor='transparent'>
       <BgPatterns thirdVisible={false} />
       <PageContent>
         <div className='grid sm:grid-cols-2 gap-10'>
@@ -29,7 +29,7 @@ const Planning = () => {
             <h3 className='font-serif text-3xl tracking-tight font-extrabold sm:text-5xl text-slate-900'>
               {intl.formatMessage({
                 id: '3xDpCF',
-                defaultMessage: 'Tu ceremonia como tú quieres.'
+                defaultMessage: 'Contacta para un entrevista'
               })}
             </h3>
             <p className='text-base sm:text-xl text-slate-900'>
@@ -54,5 +54,3 @@ const Planning = () => {
     </PageWrapper>
   )
 }
-
-export default Planning

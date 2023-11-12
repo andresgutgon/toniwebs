@@ -3,6 +3,7 @@ import cn from 'classnames'
 
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
+import BgPatterns from '@components/PageWrapper/BgPatterns'
 
 import reading from './images/toni-leyendo.jpg'
 import uvic from './images/toni-uvic.jpg'
@@ -43,6 +44,7 @@ export default function Advantages() {
   const intl = useIntl()
   return (
     <PageWrapper id='porque-un-presentador-profesional' bgColor='transparent'>
+      <BgPatterns />
       <PageContent>
         <div className='grid sm:grid-cols-12'>
           <div className='sm:col-start-3 sm:col-span-8 space-y-4'>

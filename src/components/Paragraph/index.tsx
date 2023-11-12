@@ -17,7 +17,7 @@ export default function Paragraph({
       className={cn({
         'text-left': align === 'left',
         'text-right': align === 'right',
-        'text-center': align === 'center',
+        'text-left sm:text-center': align === 'center',
         'text-base sm:text-xl': size === 'normal',
         'text-base text-gray-600': size === 'small',
         'text-gray-900': size === 'normal' && !dark,

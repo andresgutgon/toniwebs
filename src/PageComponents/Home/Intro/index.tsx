@@ -77,7 +77,7 @@ export default function Intro() {
       <PageContent>
         <div className='flex flex-col justify-center items-center space-y-6 mb-9'>
           <h2 className='max-w-2xl'>
-            <span className='font-serif mt-2 block text-2xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
+            <span className='font-serif mt-2 block text-2xl sm:text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
               {intl.formatMessage({
                 id: 'GehNhJ',
                 defaultMessage:

@@ -63,7 +63,7 @@ export default function Advantages() {
   const intl = useIntl()
   const advantages = useAdvantages()
   return (
-    <PageWrapper id='ventajas-presentador-profesional' bgColor='white'>
+    <PageWrapper id='ventajas-presentador-profesional' bgColor='gray'>
       <PageContent>
         <div className='grid sm:grid-cols-12 gap-y-6 sm:gap-x-6'>
           <div className='order-last sm:order-first sm:col-span-5'>

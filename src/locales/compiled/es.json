@@ -5,6 +5,12 @@
       "value": "Un presentador de eventos te garantiza una buena imagen para tu empresa, y como se suele decir que una imagen vale más que mil palabras. Está claro que presentar un evento es siempre una responsabilidad porque del presentador depende el ritmo, los tiempos, la fluidez y con ello el éxito del evento."
     }
   ],
+  "+mbFn4": [
+    {
+      "type": 0,
+      "value": "Me adaptaré en el idioma o idiomas que necesites. Con músicas y canciones elegidas por vosotros para toda la ceremonia. Con participación de la familia y amigos. Con algún ritual o con votos matrimoniales. Con humor o diversión si lo queréis. Y siempre, siempre, con mucho amor."
+    }
+  ],
   "/ES52+": [
     {
       "type": 0,
@@ -47,10 +53,16 @@
       "value": "Me llamo Toni Figuera y soy actor y director de teatro y eventos. Tengo más de 20 años de experiencia trabajando en el mundo del espectáculo con lo que he hecho absolutamente de todo: teatro de texto, teatro musical, teatro de calle, televisión, eventos de empresa, eventos privados, oficiante de bodas, maestro de ceremonias… celebraciones de todo tipo y en todas las situaciones que puedas imaginar. He actuado en teatros llenos ante 1200 personas, y en comidas privadas con 10 comensales. Me he cambiado en camerinos de 50 m2 con mi nombre en la puerta y un catering estupendo, y en el lavabo de un restaurante para actuar en un cumpleaños. Así es la vida del artista y me encanta."
     }
   ],
+  "2b6DBw": [
+    {
+      "type": 0,
+      "value": "Una ceremonia personalizada"
+    }
+  ],
   "3xDpCF": [
     {
       "type": 0,
-      "value": "Tu ceremonia como tú quieres."
+      "value": "Contacta para un entrevista"
     }
   ],
   "47iI2x": [
@@ -62,7 +74,19 @@
   "4Y3qdy": [
     {
       "type": 0,
-      "value": "Maestro de ceremonias, oficiante de bodas, presentador."
+      "value": "Maestro de ceremonias"
+    }
+  ],
+  "6hoCdx": [
+    {
+      "type": 0,
+      "value": "Un Maestro de Ceremonias tiene que conectar con los novios, con los invitados y saber compartir emociones con todos los presentes. La ceremonia es el momento más importante de una boda, es el recuerdo que os va a quedar en la memoria para siempre, y hay que darle la importancia y el valor que se merece. Es importante que os sintáis a gusto con vuestro Maestro de Ceremonias y haya confianza y empatía."
+    }
+  ],
+  "6sO5KF": [
+    {
+      "type": 0,
+      "value": "Narración de historias de familiares y amigos."
     }
   ],
   "78ta1L": [
@@ -93,16 +117,34 @@
       "value": "phoneTag"
     }
   ],
+  "7PVMQk": [
+    {
+      "type": 0,
+      "value": "Con ésta opción tendréis un servicio exclusivo durante toda vuestra boda. Haremos una ceremonia memorable y única."
+    }
+  ],
   "7StwJn": [
     {
       "type": 0,
       "value": "ceremonias personalizadas"
     }
   ],
+  "7aeSNJ": [
+    {
+      "type": 0,
+      "value": "Presentación de invitados ilustres elegidos por vosotros."
+    }
+  ],
   "7iDOUc": [
     {
       "type": 0,
       "value": "Toni Figuera oficiante de bodas"
+    }
+  ],
+  "958YGm": [
+    {
+      "type": 0,
+      "value": "Presentación del pastel nupcial."
     }
   ],
   "9AfghM": [
@@ -147,10 +189,22 @@
       "value": "Es importante conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
     }
   ],
+  "CyRCtC": [
+    {
+      "type": 0,
+      "value": "Maestro de ceremonias en banquete de bodas"
+    }
+  ],
   "DQj22Z": [
     {
       "type": 0,
       "value": "Servicios"
+    }
+  ],
+  "DW3BY1": [
+    {
+      "type": 0,
+      "value": "Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres"
     }
   ],
   "GSHqXL": [
@@ -183,6 +237,12 @@
       "value": "es"
     }
   ],
+  "L2+dto": [
+    {
+      "type": 0,
+      "value": "Presentación del baile nupcial."
+    }
+  ],
   "LDjWIZ": [
     {
       "type": 0,
@@ -198,7 +258,7 @@
   "LaU95V": [
     {
       "type": 0,
-      "value": "Todo lo que quieras podemos hacerlo posible"
+      "value": "Todo lo que sueñas es posible"
     }
   ],
   "MU0ket": [
@@ -231,6 +291,12 @@
       "value": "Maestro de Ceremonias y Presentador de Eventos"
     }
   ],
+  "Nzdye4": [
+    {
+      "type": 0,
+      "value": "Presentación de regalos."
+    }
+  ],
   "Oy1QPr": [
     {
       "type": 0,
@@ -241,6 +307,12 @@
     {
       "type": 0,
       "value": "Ferias y Congresos"
+    }
+  ],
+  "PH7b4G": [
+    {
+      "type": 0,
+      "value": "Presentación de discursos."
     }
   ],
   "Q7JOYR": [
@@ -293,18 +365,6 @@
       "value": "Solicita información"
     }
   ],
-  "SxgkbE": [
-    {
-      "type": 0,
-      "value": "El estilo y el ambiente lo eliges tú."
-    }
-  ],
-  "TCi2JO": [
-    {
-      "type": 0,
-      "value": "Creo necesario hacer una escaleta con el timming del enlace, canciones, participación de testigos o invitados, etc, todo coordinado con la música para darle al enlace un empaque de espectáculo. Y puede ser grande, majestuoso y épico, o romántico, mágico y detallista. El estilo y el ambiente lo eliges tú."
-    }
-  ],
   "TeuDtf": [
     {
       "type": 0,
@@ -317,6 +377,12 @@
       "value": "Me encargaré de presentar, dar la información necesaria, anunciar sponsors y patrocinadores, informar de las actividades, resultados, juegos o actuaciones."
     }
   ],
+  "UYKKqk": [
+    {
+      "type": 0,
+      "value": "Tendréis acompañamiento durante todo el banquete, dónde seré el presentador/conductor de todo el evento."
+    }
+  ],
   "VQTSTt": [
     {
       "type": 0,
@@ -326,7 +392,25 @@
   "VUgx65": [
     {
       "type": 0,
-      "value": "Hacer que tu boda sea especial para ti y tus invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+      "value": "Maestro de ceremonias, oficiante de bodas. Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+    }
+  ],
+  "VpUTKw": [
+    {
+      "type": 0,
+      "value": "Presentación del baile y fiesta final."
+    }
+  ],
+  "W7X4to": [
+    {
+      "type": 0,
+      "value": "Una ceremonia única"
+    }
+  ],
+  "WiqsVz": [
+    {
+      "type": 0,
+      "value": "Presentación de la entrada de los novios al banquete"
     }
   ],
   "WjUBO0": [
@@ -375,12 +459,6 @@
       "value": "ceremonies"
     }
   ],
-  "YwsmHE": [
-    {
-      "type": 0,
-      "value": "Me gusta preparar, a gusto de los novios, unas presentaciones personalizadas y adaptadas al estilo que queráis en vuestro enlace para que cuando entréis por el pasillo se os ponga la piel de gallina y la emoción sea compartida con todos los asistentes."
-    }
-  ],
   "ZRjPw+": [
     {
       "type": 0,
@@ -411,16 +489,22 @@
       "value": "Presentador de eventos"
     }
   ],
-  "dLLPUd": [
+  "b6CVca": [
     {
       "type": 0,
-      "value": "Tu empresa"
+      "value": "Presentación de actuaciones."
     }
   ],
   "dMaTpi": [
     {
       "type": 0,
       "value": "Meetings"
+    }
+  ],
+  "dmULS+": [
+    {
+      "type": 0,
+      "value": "Cercanía, sensibilidad, cariño… vamos a celebrar vuestro amor y juntos haremos que sea especial para vosotros y todos los invitados. Y lo haremos a vuestro gusto, para que sintáis que la ceremonia os representa, que es como vosotros sois, que es lo que vosotros queréis. Una ceremonia totalmente personalizada, hablando de vosotros, de vuestra historia de amor, de vuestras familias, de como habéis llegado hasta aquí, hasta el día de vuestra boda."
     }
   ],
   "fPjLVE": [
@@ -445,6 +529,12 @@
     {
       "type": 0,
       "value": "Galas"
+    }
+  ],
+  "gP4W0e": [
+    {
+      "type": 0,
+      "value": "¿Por qué un Maestro de Ceremonias profesional?"
     }
   ],
   "hMWnIz": [
@@ -489,6 +579,12 @@
       "value": "Una voz profesional."
     }
   ],
+  "lZ+cxx": [
+    {
+      "type": 0,
+      "value": "Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única. Preparemos el timming y escaleta de la ceremonia para que todo esté controlado en todo momento."
+    }
+  ],
   "mJqcsd": [
     {
       "type": 0,
@@ -501,6 +597,12 @@
       "value": "Tu nombre"
     }
   ],
+  "o/1U5f": [
+    {
+      "type": 0,
+      "value": "Presentación de los menús."
+    }
+  ],
   "oQ06of": [
     {
       "type": 0,
@@ -511,12 +613,6 @@
     {
       "type": 0,
       "value": "Presentador de eventos: Comunicar y poder de oratoria, buena presencia escénica, dominio del ritmo y del escenario, naturalidad y fluidez en el habla, naturalidad en el lenguaje corporal, control de la situación y sobre todo conectar con la audencia."
-    }
-  ],
-  "pKwwNm": [
-    {
-      "type": 0,
-      "value": "Como maestro de ceremonias cuando oficio una boda creo que no debe ser sólo oficiar la ceremonia, hacer alguna broma o chiste ingenioso y leer algún texto sobre el amor. Creo que la figura del maestro de ceremonias va más allá. Me gusta que los novios se sientan los protagonistas y que los invitados se sientan parte de la celebración. Por eso me gusta recibir a los invitados, hablar con ellos, conocer a la familia y amigos durante unos minutos para poder crear un ambiente festivo y alegre entre todos antes de recibir a los novios."
     }
   ],
   "rFNyQq": [
@@ -547,12 +643,6 @@
     {
       "type": 0,
       "value": "Me pondré en contacto con vosotros lo antes posible. Un saludo coordial"
-    }
-  ],
-  "w+TK7p": [
-    {
-      "type": 0,
-      "value": "Compartir emociones."
     }
   ],
   "wTo87j": [
