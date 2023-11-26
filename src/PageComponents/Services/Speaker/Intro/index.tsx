@@ -15,11 +15,11 @@ const useOfferings = () => {
     intl.formatMessage({ id: 'ywEnFG', defaultMessage: 'Eventos deportivos' }),
     intl.formatMessage({ id: 'dMaTpi', defaultMessage: 'Meetings' }),
     intl.formatMessage({ id: 'xEfisW', defaultMessage: 'Ferias' }),
-    intl.formatMessage({ id: 'fXy2KF', defaultMessage: 'Competiciones' }),
+    intl.formatMessage({ id: 'fXy2KF', defaultMessage: 'Competiciones' })
   ]
 }
 
-export default function Intro () {
+export default function Intro() {
   const intl = useIntl()
   const offerings = useOfferings()
   return (
@@ -33,13 +33,14 @@ export default function Intro () {
               width={300}
               height={485}
               className='drop-shadow-homeHero object-cover '
-              alt="Toni en una presentación de un evento"
+              alt='Toni en una presentación de un evento'
             />
             <div className='absolute left-0 bottom-0 right-0 py-4 px-8 bg-gradient-to-t from-gray-900'>
               <p className='col-span-8 flex items-center text-lg text-gray-50'>
                 {intl.formatMessage({
                   id: 'ZRjPw+',
-                  defaultMessage: 'Micrófono en mano puedo dinamizar cualquier acto al aire libre o en interior, adaptando el tono y el lenguaje a la naturaleza del evento.'
+                  defaultMessage:
+                    'Micrófono en mano puedo dinamizar cualquier acto al aire libre o en interior, adaptando el tono y el lenguaje a la naturaleza del evento.'
                 })}
               </p>
             </div>
@@ -55,22 +56,29 @@ export default function Intro () {
               <p className='text-base sm:text-xl text-gray-900'>
                 {intl.formatMessage({
                   id: 'U9/ger',
-                  defaultMessage: 'Me encargaré de presentar, dar la información necesaria, anunciar sponsors y patrocinadores, informar de las actividades, resultados, juegos o actuaciones.'
+                  defaultMessage:
+                    'Me encargaré de presentar, dar la información necesaria, anunciar sponsors y patrocinadores, informar de las actividades, resultados, juegos o actuaciones.'
                 })}
               </p>
             </div>
             <ul className='grid sm:grid-cols-2 h-full bg-rose-100 gap-px'>
-              {offerings.map((offering, index) =>
-                <li
-                  key={index}
-                  className='flex items-center p-4 bg-white'
-                >
-                  <span className='text-base sm:text-xl text-gray-900'>{offering}</span>
+              {offerings.map((offering, index) => (
+                <li key={index} className='flex items-center p-4 bg-white'>
+                  <span className='text-base sm:text-xl text-gray-900'>
+                    {offering}
+                  </span>
                 </li>
-              )}
+              ))}
             </ul>
           </div>
         </div>
+        <h3 className='mt-16 max-w-3xl mx-auto text-center text-base sm:text-2xl text-gray-700'>
+          {intl.formatMessage({
+            id: '5U9JV/',
+            defaultMessage:
+              'Speaker en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca...'
+          })}
+        </h3>
       </PageContent>
     </PageWrapper>
   )

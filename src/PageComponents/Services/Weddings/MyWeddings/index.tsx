@@ -90,7 +90,7 @@ export default function MyWeddings() {
               description={intl.formatMessage({
                 id: '+mbFn4',
                 defaultMessage:
-                  'Me adaptaré en el idioma o idiomas que necesites. Con músicas y canciones elegidas por vosotros para toda la ceremonia. Con participación de la familia y amigos. Con algún ritual o con votos matrimoniales. Con humor o diversión si lo queréis. Y siempre, siempre, con mucho amor.'
+                  'Me adaptaré al idioma o idiomas que necesitéis. Con músicas y canciones elegidas por vosotros para toda la ceremonia. Con participación de la familia y amigos. Con algún ritual o con votos matrimoniales. Con humor o diversión si lo queréis. Y siempre, siempre, con mucho amor.'
               })}
             />
           </div>
@@ -105,7 +105,7 @@ export default function MyWeddings() {
               description={intl.formatMessage({
                 id: 'lZ+cxx',
                 defaultMessage:
-                  'Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única. Preparemos el timming y escaleta de la ceremonia para que todo esté controlado en todo momento. '
+                  'Porque cada pareja es única y vuestra ceremonia tiene que ser como vosotros sois. Preparemos el timming y escaleta de la ceremonia, os ayudaré con la escritura de votos matrimoniales y todo lo que necesitéis. Juntos haremos algo especial e inolvidable.'
               })}
             />
           </div>
