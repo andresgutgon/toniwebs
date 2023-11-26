@@ -36,7 +36,7 @@ export default function WhyAProfessionalModerator() {
               {intl.formatMessage({
                 id: 'ixbSeK',
                 defaultMessage:
-                  'Comunicar, transmitir una idea, un mensaje, una emoción… hacer participe al público y que sientan interés por lo que se está explicando o sucediendo en el evento. Haremos todo lo necesario para que el público siga conectado a lo que sucede en tu evento. ¿Cuando empezamos?'
+                  'Hay que conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios.'
               })}
             </Paragraph>
           </div>

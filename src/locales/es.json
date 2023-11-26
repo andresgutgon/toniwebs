@@ -17,9 +17,6 @@
   "0OAotW": {
     "defaultMessage": "Sobre mí"
   },
-  "0wZoYx": {
-    "defaultMessage": "Control del ritmo y el timming"
-  },
   "1lOQI2": {
     "defaultMessage": "Una ceremonia en varios idiomas para que vosotros y vuestros invitados os sintáis cómodos y disfrutéis de la velada: Castellano, catalán, inglés, italiano, francés y lo que necesitéis."
   },
@@ -35,9 +32,6 @@
   "3xDpCF": {
     "defaultMessage": "Contacta para un entrevista"
   },
-  "47iI2x": {
-    "defaultMessage": "Presencia escénica"
-  },
   "4Y3qdy": {
     "defaultMessage": "Maestro de ceremonias"
   },
@@ -45,10 +39,7 @@
     "defaultMessage": "Un Maestro de Ceremonias tiene que conectar con los novios, con los invitados y saber compartir emociones con todos los presentes. La ceremonia es el momento más importante de una boda, es el recuerdo que os va a quedar en la memoria para siempre, y hay que darle la importancia y el valor que se merece. Es importante que os sintáis a gusto con vuestro Maestro de Ceremonias y haya confianza y empatía."
   },
   "6sO5KF": {
-    "defaultMessage": "Narración de historias de familiares y amigos."
-  },
-  "78ta1L": {
-    "defaultMessage": "Capacidad de transmitir mensajes y emociones"
+    "defaultMessage": "Juegos participativos para los invitados."
   },
   "7GtpBL": {
     "defaultMessage": "<callTag>O llama al</callTag> <phoneTag></phoneTag>"
@@ -77,17 +68,11 @@
   "Apw5IF": {
     "defaultMessage": "Presentaciones"
   },
-  "Aq+3st": {
-    "defaultMessage": "Dominio del escenario"
-  },
   "BIAord": {
     "defaultMessage": "Pensando en los detalles de tu boda"
   },
   "CA9eY5": {
     "defaultMessage": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
-  },
-  "CTkDVU": {
-    "defaultMessage": "Es importante conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
   },
   "CyRCtC": {
     "defaultMessage": "Maestro de ceremonias en banquete de bodas"
@@ -97,6 +82,9 @@
   },
   "DW3BY1": {
     "defaultMessage": "Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres"
+  },
+  "FILuxH": {
+    "defaultMessage": "Presentador"
   },
   "GSHqXL": {
     "defaultMessage": "Eventos de empresa y eventos institucionales"
@@ -125,6 +113,9 @@
   "LaU95V": {
     "defaultMessage": "Todo lo que sueñas es posible"
   },
+  "MU0ket": {
+    "defaultMessage": "Speaker"
+  },
   "N7yh1n": {
     "defaultMessage": "Enviar mensaje"
   },
@@ -136,6 +127,9 @@
   },
   "NuIcmS": {
     "defaultMessage": "Maestro de Ceremonias y Presentador de Eventos"
+  },
+  "NyTjaU": {
+    "defaultMessage": "Narración de historias de familiares y amigos."
   },
   "Nzdye4": {
     "defaultMessage": "Presentación de regalos."
@@ -153,7 +147,7 @@
     "defaultMessage": "Toni Figuera speaker para tus eventos"
   },
   "Q7m7JZ": {
-    "defaultMessage": "Un profesional con más de 20 años de experiencia en escenarios y eventos por todo el país"
+    "defaultMessage": "Un actor profesional con más de 20 años de experiencia en escenarios y eventos por todo el país"
   },
   "S6W4PT": {
     "defaultMessage": "Teléfono"
@@ -191,9 +185,6 @@
   "WiqsVz": {
     "defaultMessage": "Presentación de la entrada de los novios al banquete"
   },
-  "WjUBO0": {
-    "defaultMessage": "Un presentador profesional al servicio de tu empresa"
-  },
   "YOCjIA": {
     "defaultMessage": "<master>Maestro</master> <of>de</of> <ceremonies>ceremonias</ceremonies>"
   },
@@ -203,14 +194,11 @@
   "Zpf9z8": {
     "defaultMessage": "Catalán"
   },
-  "a2sH+L": {
-    "defaultMessage": "Las ventajas de tener a un actor y presentador profesional son muchas:"
-  },
   "acQBQS": {
     "defaultMessage": "Explica un poco cómo quieres que sea tu evento"
   },
   "auRDAz": {
-    "defaultMessage": "Presentador de eventos"
+    "defaultMessage": "Presentador de eventos en Barcelona"
   },
   "b6CVca": {
     "defaultMessage": "Presentación de actuaciones."
@@ -221,8 +209,11 @@
   "dmULS+": {
     "defaultMessage": "Cercanía, sensibilidad, cariño… vamos a celebrar vuestro amor y juntos haremos que sea especial para vosotros y todos los invitados. Y lo haremos a vuestro gusto, para que sintáis que la ceremonia os representa, que es como vosotros sois, que es lo que vosotros queréis. Una ceremonia totalmente personalizada, hablando de vosotros, de vuestra historia de amor, de vuestras familias, de como habéis llegado hasta aquí, hasta el día de vuestra boda."
   },
+  "fGo0mo": {
+    "defaultMessage": "Comunicar, compartir, transmitir una idea, un mensaje, una emoción… hacer partícipe al público y que vivan una experiencia inolvidable."
+  },
   "fPjLVE": {
-    "defaultMessage": "Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito."
+    "defaultMessage": "Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito. ¿Cuando empezamos?"
   },
   "fXy2KF": {
     "defaultMessage": "Competiciones"
@@ -243,7 +234,7 @@
     "defaultMessage": "Solicita información"
   },
   "ixbSeK": {
-    "defaultMessage": "Comunicar, transmitir una idea, un mensaje, una emoción… hacer participe al público y que sientan interés por lo que se está explicando o sucediendo en el evento. Haremos todo lo necesario para que el público siga conectado a lo que sucede en tu evento. ¿Cuando empezamos?"
+    "defaultMessage": "Hay que conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
   },
   "j7nW78": {
     "defaultMessage": "ca"
@@ -293,20 +284,17 @@
   "wl6aCz": {
     "defaultMessage": "Tu número de teléfono"
   },
-  "x4xTNv": {
-    "defaultMessage": "Fluidez y naturalidad en el habla y el lenguaje"
-  },
   "xEfisW": {
     "defaultMessage": "Ferias"
   },
   "xGfqJO": {
     "defaultMessage": "Pregúntame lo que necesites"
   },
+  "xztqSB": {
+    "defaultMessage": "Un presentador de eventos profesional al servicio de tu empresa, me desplazo dónde me necesites: Barcelona, Girona, Tarragona, Lleida, Andorra, Mallorca, Zaragoza..."
+  },
   "ywEnFG": {
     "defaultMessage": "Eventos deportivos"
-  },
-  "yxFb/g": {
-    "defaultMessage": "Control y dominio del lenguaje corporal"
   },
   "z3dPJe": {
     "defaultMessage": "Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única."

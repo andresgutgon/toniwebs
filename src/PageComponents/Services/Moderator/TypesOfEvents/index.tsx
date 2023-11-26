@@ -40,7 +40,7 @@ const ImageMiniature = ({ src, alt, text }) => {
   )
 }
 
-export default function Advantages() {
+export default function TypeOfEvents() {
   const intl = useIntl()
   return (
     <PageWrapper id='porque-un-presentador-profesional' bgColor='transparent'>
@@ -113,6 +113,13 @@ export default function Advantages() {
             })}
           />
         </div>
+        <h3 className='mt-16 max-w-3xl mx-auto text-center text-base sm:text-2xl text-gray-700'>
+          {intl.formatMessage({
+            id: 'xztqSB',
+            defaultMessage:
+              'Un presentador de eventos profesional al servicio de tu empresa, me desplazo dónde me necesites: Barcelona, Girona, Tarragona, Lleida, Andorra, Mallorca, Zaragoza...'
+          })}
+        </h3>
       </PageContent>
     </PageWrapper>
   )

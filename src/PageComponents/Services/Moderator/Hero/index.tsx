@@ -7,7 +7,7 @@ export default function ModeratorHero() {
   const intl = useIntl()
   const h1 = intl.formatMessage({
     id: 'auRDAz',
-    defaultMessage: 'Presentador de eventos'
+    defaultMessage: 'Presentador de eventos en Barcelona'
   })
   const h2 = intl.formatMessage({
     id: 'GSHqXL',

@@ -35,12 +35,6 @@
       "value": "Sobre mí"
     }
   ],
-  "0wZoYx": [
-    {
-      "type": 0,
-      "value": "Control del ritmo y el timming"
-    }
-  ],
   "1lOQI2": [
     {
       "type": 0,
@@ -71,12 +65,6 @@
       "value": "Contacta para un entrevista"
     }
   ],
-  "47iI2x": [
-    {
-      "type": 0,
-      "value": "Presencia escénica"
-    }
-  ],
   "4Y3qdy": [
     {
       "type": 0,
@@ -92,13 +80,7 @@
   "6sO5KF": [
     {
       "type": 0,
-      "value": "Narración de historias de familiares y amigos."
-    }
-  ],
-  "78ta1L": [
-    {
-      "type": 0,
-      "value": "Capacidad de transmitir mensajes y emociones"
+      "value": "Juegos participativos para los invitados."
     }
   ],
   "7GtpBL": [
@@ -171,12 +153,6 @@
       "value": "Presentaciones"
     }
   ],
-  "Aq+3st": [
-    {
-      "type": 0,
-      "value": "Dominio del escenario"
-    }
-  ],
   "BIAord": [
     {
       "type": 0,
@@ -187,12 +163,6 @@
     {
       "type": 0,
       "value": "Haz tu ceremonia más dinámica y entretenida con un dj que pondrá canciones y músicas en todas las partes de la ceremonia, dejando de lado los silencios incómodos y las esperas."
-    }
-  ],
-  "CTkDVU": [
-    {
-      "type": 0,
-      "value": "Es importante conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
     }
   ],
   "CyRCtC": [
@@ -211,6 +181,12 @@
     {
       "type": 0,
       "value": "Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres"
+    }
+  ],
+  "FILuxH": [
+    {
+      "type": 0,
+      "value": "Presentador"
     }
   ],
   "GSHqXL": [
@@ -267,6 +243,12 @@
       "value": "Todo lo que sueñas es posible"
     }
   ],
+  "MU0ket": [
+    {
+      "type": 0,
+      "value": "Speaker"
+    }
+  ],
   "N7yh1n": [
     {
       "type": 0,
@@ -289,6 +271,12 @@
     {
       "type": 0,
       "value": "Maestro de Ceremonias y Presentador de Eventos"
+    }
+  ],
+  "NyTjaU": [
+    {
+      "type": 0,
+      "value": "Narración de historias de familiares y amigos."
     }
   ],
   "Nzdye4": [
@@ -324,7 +312,7 @@
   "Q7m7JZ": [
     {
       "type": 0,
-      "value": "Un profesional con más de 20 años de experiencia en escenarios y eventos por todo el país"
+      "value": "Un actor profesional con más de 20 años de experiencia en escenarios y eventos por todo el país"
     }
   ],
   "S6W4PT": [
@@ -413,12 +401,6 @@
       "value": "Presentación de la entrada de los novios al banquete"
     }
   ],
-  "WjUBO0": [
-    {
-      "type": 0,
-      "value": "Un presentador profesional al servicio de tu empresa"
-    }
-  ],
   "YOCjIA": [
     {
       "children": [
@@ -471,12 +453,6 @@
       "value": "Catalán"
     }
   ],
-  "a2sH+L": [
-    {
-      "type": 0,
-      "value": "Las ventajas de tener a un actor y presentador profesional son muchas:"
-    }
-  ],
   "acQBQS": [
     {
       "type": 0,
@@ -486,7 +462,7 @@
   "auRDAz": [
     {
       "type": 0,
-      "value": "Presentador de eventos"
+      "value": "Presentador de eventos en Barcelona"
     }
   ],
   "b6CVca": [
@@ -507,10 +483,16 @@
       "value": "Cercanía, sensibilidad, cariño… vamos a celebrar vuestro amor y juntos haremos que sea especial para vosotros y todos los invitados. Y lo haremos a vuestro gusto, para que sintáis que la ceremonia os representa, que es como vosotros sois, que es lo que vosotros queréis. Una ceremonia totalmente personalizada, hablando de vosotros, de vuestra historia de amor, de vuestras familias, de como habéis llegado hasta aquí, hasta el día de vuestra boda."
     }
   ],
+  "fGo0mo": [
+    {
+      "type": 0,
+      "value": "Comunicar, compartir, transmitir una idea, un mensaje, una emoción… hacer partícipe al público y que vivan una experiencia inolvidable."
+    }
+  ],
   "fPjLVE": [
     {
       "type": 0,
-      "value": "Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito."
+      "value": "Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito. ¿Cuando empezamos?"
     }
   ],
   "fXy2KF": [
@@ -552,7 +534,7 @@
   "ixbSeK": [
     {
       "type": 0,
-      "value": "Comunicar, transmitir una idea, un mensaje, una emoción… hacer participe al público y que sientan interés por lo que se está explicando o sucediendo en el evento. Haremos todo lo necesario para que el público siga conectado a lo que sucede en tu evento. ¿Cuando empezamos?"
+      "value": "Hay que conocer la naturaleza y el ambiente que se quiere crear, y en función de ello darle al acto un tono u otro según convenga. Trabajo todos los eventos de forma personalizada, y escribo o adapto los textos y guiones que sean necesarios."
     }
   ],
   "j7nW78": [
@@ -651,12 +633,6 @@
       "value": "Tu número de teléfono"
     }
   ],
-  "x4xTNv": [
-    {
-      "type": 0,
-      "value": "Fluidez y naturalidad en el habla y el lenguaje"
-    }
-  ],
   "xEfisW": [
     {
       "type": 0,
@@ -669,16 +645,16 @@
       "value": "Pregúntame lo que necesites"
     }
   ],
+  "xztqSB": [
+    {
+      "type": 0,
+      "value": "Un presentador de eventos profesional al servicio de tu empresa, me desplazo dónde me necesites: Barcelona, Girona, Tarragona, Lleida, Andorra, Mallorca, Zaragoza..."
+    }
+  ],
   "ywEnFG": [
     {
       "type": 0,
       "value": "Eventos deportivos"
-    }
-  ],
-  "yxFb/g": [
-    {
-      "type": 0,
-      "value": "Control y dominio del lenguaje corporal"
     }
   ],
   "z3dPJe": [

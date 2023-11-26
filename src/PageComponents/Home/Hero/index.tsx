@@ -15,7 +15,7 @@ const Hero = () => {
   const description = intl.formatMessage({
     id: 'Q7m7JZ',
     defaultMessage:
-      'Un profesional con más de 20 años de experiencia en escenarios y eventos por todo el país'
+      'Un actor profesional con más de 20 años de experiencia en escenarios y eventos por todo el país'
   })
   return (
     <PageWrapper id='home-hero' verticalSpace='none' bgColor='dark'>
@@ -34,7 +34,7 @@ const Hero = () => {
               )}
             >
               <span className='text-gray-50 block md:text-5xl mb-2'>
-                Toni Figuera. Actor
+                Toni Figuera
               </span>
               {intro}
             </h1>
