@@ -1,4 +1,7 @@
 {
+  "+9UIWM": {
+    "defaultMessage": "Donde queráis"
+  },
   "+Glk5E": {
     "defaultMessage": "Un presentador de eventos te garantiza una buena imagen para tu empresa, y como se suele decir que una imagen vale más que mil palabras. Está claro que presentar un evento es siempre una responsabilidad porque del presentador depende el ritmo, los tiempos, la fluidez y con ello el éxito del evento."
   },
@@ -268,6 +271,9 @@
   },
   "t/UNWZ": {
     "defaultMessage": "Una voz e imagen para tu evento"
+  },
+  "t7tkL4": {
+    "defaultMessage": "Me desplazo para haceros la ceremonia dónde queráis. Maestro de ceremonias en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca..."
   },
   "v5XiOI": {
     "defaultMessage": "Toni Figuera como presentador"

@@ -54,6 +54,7 @@ const WeddingHero = () => {
     />
   )
 }
+
 type Props = { page: SitePage }
 const Content = ({ page }: Props) => {
   return (
@@ -64,7 +65,6 @@ const Content = ({ page }: Props) => {
       <MyWeddings />
       <Banquete />
       <Planning />
-      <Offerings />
       <ImageGallery />
     </DefaultLayout>
   )

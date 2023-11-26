@@ -2,10 +2,7 @@ import { Locale } from '@types'
 import { usePage } from '@layouts/PageProvider'
 import { FormattedMessage } from 'react-intl'
 
-type Props = {
-  inGrayScale?: boolean
-}
-const Logo = (_props: Props) => {
+export default function Logo() {
   const {
     page: { site, locale: loc }
   } = usePage()
@@ -46,7 +43,3 @@ const Logo = (_props: Props) => {
     </a>
   )
 }
-
-Logo.defaultProps = { inGrayScale: false }
-
-export default Logo

@@ -18,10 +18,30 @@ function Image({ src, alt }: { src: string; alt: string }) {
 }
 
 export default function ImageGallery() {
+  const intl = useIntl()
   return (
     <PageWrapper id='planear-tu-boda' bgColor='transparent'>
       <PageContent>
-        <div className='grid sm:grid-cols-12 gap-10'>
+        <div className='grid sm:grid-cols-12'>
+          <div className='sm:col-start-3 sm:col-span-8 space-y-4'>
+            <div className='space-y-2 flex flex-col'>
+              <span className='block text-base text-rose-600 tracking-wide uppercase text-center'>
+                {intl.formatMessage({
+                  id: '+9UIWM',
+                  defaultMessage: 'Donde queráis'
+                })}
+              </span>
+            </div>
+            <h3 className='text-center text-base sm:text-2xl text-gray-900'>
+              {intl.formatMessage({
+                id: 't7tkL4',
+                defaultMessage:
+                  'Me desplazo para haceros la ceremonia dónde queráis. Maestro de ceremonias en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca...'
+              })}
+            </h3>
+          </div>
+        </div>
+        <div className='mt-8 grid sm:grid-cols-12 gap-10'>
           <div className='col-span-6'>
             <Image
               src={hablando}
