@@ -5,7 +5,7 @@ import Header from '@components/Header'
 import { SitePage } from '@site/types'
 import SpeakerHero from './Hero'
 import Intro from './Intro'
-
+import ImageGallery from './ImageGallery'
 
 type Props = { page: SitePage }
 const Content = ({ page }: Props) => {
@@ -14,6 +14,7 @@ const Content = ({ page }: Props) => {
       <Header />
       <SpeakerHero />
       <Intro />
+      <ImageGallery />
     </DefaultLayout>
   )
 }

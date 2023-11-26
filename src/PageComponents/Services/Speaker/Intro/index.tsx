@@ -72,13 +72,6 @@ export default function Intro() {
             </ul>
           </div>
         </div>
-        <h3 className='mt-16 max-w-3xl mx-auto text-center text-base sm:text-2xl text-gray-700'>
-          {intl.formatMessage({
-            id: '5U9JV/',
-            defaultMessage:
-              'Speaker en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca...'
-          })}
-        </h3>
       </PageContent>
     </PageWrapper>
   )

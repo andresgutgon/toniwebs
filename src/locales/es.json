@@ -38,9 +38,6 @@
   "4Y3qdy": {
     "defaultMessage": "<master>Maestro de ceremonias</master><wedding>Oficiante de bodas</wedding>"
   },
-  "5U9JV/": {
-    "defaultMessage": "Speaker en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca..."
-  },
   "6hoCdx": {
     "defaultMessage": "Un Maestro de Ceremonias tiene que conectar con los novios, con los invitados y saber compartir emociones con todos los presentes. La ceremonia es el momento más importante de una boda, es el recuerdo que os va a quedar en la memoria para siempre, y hay que darle la importancia y el valor que se merece. Es importante que os sintáis a gusto con vuestro Maestro de Ceremonias y haya confianza y empatía."
   },
@@ -122,11 +119,14 @@
   "MU0ket": {
     "defaultMessage": "Speaker"
   },
+  "MeqYUs": {
+    "defaultMessage": "Me desplazo para hacer vuestro evento dónde necesitéis. Speaker en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca..."
+  },
   "N7yh1n": {
     "defaultMessage": "Enviar mensaje"
   },
   "NmKYYc": {
-    "defaultMessage": "Speaker, una voz profesional"
+    "defaultMessage": "Speaker de eventos en Barcelona"
   },
   "Ns3gp+": {
     "defaultMessage": "Opiniones"

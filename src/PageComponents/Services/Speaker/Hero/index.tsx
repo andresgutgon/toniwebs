@@ -7,7 +7,7 @@ export default function SpeakerHero() {
   const intl = useIntl()
   const h1 = intl.formatMessage({
     id: 'NmKYYc',
-    defaultMessage: 'Speaker, una voz profesional'
+    defaultMessage: 'Speaker de eventos en Barcelona'
   })
   const h2 = intl.formatMessage({
     id: '/12G36',
