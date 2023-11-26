@@ -12,7 +12,7 @@
     "defaultMessage": "Dale a tu ceremonia un toque cómico con un cura o un juez de paz muy particulares y divertidos. Sorprende a tus invitados con risas y diversión en una ceremonia que no deja a nadie indiferente."
   },
   "/Ovnza": {
-    "defaultMessage": "Team buildings"
+    "defaultMessage": "Grandes eventos"
   },
   "0OAotW": {
     "defaultMessage": "Sobre mí"
@@ -33,7 +33,7 @@
     "defaultMessage": "Contacta para un entrevista"
   },
   "4Y3qdy": {
-    "defaultMessage": "Maestro de ceremonias"
+    "defaultMessage": "<master>Maestro de ceremonias</master><wedding>Oficiante de bodas</wedding>"
   },
   "6hoCdx": {
     "defaultMessage": "Un Maestro de Ceremonias tiene que conectar con los novios, con los invitados y saber compartir emociones con todos los presentes. La ceremonia es el momento más importante de una boda, es el recuerdo que os va a quedar en la memoria para siempre, y hay que darle la importancia y el valor que se merece. Es importante que os sintáis a gusto con vuestro Maestro de Ceremonias y haya confianza y empatía."
@@ -81,7 +81,7 @@
     "defaultMessage": "Servicios"
   },
   "DW3BY1": {
-    "defaultMessage": "Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres"
+    "defaultMessage": "La boda de tus sueños"
   },
   "FILuxH": {
     "defaultMessage": "Presentador"
@@ -174,7 +174,7 @@
     "defaultMessage": "Eventos de empresa"
   },
   "VUgx65": {
-    "defaultMessage": "Maestro de ceremonias, oficiante de bodas. Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+    "defaultMessage": "Maestro de ceremonias y oficiante de bodas: Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
   },
   "VpUTKw": {
     "defaultMessage": "Presentación del baile y fiesta final."
@@ -198,7 +198,7 @@
     "defaultMessage": "Explica un poco cómo quieres que sea tu evento"
   },
   "auRDAz": {
-    "defaultMessage": "Presentador de eventos en Barcelona"
+    "defaultMessage": "Presentador de eventos <barna>en Barcelona</barna>"
   },
   "b6CVca": {
     "defaultMessage": "Presentación de actuaciones."
@@ -261,7 +261,7 @@
     "defaultMessage": "Algunas empresas con las que he trabajado"
   },
   "ooc11H": {
-    "defaultMessage": "Presentador de eventos: Comunicar y poder de oratoria, buena presencia escénica, dominio del ritmo y del escenario, naturalidad y fluidez en el habla, naturalidad en el lenguaje corporal, control de la situación y sobre todo conectar con la audencia."
+    "defaultMessage": "Presentador de eventos: Comunicar con buena oratoria y presencia escénica. Naturalidad y fluidez en el habla y el lenguaje corporal. Dominio del ritmo y el escenario. Y sobre todo conectar con la audencia"
   },
   "rFNyQq": {
     "defaultMessage": "Una voz capaz de transmitir emoción, de presentar y conducir actos al aire libre o en interiores. Adaptando el tono y el lenguaje a la naturaleza del evento y al público asistente. Anunciando sponsors y patrocinadores. Informando de las actividades. Conduciendo juegos o actividades participativas."

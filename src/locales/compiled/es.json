@@ -26,7 +26,7 @@
   "/Ovnza": [
     {
       "type": 0,
-      "value": "Team buildings"
+      "value": "Grandes eventos"
     }
   ],
   "0OAotW": [
@@ -67,8 +67,24 @@
   ],
   "4Y3qdy": [
     {
-      "type": 0,
-      "value": "Maestro de ceremonias"
+      "children": [
+        {
+          "type": 0,
+          "value": "Maestro de ceremonias"
+        }
+      ],
+      "type": 8,
+      "value": "master"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Oficiante de bodas"
+        }
+      ],
+      "type": 8,
+      "value": "wedding"
     }
   ],
   "6hoCdx": [
@@ -180,7 +196,7 @@
   "DW3BY1": [
     {
       "type": 0,
-      "value": "Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres"
+      "value": "La boda de tus sueños"
     }
   ],
   "FILuxH": [
@@ -380,7 +396,7 @@
   "VUgx65": [
     {
       "type": 0,
-      "value": "Maestro de ceremonias, oficiante de bodas. Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
+      "value": "Maestro de ceremonias y oficiante de bodas: Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos."
     }
   ],
   "VpUTKw": [
@@ -462,7 +478,17 @@
   "auRDAz": [
     {
       "type": 0,
-      "value": "Presentador de eventos en Barcelona"
+      "value": "Presentador de eventos "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "en Barcelona"
+        }
+      ],
+      "type": 8,
+      "value": "barna"
     }
   ],
   "b6CVca": [
@@ -588,7 +614,7 @@
   "ooc11H": [
     {
       "type": 0,
-      "value": "Presentador de eventos: Comunicar y poder de oratoria, buena presencia escénica, dominio del ritmo y del escenario, naturalidad y fluidez en el habla, naturalidad en el lenguaje corporal, control de la situación y sobre todo conectar con la audencia."
+      "value": "Presentador de eventos: Comunicar con buena oratoria y presencia escénica. Naturalidad y fluidez en el habla y el lenguaje corporal. Dominio del ritmo y el escenario. Y sobre todo conectar con la audencia"
     }
   ],
   "rFNyQq": [

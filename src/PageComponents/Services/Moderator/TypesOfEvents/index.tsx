@@ -65,14 +65,6 @@ export default function TypeOfEvents() {
         </div>
         <div className='mt-8 sm:mt-16 grid grid-cols-2 sm:grid-cols-3 gap-4'>
           <ImageMiniature
-            src={reading}
-            alt='Toni leyendo en una entrega de premios'
-            text={intl.formatMessage({
-              id: 'VQTSTt',
-              defaultMessage: 'Eventos de empresa'
-            })}
-          />
-          <ImageMiniature
             src={blanxart}
             alt='Toni presentando un evento para Blanxart'
             text={intl.formatMessage({
@@ -85,7 +77,7 @@ export default function TypeOfEvents() {
             alt='Toni en una presentación para Skoda'
             text={intl.formatMessage({
               id: '/Ovnza',
-              defaultMessage: 'Team buildings'
+              defaultMessage: 'Grandes eventos'
             })}
           />
           <ImageMiniature
@@ -110,6 +102,14 @@ export default function TypeOfEvents() {
             text={intl.formatMessage({
               id: '9AfghM',
               defaultMessage: 'Entregas de premios'
+            })}
+          />
+          <ImageMiniature
+            src={reading}
+            alt='Toni leyendo en una entrega de premios'
+            text={intl.formatMessage({
+              id: 'VQTSTt',
+              defaultMessage: 'Eventos de empresa'
             })}
           />
         </div>
