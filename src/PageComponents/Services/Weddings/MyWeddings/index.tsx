@@ -78,21 +78,6 @@ export default function MyWeddings() {
         <div className='mt-16 grid sm:grid-cols-12 sm:gap-x-12 space-y-12 max-w-7xl mx-auto'>
           <div className='sm:col-span-6'>
             <ImageBlock
-              layout='image_first'
-              img={{ src: perfectWeddingSrc, alt: perfectWeddingAlt }}
-              title={intl.formatMessage({
-                id: 'W7X4to',
-                defaultMessage: 'Una ceremonia única'
-              })}
-              description={intl.formatMessage({
-                id: 'lZ+cxx',
-                defaultMessage:
-                  'Cuéntame qué imaginas, tus expectativas e ilusiones y déjame que te ayude a que sea posible. Una boda a medida, un evento perfecto, una ceremonia única. Preparemos el timming y escaleta de la ceremonia para que todo esté controlado en todo momento. '
-              })}
-            />
-          </div>
-          <div className='sm:col-span-6'>
-            <ImageBlock
               layout='image_last'
               img={{
                 src: ceremonyOcean,
@@ -105,7 +90,22 @@ export default function MyWeddings() {
               description={intl.formatMessage({
                 id: '+mbFn4',
                 defaultMessage:
-                  'Me adaptaré en el idioma o idiomas que necesites. Con músicas y canciones elegidas por vosotros para toda la ceremonia. Con participación de la familia y amigos. Con algún ritual o con votos matrimoniales. Con humor o diversión si lo queréis. Y siempre, siempre, con mucho amor.'
+                  'Me adaptaré al idioma o idiomas que necesitéis. Con músicas y canciones elegidas por vosotros para toda la ceremonia. Con participación de la familia y amigos. Con algún ritual o con votos matrimoniales. Con humor o diversión si lo queréis. Y siempre, siempre, con mucho amor.'
+              })}
+            />
+          </div>
+          <div className='sm:col-span-6'>
+            <ImageBlock
+              layout='image_first'
+              img={{ src: perfectWeddingSrc, alt: perfectWeddingAlt }}
+              title={intl.formatMessage({
+                id: 'W7X4to',
+                defaultMessage: 'Una ceremonia única'
+              })}
+              description={intl.formatMessage({
+                id: 'lZ+cxx',
+                defaultMessage:
+                  'Porque cada pareja es única y vuestra ceremonia tiene que ser como vosotros sois. Preparemos el timming y escaleta de la ceremonia, os ayudaré con la escritura de votos matrimoniales y todo lo que necesitéis. Juntos haremos algo especial e inolvidable.'
               })}
             />
           </div>

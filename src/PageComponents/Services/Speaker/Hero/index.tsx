@@ -7,7 +7,7 @@ export default function SpeakerHero() {
   const intl = useIntl()
   const h1 = intl.formatMessage({
     id: 'NmKYYc',
-    defaultMessage: 'Speaker, una voz profesional'
+    defaultMessage: 'Speaker de eventos en Barcelona'
   })
   const h2 = intl.formatMessage({
     id: '/12G36',
@@ -17,7 +17,7 @@ export default function SpeakerHero() {
   const description = intl.formatMessage({
     id: 'rFNyQq',
     defaultMessage:
-      'Una voz capaz de transmitir emoción, de presentar y conducir actos al aire libre o en interiores. Adaptando el tono y el lenguaje a la naturaleza del evento y al público asistente. Anunciando sponsors y patrocinadores. Informando de las actividades. Conduciendo juegos o actividades participativas.'
+      'Speaker, una voz profesional capaz de transmitir emoción, de presentar y conducir actos al aire libre o en interiores. Conduciendo juegos o actividades participativas. Anunciando sponsors y patrocinadores. Informando de las actividades y resultados.'
   })
   const imageAlt = intl.formatMessage({
     id: 'Q7JOYR',

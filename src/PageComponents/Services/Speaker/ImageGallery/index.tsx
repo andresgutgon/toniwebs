@@ -3,8 +3,8 @@ import { useIntl } from 'react-intl'
 import PageContent from '@components/PageContent'
 import PageWrapper from '@components/PageWrapper'
 
-import aireLibre from './images/toni-figuera-celebrando-boda-al-arie-libre.jpg'
-import hablando from './images/toni-figuera-hablando-delante-invitados-en-ceremonia.jpg'
+import lineaDeMeta from './images/toni-figuera-vic-linea-de-meta.jpg'
+import hablando from './images/toni-figuera-presentando-vicactivat.jpg'
 
 function Image({ src, alt }: { src: string; alt: string }) {
   return (
@@ -34,9 +34,9 @@ export default function ImageGallery() {
             </div>
             <h3 className='text-center text-base sm:text-2xl text-gray-900'>
               {intl.formatMessage({
-                id: 't7tkL4',
+                id: 'MeqYUs',
                 defaultMessage:
-                  'Me desplazo para haceros la ceremonia dónde queráis. Maestro de ceremonias en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca...'
+                  'Me desplazo para hacer vuestro evento dónde necesitéis. Speaker en Barcelona, Girona, Tarragona, Lleida, Zaragoza, Andorra, Mallorca...'
               })}
             </h3>
           </div>
@@ -45,13 +45,13 @@ export default function ImageGallery() {
           <div className='col-span-6'>
             <Image
               src={hablando}
-              alt='Toni Figuera hablando delante de invitados'
+              alt="Toni Figuera hablando delante en Vicactiva't"
             />
           </div>
           <div className='col-span-6'>
             <Image
-              src={aireLibre}
-              alt='Toni Figuera celebrando boda al aire libre'
+              src={lineaDeMeta}
+              alt='Toni Figuera en la línea de meta de una carrera'
             />
           </div>
         </div>

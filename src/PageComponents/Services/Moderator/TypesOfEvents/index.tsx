@@ -40,7 +40,7 @@ const ImageMiniature = ({ src, alt, text }) => {
   )
 }
 
-export default function Advantages() {
+export default function TypeOfEvents() {
   const intl = useIntl()
   return (
     <PageWrapper id='porque-un-presentador-profesional' bgColor='transparent'>
@@ -65,14 +65,6 @@ export default function Advantages() {
         </div>
         <div className='mt-8 sm:mt-16 grid grid-cols-2 sm:grid-cols-3 gap-4'>
           <ImageMiniature
-            src={reading}
-            alt='Toni leyendo en una entrega de premios'
-            text={intl.formatMessage({
-              id: 'VQTSTt',
-              defaultMessage: 'Eventos de empresa'
-            })}
-          />
-          <ImageMiniature
             src={blanxart}
             alt='Toni presentando un evento para Blanxart'
             text={intl.formatMessage({
@@ -85,7 +77,7 @@ export default function Advantages() {
             alt='Toni en una presentación para Skoda'
             text={intl.formatMessage({
               id: '/Ovnza',
-              defaultMessage: 'Team buildings'
+              defaultMessage: 'Grandes eventos'
             })}
           />
           <ImageMiniature
@@ -112,7 +104,22 @@ export default function Advantages() {
               defaultMessage: 'Entregas de premios'
             })}
           />
+          <ImageMiniature
+            src={reading}
+            alt='Toni leyendo en una entrega de premios'
+            text={intl.formatMessage({
+              id: 'VQTSTt',
+              defaultMessage: 'Eventos de empresa'
+            })}
+          />
         </div>
+        <h3 className='mt-16 max-w-3xl mx-auto text-center text-base sm:text-2xl text-gray-700'>
+          {intl.formatMessage({
+            id: 'xztqSB',
+            defaultMessage:
+              'Un presentador de eventos profesional al servicio de tu empresa, me desplazo dónde me necesites: Barcelona, Girona, Tarragona, Lleida, Andorra, Mallorca, Zaragoza...'
+          })}
+        </h3>
       </PageContent>
     </PageWrapper>
   )

@@ -16,19 +16,29 @@ import ImageGallery from './ImageGallery'
 
 const WeddingHero = () => {
   const intl = useIntl()
-  const h1 = intl.formatMessage({
-    id: '4Y3qdy',
-    defaultMessage: 'Maestro de ceremonias'
-  })
+  const h1 = intl.formatMessage(
+    {
+      id: '4Y3qdy',
+      defaultMessage:
+        '<master>Maestro de ceremonias</master><wedding>Oficiante de bodas</wedding>'
+    },
+    {
+      master: function(chunks: any) {
+        return <span>{chunks}</span>
+      },
+      wedding: function(chunks: any) {
+        return <div>{chunks}</div>
+      }
+    }
+  )
   const h2 = intl.formatMessage({
     id: 'DW3BY1',
-    defaultMessage:
-      'Oficiante de bodas. La boda de tus sueños, la ceremonia que tú quieres'
+    defaultMessage: 'La boda de tus sueños'
   })
   const description = intl.formatMessage({
     id: 'VUgx65',
     defaultMessage:
-      'Maestro de ceremonias, oficiante de bodas. Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos.'
+      'Maestro de ceremonias y oficiante de bodas: Hacer que tu boda sea especial para ti y vuestros invitados. Crear recuerdos imborrables. Una celebración de vuestro amor para compartirla con vuestra familia y amigos.'
   })
   const imageAlt = intl.formatMessage({
     id: '7iDOUc',
@@ -44,6 +54,7 @@ const WeddingHero = () => {
     />
   )
 }
+
 type Props = { page: SitePage }
 const Content = ({ page }: Props) => {
   return (
@@ -54,7 +65,6 @@ const Content = ({ page }: Props) => {
       <MyWeddings />
       <Banquete />
       <Planning />
-      <Offerings />
       <ImageGallery />
     </DefaultLayout>
   )

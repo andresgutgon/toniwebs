@@ -52,7 +52,7 @@ export default function Banquete() {
     },
     {
       name: intl.formatMessage({
-        id: '6sO5KF',
+        id: 'NyTjaU',
         defaultMessage: 'Narración de historias de familiares y amigos.'
       })
     },

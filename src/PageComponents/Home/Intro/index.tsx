@@ -88,16 +88,16 @@ export default function Intro() {
           <div className='flex space-y-2 flex-col max-w-4xl'>
             <Paragraph>
               {intl.formatMessage({
-                id: 'ixbSeK',
+                id: 'fGo0mo',
                 defaultMessage:
-                  'Comunicar, transmitir, compartir… todo forma parte de un mismo todo: estar delante de una audiencia y hacer llegar un mensaje, una idea o una emoción. Pongo mi creatividad, mi experiencia y mi corazón en cada proyecto que hago.'
+                  'Comunicar, compartir, transmitir una idea, un mensaje, una emoción… hacer partícipe al público y que vivan una experiencia inolvidable.'
               })}
             </Paragraph>
             <Paragraph size='small'>
               {intl.formatMessage({
                 id: 'fPjLVE',
                 defaultMessage:
-                  'Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito.'
+                  'Trabajos personalizados y adaptados a vuestras necesidades y expectativas. Escritura de guiones, soporte artístico, creación de timing y escaletas… todo lo necesario para que vuestro evento sea un auténtico éxito. ¿Cuando empezamos?'
               })}
             </Paragraph>
           </div>
@@ -105,8 +105,8 @@ export default function Intro() {
         <div className='flex flex-col sm:grid sm:grid-cols-12 gap-8'>
           <GridText
             text={intl.formatMessage({
-              id: 'Apw5IF',
-              defaultMessage: 'Presentaciones'
+              id: 'FILuxH',
+              defaultMessage: 'Presentador'
             })}
             src={blanxartPresentacion}
             href={moderator.path}
@@ -125,8 +125,8 @@ export default function Intro() {
           />
           <GridText
             text={intl.formatMessage({
-              id: 'VQTSTt',
-              defaultMessage: 'Eventos de empresa'
+              id: 'MU0ket',
+              defaultMessage: 'Speaker'
             })}
             href={speaker.path}
             src={presentador}

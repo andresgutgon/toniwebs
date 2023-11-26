@@ -5,6 +5,7 @@ import Button from '@components/Button'
 import PageWrapper from '@components/PageWrapper'
 import PageContent from '@components/PageContent'
 import { usePage } from '@layouts/PageProvider'
+import { ReactNode } from 'react'
 
 type CallToActionHeroProps = { inverted?: boolean; alwaysAlignedLeft?: boolean }
 export const CallToActionHero = ({
@@ -74,7 +75,7 @@ export const HeroPattern = () => (
 )
 
 type Props = {
-  h1: string
+  h1: string | ReactNode
   h2: string
   description: string
   imageSrc: string

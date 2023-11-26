@@ -16,7 +16,6 @@ const Content = ({ page }: Props) => {
       <Hero />
       <WhyAProfessionalModerator />
       <TypesOfEvents />
-      <Advantages />
     </DefaultLayout>
   )
 }
